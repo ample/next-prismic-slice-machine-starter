@@ -1,9 +1,10 @@
 {
-  "name": "ample-next-starter",
-  "description": "Ample Next.js Starter",
+  "name": "ample-next-prismic-slice-machine-starter",
+  "description": "Ample Next.js Starter configured with Prismic Slice Machine",
   "keywords": [
     "ample",
-    "next.js"
+    "next.js",
+    "prismic"
   ],
   "license": "MIT",
   "private": true,
@@ -139,10 +140,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ample/next-starter-ample"
+    "url": "https://github.com/ample/next-prismic-slice-machine-starter-ample"
   },
   "bugs": {
-    "url": "https://github.com/ample/next-starter-ample/issues"
+    "url": "https://github.com/ample/next-prismic-slice-machine-starter-ample/issues"
   },
   "volta": {
     "node": "14.19.1",
