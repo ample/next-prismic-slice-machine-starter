@@ -1,0 +1,25 @@
+.colors_container {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 33.3%);
+  width: calc(100% - 80px);
+}
+
+// ---------------------------------------------------------
+
+.color {
+  text-align: center;
+
+  code {
+    font-size: 14px;
+  }
+
+  div {
+    &:first-of-type {
+      border: 1px solid #e7e7e7;
+      border-radius: 4px;
+      height: 160px;
+      margin-bottom: 8px;
+    }
+  }
+}

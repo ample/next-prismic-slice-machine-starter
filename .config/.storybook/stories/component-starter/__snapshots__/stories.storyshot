@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Documentation/Component Starter Component Props 1`] = `
+<a
+  className="component_name"
+  href="/url"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  <h2>
+    name of prop content goes here.
+  </h2>
+</a>
+`;
+
+exports[`Storyshots Documentation/Component Starter Theme Option 1`] = `
+<a
+  className="component_name theme_type"
+  href="/url"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  <h2>
+    name of prop content goes here.
+  </h2>
+</a>
+`;

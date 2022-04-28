@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentName FPO snapshot 1`] = `
+<a
+  className="component_name"
+  href="/url"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  <h2>
+    name of prop content goes here.
+  </h2>
+</a>
+`;

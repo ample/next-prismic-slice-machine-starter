@@ -1,0 +1,92 @@
+@use 'sass:list';
+@use 'sass:map';
+@use 'sass:math';
+
+// ---------------------------------------------------------
+
+$media-queries: (
+  smallest: 0,
+  x-small-lowest: 360,
+  x-small: 400,
+  x-small-highest: 480,
+  small-lowest: 600,
+  small: 720,
+  small-highest: 840,
+  medium-lowest: 960,
+  medium: 1040,
+  medium-highest: 1140,
+  large-lowest: 1280,
+  large: 1440,
+  large-highest: 1600,
+  x-large-lowest: 1920,
+  x-large: 2560,
+  x-large-highest: 3360,
+);
+
+// ---------------------------------------------------------
+
+$background-color: rgb(0 0 0 / 80%);
+$content-color: #ded;
+$size: 44px;
+
+// ---------------------------------------------------------
+
+@function em($unitless-pixels) {
+  @return #{math.div($unitless-pixels, 16)}em;
+}
+
+// ---------------------------------------------------------
+
+.debug {
+  align-items: center;
+  background-color: $background-color;
+  bottom: 0;
+  display: flex;
+  font-family: system-ui;
+  height: $size;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  transition: width 0.3s ease-in-out;
+  width: 0;
+  z-index: var(--z-index-debug);
+
+  &::after {
+    background-color: transparent;
+    border-color: transparent transparent transparent $background-color;
+    border-style: solid;
+    border-width: $size 0 0 $size;
+    content: '';
+    display: block;
+    position: absolute;
+    right: -$size;
+  }
+
+  &.is_showing {
+    width: 100vw;
+  }
+}
+
+.debug_media_queries {
+  font-size: 0;
+  opacity: 0%;
+  transition: opacity 0.5s 0.1s ease-in-out;
+
+  .is_showing & {
+    color: $content-color;
+    font-size: 12px;
+    opacity: 100%;
+  }
+
+  @each $mq in $media-queries {
+    $min-width: em(list.nth($mq, 2));
+    $min-width-pixels: list.nth($mq, 2);
+
+    @media screen and (min-width: $min-width) {
+      &::after {
+        content: '#{nth($mq, 1)} - min-width: #{$min-width} (#{$min-width-pixels}px)';
+      }
+    }
+  }
+}

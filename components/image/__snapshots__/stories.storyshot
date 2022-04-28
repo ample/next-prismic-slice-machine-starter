@@ -1,0 +1,722 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Image Component Props 1`] = `
+<div
+  style={
+    Object {
+      "height": undefined,
+      "position": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "background": "none",
+        "border": 0,
+        "boxSizing": "border-box",
+        "display": "inline-block",
+        "height": "initial",
+        "margin": 0,
+        "maxWidth": "100%",
+        "opacity": 1,
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "relative",
+        "width": "initial",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "padding": 0,
+          "width": "initial",
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271004%27%20height=%27670%27/%3e"
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "padding": 0,
+            "width": "initial",
+          }
+        }
+      />
+    </span>
+    <img
+      alt="alt text helps screen-reading tools describe images to visually impaired readers"
+      data-nimg="intrinsic"
+      decoding="async"
+      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+      style={
+        Object {
+          "backgroundImage": "url(\\"https://images.unsplash.com/photo-1522878129833-838a904a0e9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80?fit=fill&w=10&h=10\\")",
+          "backgroundPosition": "0% 0%",
+          "backgroundSize": "cover",
+          "border": "none",
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "filter": "blur(20px)",
+          "height": 0,
+          "left": 0,
+          "margin": "auto",
+          "maxHeight": "100%",
+          "maxWidth": "100%",
+          "minHeight": "100%",
+          "minWidth": "100%",
+          "objectFit": undefined,
+          "objectPosition": undefined,
+          "padding": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 0,
+        }
+      }
+    />
+    <noscript>
+      <img
+        alt="alt text helps screen-reading tools describe images to visually impaired readers"
+        data-nimg="intrinsic"
+        decoding="async"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75 2x"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </noscript>
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/Image Layout Is Fill 1`] = `
+<div
+  style={
+    Object {
+      "height": 800,
+      "position": "relative",
+      "width": 1000,
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "background": "none",
+        "border": 0,
+        "bottom": 0,
+        "boxSizing": "border-box",
+        "display": "block",
+        "height": "initial",
+        "left": 0,
+        "margin": 0,
+        "opacity": 1,
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": "initial",
+      }
+    }
+  >
+    <img
+      alt="alt text helps screen-reading tools describe images to visually impaired readers"
+      data-nimg="fill"
+      decoding="async"
+      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+      style={
+        Object {
+          "backgroundImage": "url(\\"https://images.unsplash.com/photo-1522878129833-838a904a0e9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80?fit=fill&w=10&h=10\\")",
+          "backgroundPosition": "0% 0%",
+          "backgroundSize": "contain",
+          "border": "none",
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "filter": "blur(20px)",
+          "height": 0,
+          "left": 0,
+          "margin": "auto",
+          "maxHeight": "100%",
+          "maxWidth": "100%",
+          "minHeight": "100%",
+          "minWidth": "100%",
+          "objectFit": "contain",
+          "objectPosition": undefined,
+          "padding": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 0,
+        }
+      }
+    />
+    <noscript>
+      <img
+        alt="alt text helps screen-reading tools describe images to visually impaired readers"
+        data-nimg="fill"
+        decoding="async"
+        loading="lazy"
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=3840&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=3840&q=75 3840w"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": "contain",
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </noscript>
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/Image Layout Is Fixed 1`] = `
+<div
+  style={
+    Object {
+      "height": undefined,
+      "position": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "background": "none",
+        "border": 0,
+        "boxSizing": "border-box",
+        "display": "inline-block",
+        "height": 670,
+        "margin": 0,
+        "opacity": 1,
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "relative",
+        "width": 1004,
+      }
+    }
+  >
+    <img
+      alt="alt text helps screen-reading tools describe images to visually impaired readers"
+      data-nimg="fixed"
+      decoding="async"
+      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+      style={
+        Object {
+          "backgroundImage": "url(\\"https://images.unsplash.com/photo-1522878129833-838a904a0e9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80?fit=fill&w=10&h=10\\")",
+          "backgroundPosition": "0% 0%",
+          "backgroundSize": "cover",
+          "border": "none",
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "filter": "blur(20px)",
+          "height": 0,
+          "left": 0,
+          "margin": "auto",
+          "maxHeight": "100%",
+          "maxWidth": "100%",
+          "minHeight": "100%",
+          "minWidth": "100%",
+          "objectFit": undefined,
+          "objectPosition": undefined,
+          "padding": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 0,
+        }
+      }
+    />
+    <noscript>
+      <img
+        alt="alt text helps screen-reading tools describe images to visually impaired readers"
+        data-nimg="fixed"
+        decoding="async"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75 2x"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </noscript>
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/Image Layout Is Intrinsic 1`] = `
+<div
+  style={
+    Object {
+      "height": undefined,
+      "position": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "background": "none",
+        "border": 0,
+        "boxSizing": "border-box",
+        "display": "inline-block",
+        "height": "initial",
+        "margin": 0,
+        "maxWidth": "100%",
+        "opacity": 1,
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "relative",
+        "width": "initial",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "padding": 0,
+          "width": "initial",
+        }
+      }
+    >
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271004%27%20height=%27670%27/%3e"
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "padding": 0,
+            "width": "initial",
+          }
+        }
+      />
+    </span>
+    <img
+      alt="alt text helps screen-reading tools describe images to visually impaired readers"
+      data-nimg="intrinsic"
+      decoding="async"
+      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+      style={
+        Object {
+          "backgroundImage": "url(\\"https://images.unsplash.com/photo-1522878129833-838a904a0e9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80?fit=fill&w=10&h=10\\")",
+          "backgroundPosition": "0% 0%",
+          "backgroundSize": "cover",
+          "border": "none",
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "filter": "blur(20px)",
+          "height": 0,
+          "left": 0,
+          "margin": "auto",
+          "maxHeight": "100%",
+          "maxWidth": "100%",
+          "minHeight": "100%",
+          "minWidth": "100%",
+          "objectFit": undefined,
+          "objectPosition": undefined,
+          "padding": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 0,
+        }
+      }
+    />
+    <noscript>
+      <img
+        alt="alt text helps screen-reading tools describe images to visually impaired readers"
+        data-nimg="intrinsic"
+        decoding="async"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75 2x"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </noscript>
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/Image Layout Is Responsive 1`] = `
+<div
+  style={
+    Object {
+      "height": undefined,
+      "position": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "background": "none",
+        "border": 0,
+        "boxSizing": "border-box",
+        "display": "block",
+        "height": "initial",
+        "margin": 0,
+        "opacity": 1,
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "relative",
+        "width": "initial",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": "initial",
+          "margin": 0,
+          "opacity": 1,
+          "padding": 0,
+          "paddingTop": "66.73306772908366%",
+          "width": "initial",
+        }
+      }
+    />
+    <img
+      alt="alt text helps screen-reading tools describe images to visually impaired readers"
+      data-nimg="responsive"
+      decoding="async"
+      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+      style={
+        Object {
+          "backgroundImage": "url(\\"https://images.unsplash.com/photo-1522878129833-838a904a0e9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80?fit=fill&w=10&h=10\\")",
+          "backgroundPosition": "0% 0%",
+          "backgroundSize": "cover",
+          "border": "none",
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "filter": "blur(20px)",
+          "height": 0,
+          "left": 0,
+          "margin": "auto",
+          "maxHeight": "100%",
+          "maxWidth": "100%",
+          "minHeight": "100%",
+          "minWidth": "100%",
+          "objectFit": undefined,
+          "objectPosition": undefined,
+          "padding": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 0,
+        }
+      }
+    />
+    <noscript>
+      <img
+        alt="alt text helps screen-reading tools describe images to visually impaired readers"
+        data-nimg="responsive"
+        decoding="async"
+        loading="lazy"
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=3840&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=3840&q=75 3840w"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </noscript>
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/Image With Link 1`] = `
+<div
+  style={
+    Object {
+      "height": undefined,
+      "position": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <a
+    className=""
+    href="https://www.helloample.com/"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "height": "initial",
+          "margin": 0,
+          "maxWidth": "100%",
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "padding": 0,
+            "width": "initial",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271004%27%20height=%27670%27/%3e"
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        />
+      </span>
+      <img
+        alt="alt text helps screen-reading tools describe images to visually impaired readers"
+        data-nimg="intrinsic"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://images.unsplash.com/photo-1522878129833-838a904a0e9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80?fit=fill&w=10&h=10\\")",
+            "backgroundPosition": "0% 0%",
+            "backgroundSize": "cover",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "filter": "blur(20px)",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          alt="alt text helps screen-reading tools describe images to visually impaired readers"
+          data-nimg="intrinsic"
+          decoding="async"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75"
+          srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522878129833-838a904a0e9e%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80&w=2048&q=75 2x"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Storyshots Components/Image With SVG 1`] = `
+<div
+  style={
+    Object {
+      "height": undefined,
+      "position": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <span />
+</div>
+`;

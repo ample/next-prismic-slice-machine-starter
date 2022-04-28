@@ -1,0 +1,36 @@
+@use 'sass:list';
+
+// ---------------------------------------------------------
+
+@use './color' as *;
+@use './font' as *;
+@use './global' as *;
+@use './z-index' as *;
+
+// ---------------------------------------------------------
+
+:root {
+  // ------------------------------------------------------- | color variables
+
+  @each $variable in $color {
+    #{nth($variable, 1)}: #{list.nth($variable, 2)};
+  }
+
+  // ------------------------------------------------------- | font variables
+
+  @each $variable in $font {
+    #{nth($variable, 1)}: #{list.nth($variable, 2)};
+  }
+
+  // ------------------------------------------------------- | global variables
+
+  @each $variable in $global {
+    #{nth($variable, 1)}: #{list.nth($variable, 2)};
+  }
+
+  // ------------------------------------------------------- | z-index variables
+
+  @each $variable in $z-index {
+    #{nth($variable, 1)}: #{list.nth($variable, 2)};
+  }
+}

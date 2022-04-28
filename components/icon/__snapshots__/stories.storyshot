@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Icon Component Props 1`] = `
+<div
+  style={
+    Object {
+      "width": "30px",
+    }
+  }
+>
+  <span />
+</div>
+`;
+
+exports[`Storyshots Components/Icon Icons 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "marginBottom": "10px",
+      }
+    }
+  >
+    <h3>
+      Actions
+    </h3>
+    <div
+      style={
+        Object {
+          "borderTop": "1px solid var(--color-gray-5)",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "justifyContent": "space-between",
+          "marginTop": "-10px",
+          "padding": "10px 0",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "30px",
+            "width": "calc(25% - 20px)",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+        >
+          <span />
+        </div>
+        <em
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          actions-check
+        </em>
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "30px",
+            "width": "calc(25% - 20px)",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+        >
+          <span />
+        </div>
+        <em
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          actions-bars
+        </em>
+      </div>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "marginBottom": "10px",
+      }
+    }
+  >
+    <h3>
+      Arrow
+    </h3>
+    <div
+      style={
+        Object {
+          "borderTop": "1px solid var(--color-gray-5)",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "justifyContent": "space-between",
+          "marginTop": "-10px",
+          "padding": "10px 0",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "30px",
+            "width": "calc(25% - 20px)",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+        >
+          <span />
+        </div>
+        <em
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          arrow-right
+        </em>
+      </div>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "marginBottom": "10px",
+      }
+    }
+  >
+    <h3>
+      Filters
+    </h3>
+    <div
+      style={
+        Object {
+          "borderTop": "1px solid var(--color-gray-5)",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "justifyContent": "space-between",
+          "marginTop": "-10px",
+          "padding": "10px 0",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "30px",
+            "width": "calc(25% - 20px)",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+        >
+          <span />
+        </div>
+        <em
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          filters-like-outline
+        </em>
+      </div>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "marginBottom": "10px",
+      }
+    }
+  >
+    <h3>
+      Social
+    </h3>
+    <div
+      style={
+        Object {
+          "borderTop": "1px solid var(--color-gray-5)",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "justifyContent": "space-between",
+          "marginTop": "-10px",
+          "padding": "10px 0",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "30px",
+            "width": "calc(25% - 20px)",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+        >
+          <span />
+        </div>
+        <em
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          social-facebook
+        </em>
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "30px",
+            "width": "calc(25% - 20px)",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+        >
+          <span />
+        </div>
+        <em
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          social-instagram
+        </em>
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "30px",
+            "width": "calc(25% - 20px)",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+        >
+          <span />
+        </div>
+        <em
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          social-linkedin
+        </em>
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "30px",
+            "width": "calc(25% - 20px)",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+        >
+          <span />
+        </div>
+        <em
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          social-twitter
+        </em>
+      </div>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "marginBottom": "10px",
+      }
+    }
+  >
+    <h3>
+      General
+    </h3>
+    <div
+      style={
+        Object {
+          "borderTop": "1px solid var(--color-gray-5)",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "justifyContent": "space-between",
+          "marginTop": "-10px",
+          "padding": "10px 0",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "marginBottom": "30px",
+            "width": "calc(25% - 20px)",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+        >
+          <span />
+        </div>
+        <em
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          general-account
+        </em>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,32 @@
+@use 'sass:math';
+
+// --------------------------------------------------------
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// --------------------------------------------------------
+
+// Mixin to set a responsive font size
+// and line height with a unitless number
+// -------------------------------------------------------- | usage
+
+// h4 {
+//   @include font-size(54px, 54px);
+// }
+
+// -------------------------------------------------------- | result
+// h4 {
+//   font-size: calc(1.675rem + 2.26667vw);
+//   line-height: 1;
+// }
+
+@mixin font-size($font-size, $line-height: false) {
+  font-size: rfs($font-size);
+
+  @if $line-height != false {
+    line-height: math.div($line-height, $font-size);
+  }
+}

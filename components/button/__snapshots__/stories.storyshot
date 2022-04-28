@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Button Component Props 1`] = `
+<a
+  className="button theme_arrow"
+  href="/#"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  Call to action
+  <span />
+</a>
+`;
+
+exports[`Storyshots Components/Button Theme Arrow 1`] = `
+<a
+  className="button theme_arrow"
+  href="/#"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  Call to action
+  <span />
+</a>
+`;
+
+exports[`Storyshots Components/Button Theme Default 1`] = `
+<a
+  className="button theme_default"
+  href="/#"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  Call to action
+</a>
+`;
+
+exports[`Storyshots Components/Button Theme Outline 1`] = `
+<a
+  className="button theme_outline"
+  href="/#"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  Call to action
+</a>
+`;
+
+exports[`Storyshots Components/Button With Button Element 1`] = `
+<button
+  className="button theme_default"
+  type="button"
+>
+  Call to action
+</button>
+`;
+
+exports[`Storyshots Components/Button With Button Element Disabled 1`] = `
+<button
+  className="button theme_default"
+  disabled={true}
+  type="button"
+>
+  Call to action
+</button>
+`;

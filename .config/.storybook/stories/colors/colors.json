@@ -1,0 +1,46 @@
+{
+  "variables": [
+    {
+      "name": "$color",
+      "value": "( '--color-black': #000, '--color-blueprint': #0065f2, '--color-blueprint-bright': #408cf6, '--color-blueprint-soft': #5a9af4, '--color-blueprint-light': #e6f1fc, '--color-blueprint-lighter': #f2f8ff, '--color-white': #fff, )",
+      "mapValue": [
+        {
+          "name": "--color-black",
+          "value": "#000",
+          "compiledValue": "#000"
+        },
+        {
+          "name": "--color-blueprint",
+          "value": "#0065f2",
+          "compiledValue": "#0065f2"
+        },
+        {
+          "name": "--color-blueprint-bright",
+          "value": "#408cf6",
+          "compiledValue": "#408cf6"
+        },
+        {
+          "name": "--color-blueprint-soft",
+          "value": "#5a9af4",
+          "compiledValue": "#5a9af4"
+        },
+        {
+          "name": "--color-blueprint-light",
+          "value": "#e6f1fc",
+          "compiledValue": "#e6f1fc"
+        },
+        {
+          "name": "--color-blueprint-lighter",
+          "value": "#f2f8ff",
+          "compiledValue": "#f2f8ff"
+        },
+        {
+          "name": "--color-white",
+          "value": "#fff",
+          "compiledValue": "#fff"
+        }
+      ],
+      "compiledValue": "(\"--color-black\": #000, \"--color-blueprint\": #0065f2, \"--color-blueprint-bright\": #408cf6, \"--color-blueprint-soft\": #5a9af4, \"--color-blueprint-light\": #e6f1fc, \"--color-blueprint-lighter\": #f2f8ff, \"--color-white\": #fff)"
+    }
+  ]
+}

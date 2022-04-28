@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Link Component Props 1`] = `
+<a
+  className=""
+  href="/#"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  lorem ipsum
+</a>
+`;
+
+exports[`Storyshots Components/Link External 1`] = `
+<a
+  className=""
+  href="https://www.helloample.com/"
+  rel="noreferrer"
+  target="_blank"
+>
+  External link
+</a>
+`;
+
+exports[`Storyshots Components/Link Internal 1`] = `
+<a
+  className=""
+  href="/#"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  Internal link
+</a>
+`;

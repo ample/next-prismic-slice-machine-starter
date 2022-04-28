@@ -1,0 +1,83 @@
+// ---------------------------------------------------------
+
+@mixin default-button {
+  @include font-size(16px, 16px);
+
+  background-color: var(--color-blueprint);
+  border: 1px solid var(--color-blueprint);
+  border-radius: 3px;
+  color: var(--color-white);
+  font-weight: var(--font-weight-semibold);
+  padding: 15px 24px 17px;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+
+  &:not(:disabled) {
+    @include hover {
+      background-color: var(--color-blueprint-bright);
+      border-color: var(--color-blueprint-bright);
+    }
+  }
+}
+
+// ---------------------------------------------------------
+
+.button {
+  display: inline-block;
+
+  &:is(button) {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    opacity: 60%;
+
+    @include hover {
+      cursor: default;
+    }
+  }
+
+  @include hover {
+    text-decoration: none;
+  }
+}
+
+// ---------------------------------------------------------
+
+.theme {
+  &_default {
+    @include default-button;
+  }
+
+  // ------------------------------------------------------
+
+  &_arrow {
+    color: var(--color-blueprint);
+    position: relative;
+
+    svg {
+      fill: currentColor;
+      height: 10px;
+      margin-left: 6px;
+      width: 12px;
+    }
+
+    @include hover {
+      color: var(--color-blueprint-bright);
+    }
+  }
+
+  // ------------------------------------------------------
+
+  &_outline {
+    @include default-button;
+
+    background-color: var(--color-white);
+    border-color: var(--color-blueprint);
+    color: var(--color-blueprint);
+
+    @include hover {
+      background-color: var(--color-blueprint-light);
+      color: var(--color-white);
+    }
+  }
+}
