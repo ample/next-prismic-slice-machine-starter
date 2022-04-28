@@ -1,0 +1,5 @@
+{
+  "_latest": "0.3.7",
+  "apiEndpoint": "https://prismic-slice-machine-demo.prismic.io/api/v2",
+  "libraries": ["@/slices"]
+}
