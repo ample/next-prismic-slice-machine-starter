@@ -15,7 +15,7 @@ const layoutIsNotFill = {
 // ---------------------------------------------------------
 
 export default {
-  componentProps: {
+  _props: {
     ...layoutIsNotFill,
   },
   layoutIsFill: {

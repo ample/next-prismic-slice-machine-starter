@@ -16,5 +16,5 @@ export default {
 
 const Template = (args) => <Footer {...args} />;
 
-export const componentProps = Template.bind({});
-componentProps.args = { ...fixtures };
+export const _props = Template.bind({});
+_props.args = { ...fixtures };

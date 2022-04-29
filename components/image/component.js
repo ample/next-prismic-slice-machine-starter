@@ -97,7 +97,7 @@ Image.propTypes = {
   className: PropTypes.string,
 
   /**
-   * Specifies the height of the image
+   * Specifies the height of the image.
    */
   height: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 
@@ -148,7 +148,7 @@ Image.propTypes = {
   url: PropTypes.string,
 
   /**
-   * Specifies the width of the image in pixels.
+   * Specifies the width of the image.
    */
   width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };

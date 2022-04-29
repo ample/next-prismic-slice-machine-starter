@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Button Component Props 1`] = `
+exports[`Storyshots Components/Button Props 1`] = `
 <a
   className="button theme_arrow"
   href="#"

@@ -1,17 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Icon Component Props 1`] = `
-<div
-  style={
-    Object {
-      "width": "30px",
-    }
-  }
->
-  <span />
-</div>
-`;
-
 exports[`Storyshots Components/Icon Icons 1`] = `
 Array [
   <div
@@ -396,4 +384,16 @@ Array [
     </div>
   </div>,
 ]
+`;
+
+exports[`Storyshots Components/Icon Props 1`] = `
+<div
+  style={
+    Object {
+      "width": "30px",
+    }
+  }
+>
+  <span />
+</div>
 `;

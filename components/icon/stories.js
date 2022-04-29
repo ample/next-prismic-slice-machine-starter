@@ -20,8 +20,8 @@ const Template = (args) => (
 
 // --------------------------------------------------------
 
-export const componentProps = Template.bind({});
-componentProps.args = fixtures.componentProps;
+export const _props = Template.bind({});
+_props.args = fixtures._props;
 
 // --------------------------------------------------------
 

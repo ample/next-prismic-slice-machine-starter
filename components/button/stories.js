@@ -28,8 +28,8 @@ const Template = (args) => <Button {...args} />;
 
 // ---------------------------------------------------------
 
-export const componentProps = Template.bind({});
-componentProps.args = fixtures.componentProps;
+export const _props = Template.bind({});
+_props.args = fixtures._props;
 
 export const themeArrow = Template.bind({});
 themeArrow.args = fixtures.themeArrow;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Layout/Header Component Props 1`] = `
+exports[`Storyshots Layout/Header Props 1`] = `
 <header
   className="header"
 >

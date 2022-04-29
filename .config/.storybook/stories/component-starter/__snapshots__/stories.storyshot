@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Documentation/Component Starter Component Props 1`] = `
+exports[`Storyshots Documentation/Component Starter Props 1`] = `
 <a
   className="component_name"
   href="url"

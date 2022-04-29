@@ -22,5 +22,5 @@ const Template = (args) => <Header {...args} />;
 
 // ---------------------------------------------------------
 
-export const componentProps = Template.bind({});
-componentProps.args = { ...fixtures };
+export const _props = Template.bind({});
+_props.args = { ...fixtures };
