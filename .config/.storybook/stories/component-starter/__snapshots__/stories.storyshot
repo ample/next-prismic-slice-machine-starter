@@ -3,9 +3,7 @@
 exports[`Storyshots Documentation/Component Starter Component Props 1`] = `
 <a
   className="component_name"
-  href="/url"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
+  href="url"
 >
   <h2>
     name of prop content goes here.
@@ -16,9 +14,7 @@ exports[`Storyshots Documentation/Component Starter Component Props 1`] = `
 exports[`Storyshots Documentation/Component Starter Theme Option 1`] = `
 <a
   className="component_name theme_type"
-  href="/url"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
+  href="url"
 >
   <h2>
     name of prop content goes here.

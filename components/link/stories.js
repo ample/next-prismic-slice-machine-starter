@@ -23,8 +23,8 @@ const Template = (args) => <Link {...args} />;
 
 // ---------------------------------------------------------
 
-export const componentProps = Template.bind({});
-componentProps.args = { ...fixtures.componentProps };
+export const _Props = Template.bind({});
+_Props.args = { ...fixtures._props };
 
 export const external = Template.bind({});
 external.args = { ...fixtures.external };

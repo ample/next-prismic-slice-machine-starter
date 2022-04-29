@@ -3,9 +3,7 @@
 exports[`Storyshots Components/Button Component Props 1`] = `
 <a
   className="button theme_arrow"
-  href="/#"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
+  href="#"
 >
   Call to action
   <span />
@@ -15,9 +13,7 @@ exports[`Storyshots Components/Button Component Props 1`] = `
 exports[`Storyshots Components/Button Theme Arrow 1`] = `
 <a
   className="button theme_arrow"
-  href="/#"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
+  href="#"
 >
   Call to action
   <span />
@@ -27,9 +23,7 @@ exports[`Storyshots Components/Button Theme Arrow 1`] = `
 exports[`Storyshots Components/Button Theme Default 1`] = `
 <a
   className="button theme_default"
-  href="/#"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
+  href="#"
 >
   Call to action
 </a>
@@ -38,9 +32,7 @@ exports[`Storyshots Components/Button Theme Default 1`] = `
 exports[`Storyshots Components/Button Theme Outline 1`] = `
 <a
   className="button theme_outline"
-  href="/#"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
+  href="#"
 >
   Call to action
 </a>
