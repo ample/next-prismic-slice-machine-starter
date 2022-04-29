@@ -50,6 +50,7 @@ module.exports = {
           'contentClassName',
           'key',
           'size',
+          'slice',
         ],
       },
     ],
