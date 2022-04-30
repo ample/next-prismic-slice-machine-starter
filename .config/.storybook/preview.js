@@ -34,6 +34,11 @@ export const parameters = {
       disable: true,
     },
   },
+  options: {
+    storySort: {
+      order: ['Documentation', 'Components', 'Layout', 'Slices'],
+    },
+  },
   viewport: {
     viewports: {
       ...customViewports,
