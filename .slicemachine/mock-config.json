@@ -1,0 +1,51 @@
+{
+  "_cts": {
+    "homepage": {
+      "Body": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "slices": {
+    "Card": {
+      "default": {
+        "primary": {
+          "heading": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "body": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "image": {
+            "content": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f"
+          }
+        }
+      },
+      "withButton": {
+        "primary": {
+          "buttonLabel": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "image": {
+            "content": "https://images.prismic.io/prismic-slice-machine-demo/b711f81b-d76e-445d-aa1e-1b4c36aaa560_fpo-for-previews-only.jpg"
+          },
+          "textAlignment": {
+            "content": "left"
+          }
+        }
+      }
+    }
+  }
+}

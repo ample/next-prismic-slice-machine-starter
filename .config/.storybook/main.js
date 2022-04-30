@@ -30,8 +30,7 @@ module.exports = {
   },
   staticDirs: ['../../public'],
   stories: [
-    '../../(components|layout)**/*.stories.mdx',
-    '../../(components|layout)/**/*stories.js',
+    '../../(components|layout|slices)/**/*stories.js',
     './stories/**/*stories.js',
   ],
   webpackFinal: async (config) => {

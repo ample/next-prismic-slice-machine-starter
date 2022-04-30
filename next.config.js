@@ -11,7 +11,7 @@ module.exports = {
     locales: ['en'],
   },
   images: {
-    domains: ['images.unsplash.com'],
+    domains: ['images.prismic.io', 'images.unsplash.com'],
   },
   publicRuntimeConfig: {
     DEBUG_MEDIA_QUERIES: process.env.DEBUG_MEDIA_QUERIES,

@@ -55,20 +55,21 @@ const Image = (props) => {
     image = <SVG className={className} src={src} />;
   } else {
     image = (
-      <NextImage
-        alt={alt || defaultAltAttribute(src) || ' '}
-        blurDataURL={`${src}?fit=fill&w=10&h=10`}
-        className={className}
-        height={height}
-        layout={layout}
-        objectFit={objectFit}
-        objectPosition={objectPosition}
-        placeholder={placeholder ? placeholder : 'blur'}
-        priority={priority}
-        quality={quality}
-        src={src}
-        width={width}
-      />
+      <div className={className}>
+        <NextImage
+          alt={alt || defaultAltAttribute(src) || ' '}
+          blurDataURL={`${src}?fit=fill&w=10&h=10`}
+          height={height}
+          layout={layout}
+          objectFit={objectFit}
+          objectPosition={objectPosition}
+          placeholder={placeholder ? placeholder : 'blur'}
+          priority={priority}
+          quality={quality}
+          src={src}
+          width={width}
+        />
+      </div>
     );
   }
 

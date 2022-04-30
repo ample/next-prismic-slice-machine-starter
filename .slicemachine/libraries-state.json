@@ -1,5 +1,234 @@
 {
   "slices": {
-    "components": {}
+    "components": {
+      "card": {
+        "library": "slices",
+        "id": "card",
+        "name": "Card",
+        "description": "Card",
+        "model": {
+          "id": "card",
+          "type": "SharedSlice",
+          "name": "Card",
+          "description": "Card",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Card",
+              "primary": {
+                "heading": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": "Specifies the heading",
+                    "allowTargetBlank": false,
+                    "single": "heading3"
+                  }
+                },
+                "body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Body",
+                    "placeholder": "Specifies the content that is displayed under the heading",
+                    "allowTargetBlank": false,
+                    "multi": "paragraph"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "url": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Url",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "textAlignment": {
+                  "type": "Select",
+                  "config": {
+                    "label": "Text Alignment",
+                    "placeholder": "",
+                    "options": [
+                      "left",
+                      "center",
+                      "right"
+                    ],
+                    "default_value": "left"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "withButton",
+              "name": "With Button",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Card",
+              "primary": {
+                "heading": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": "Specifies the heading",
+                    "allowTargetBlank": false,
+                    "single": "heading3"
+                  }
+                },
+                "body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Body",
+                    "placeholder": "Specifies the content that is displayed under the heading",
+                    "allowTargetBlank": false,
+                    "multi": "paragraph"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 400,
+                      "height": 267
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "url": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Url",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "textAlignment": {
+                  "type": "Select",
+                  "config": {
+                    "label": "Text Alignment",
+                    "placeholder": "",
+                    "options": [
+                      "left",
+                      "center",
+                      "right"
+                    ],
+                    "default_value": "left"
+                  }
+                },
+                "buttonLabel": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Button Label",
+                    "placeholder": "",
+                    "allowTargetBlank": false,
+                    "single": "paragraph"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "card",
+            "items": [],
+            "primary": {
+              "heading": [
+                {
+                  "type": "heading3",
+                  "text": "Enable proactive blockchains",
+                  "spans": []
+                }
+              ],
+              "body": [
+                {
+                  "type": "paragraph",
+                  "text": "Reprehenderit laborum voluptate ut ex excepteur aute incididunt irure minim excepteur incididunt in aliquip velit.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=900&h=500&fit=crop"
+              },
+              "url": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              },
+              "textAlignment": "left"
+            }
+          },
+          "withButton": {
+            "variation": "withButton",
+            "name": "With Button",
+            "slice_type": "card",
+            "items": [],
+            "primary": {
+              "heading": [
+                {
+                  "type": "heading3",
+                  "text": "Unleash distributed channels",
+                  "spans": []
+                }
+              ],
+              "body": [
+                {
+                  "type": "paragraph",
+                  "text": "Sit deserunt dolore elit occaecat sint amet minim non incididunt aliqua commodo reprehenderit pariatur. Magna Lorem elit non commodo nulla. Aliquip esse aute pariatur deserunt consequat et pariatur sunt cupidatat pariatur reprehenderit ipsum ut aute.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 400,
+                  "height": 267
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.prismic.io/prismic-slice-machine-demo/b711f81b-d76e-445d-aa1e-1b4c36aaa560_fpo-for-previews-only.jpg?w=400&h=267&fit=crop"
+              },
+              "url": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              },
+              "textAlignment": "left",
+              "buttonLabel": [
+                {
+                  "type": "paragraph",
+                  "text": "Mollit nulla ullamco nulla occaecat nostrud pariatur aliqua sunt excepteur proident eiusmod ad.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
   }
 }
