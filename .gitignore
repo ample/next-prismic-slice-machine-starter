@@ -32,3 +32,8 @@ yarn-error.log*
 
 #Storybook
 /storybook-static
+
+#Slicemachine
+.slicemachine/**/**/index.stories.js
+.slicemachine/**/**/mocks.json
+
