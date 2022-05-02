@@ -3,6 +3,7 @@ import React from 'react';
 // ---------------------------------------------------------
 
 import Button from '@components/button';
+import Card, { fixtures } from '@slices/Card';
 import Layout from '@layout/index';
 
 // ---------------------------------------------------------
@@ -13,6 +14,7 @@ const Home = () => (
     Note that the only other page is a <Button url="/404/">404 page</Button>,
     but there are some starter components in <code>components</code>. Go to the{' '}
     <Button url="/storybook/">documentation</Button> section to see more.
+    <Card {...fixtures._props} />
   </Layout>
 );
 
