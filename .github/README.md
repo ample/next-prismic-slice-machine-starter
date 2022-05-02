@@ -1,4 +1,4 @@
-# Ample's NEXT.js starter configured with Prismic Slice Machine
+# Work in Progress - Ample's NEXT.js starter configured with Prismic Slice Machine
 
 This starter serves as the starting point for Ample [NEXT.js](https://nextjs.org/) development projects that use [Prismic's Slice Machine](https://prismic.io/docs/core-concepts/slice-machine). It has pre-configured preferences to make getting started less cumbersome. To create a new project from this template, click the green "Use this Template" button above.
 
@@ -51,7 +51,6 @@ This project supports alias imports. This provides a means for importing compone
 The convention is to treat directories in our project like [NPM scopes](https://docs.npmjs.com/about-scopes). The scope is to prepend with a `@` character. There are several prefixes supported out of the box:
 
 - `@components` maps to `./components`
-- `@content` maps to `./content`
 - `@layout` maps to `./layout`
 - `@root` maps to `./`
 - `@templates` maps to `./templates`
