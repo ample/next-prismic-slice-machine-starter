@@ -42,6 +42,7 @@ module.exports = {
         '@components': path.resolve(__dirname, '../../components'),
         '@layout': path.resolve(__dirname, '../../layout'),
         '@root': path.resolve(__dirname, '../../'),
+        '@slices': path.resolve(__dirname, '../../slices'),
         '@templates': path.resolve(__dirname, '../../templates'),
         '@utilities': path.resolve(__dirname, '../../utilities/'),
       },

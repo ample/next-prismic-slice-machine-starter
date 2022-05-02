@@ -5,6 +5,7 @@
       "@components/*": ["components/*"],
       "@layout/*": ["./layout/*"],
       "@root/*": ["./*"],
+      "@slices/*": ["./slices/*"],
       "@templates/*": ["./templates/*"],
       "@utilities/*": ["./utilities/*"]
     }

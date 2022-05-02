@@ -53,16 +53,15 @@ The convention is to treat directories in our project like [NPM scopes](https://
 - `@components` maps to `./components`
 - `@layout` maps to `./layout`
 - `@root` maps to `./`
+- `@slices` maps to `./slices`
 - `@templates` maps to `./templates`
 - `@utilities` maps to `./utilities`
 
-Unfortunately, for seamless integration across the board, we have to configure aliases for every place in which we're going to use them, which means _at least_ NEXT.js, Storybook, Jest, and VS Code. Therefore, they are replicated (with the appropriate syntax) in:
+Aliases need to be configured in NEXT.js, Storybook, Jest, and VS Code for seamless integration across the board. Therefore, they are replicated (with the appropriate syntax) in:
 
 - `.config/.jest/jest.config.js`
 - `.config/.storybook/main.js`
 - `jsconfig.json`
-
-If you wish to add a custom alias to your project, touch all appropriate config files.
 
 ### Linters
 
