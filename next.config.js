@@ -11,6 +11,10 @@ module.exports = {
     locales: ['en'],
   },
   images: {
+    deviceSizes: [
+      320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920,
+      2560, 3360,
+    ],
     domains: ['images.prismic.io', 'images.unsplash.com'],
   },
   publicRuntimeConfig: {
