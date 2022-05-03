@@ -10,7 +10,7 @@ const Link = (props) => {
 
   // ---------------------------------------------------------
 
-  const currentURL = url;
+  const currentURL = url.url ? url.url : url.uid ? url.uid : url;
 
   // ---------------------------------------------------------
 

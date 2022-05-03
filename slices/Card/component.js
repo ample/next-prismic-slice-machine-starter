@@ -78,7 +78,7 @@ const Card = (props) => {
 
   if (url) {
     cardComponent = (
-      <Link className={classes} url={url.url}>
+      <Link className={classes} url={url}>
         {cardContents}
       </Link>
     );
