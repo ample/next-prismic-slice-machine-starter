@@ -1,8 +1,4 @@
-import React from 'react';
-
-// ---------------------------------------------------------
-
-import { component as Header, fixtures } from '.';
+import { fixtures, component as Header } from '.';
 
 // ---------------------------------------------------------
 
@@ -17,6 +13,8 @@ export default {
   },
   title: 'Layout/Header',
 };
+
+// ---------------------------------------------------------
 
 const Template = (args) => <Header {...args} />;
 

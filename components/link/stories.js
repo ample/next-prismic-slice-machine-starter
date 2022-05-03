@@ -1,8 +1,4 @@
-import React from 'react';
-
-// ---------------------------------------------------------
-
-import { component as Link, fixtures } from '.';
+import { fixtures, component as Link } from '.';
 
 // ---------------------------------------------------------
 

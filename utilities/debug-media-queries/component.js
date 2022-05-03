@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import classNames from 'classnames';
+import { useState } from 'react';
 
 // ---------------------------------------------------------
 
@@ -31,7 +31,7 @@ const DebugMediaQueries = () => {
   };
 
   return (
-    <div className={classes} onClick={handleClick} aria-hidden="true">
+    <div aria-hidden="true" className={classes} onClick={handleClick}>
       <div className={debug_media_queries} />
     </div>
   );

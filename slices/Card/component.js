@@ -1,6 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 import { PrismicRichText } from '@prismicio/react';
 
 // ---------------------------------------------------------
@@ -12,9 +11,9 @@ import Link from '@components/link';
 // ---------------------------------------------------------
 
 import {
+  card,
   card_content,
   card_image,
-  card,
   text_alignment_center,
   text_alignment_left,
   text_alignment_right,
@@ -57,10 +56,10 @@ const Card = (props) => {
     <>
       {image && (
         <Image
-          className={card_image}
-          src={image.url}
           alt={image.alt}
+          className={card_image}
           layout="responsive"
+          src={image.url}
           {...image.dimensions}
         />
       )}

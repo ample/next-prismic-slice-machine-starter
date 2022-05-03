@@ -1,7 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import NextImage from 'next/image';
 import path from 'path';
+import PropTypes from 'prop-types';
 import { startCase } from 'lodash';
 
 // ---------------------------------------------------------

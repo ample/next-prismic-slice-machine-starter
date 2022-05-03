@@ -1,13 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 import { PrismicLink } from '@prismicio/react';
 import { useRouter } from 'next/router';
 
 // ---------------------------------------------------------
 
 const Link = (props) => {
-  let { activeClassName, children, className, ariaLabel, url } = props;
+  let { activeClassName, ariaLabel, children, className, url } = props;
 
   // ---------------------------------------------------------
 

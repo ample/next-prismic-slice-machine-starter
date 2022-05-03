@@ -1,6 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 // ---------------------------------------------------------
 
@@ -25,7 +24,7 @@ const themeOptions = {
 // ---------------------------------------------------------
 
 const Button = (props) => {
-  let { className, children, disabled, onClick, theme, title, type, url } =
+  let { children, className, disabled, onClick, theme, title, type, url } =
     props;
 
   // -------------------------------------------------------

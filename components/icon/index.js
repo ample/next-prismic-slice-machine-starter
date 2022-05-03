@@ -1,7 +1,3 @@
-import React from 'react';
-
-// ---------------------------------------------------------
-
 import Component from './component';
 import fixtures from './fixtures';
 

@@ -29,7 +29,15 @@ module.exports = {
       files: ['./**/test.spec.js'],
     },
   ],
-  plugins: ['jest', 'jsx-a11y', 'prettier', 'react', 'sort-keys-fix'],
+  plugins: [
+    'jest',
+    'jsx-a11y',
+    'prettier',
+    'react',
+    'sort-destructure-keys',
+    'sort-imports-es6-autofix',
+    'sort-keys-fix',
+  ],
   rules: {
     'jsx-a11y/anchor-is-valid': [
       'error',
@@ -37,6 +45,15 @@ module.exports = {
         aspects: ['invalidHref', 'preferButton'],
         components: ['Link'],
         specialLink: ['hrefLeft', 'hrefRight'],
+      },
+    ],
+    'react/jsx-sort-props': [
+      2,
+      {
+        shorthandLast: true,
+        multiline: 'ignore',
+        ignoreCase: true,
+        reservedFirst: ['key'],
       },
     ],
     'react/no-unescaped-entities': [2, { forbid: ['<', '>', '{', '}'] }],
@@ -54,10 +71,23 @@ module.exports = {
         ],
       },
     ],
+    'sort-imports-es6-autofix/sort-imports-es6': [
+      2,
+      {
+        ignoreCase: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['all', 'none', 'single', 'multiple'],
+      },
+    ],
+    'sort-destructure-keys/sort-destructure-keys': 2,
     'sort-keys': [
       'error',
       'asc',
-      { caseSensitive: true, minKeys: 2, natural: true },
+      {
+        caseSensitive: true,
+        minKeys: 2,
+        natural: true,
+      },
     ],
     'sort-keys-fix/sort-keys-fix': 1,
   },

@@ -1,8 +1,6 @@
-import React from 'react';
+import { fixtures, component as Image } from '.';
 
 // ---------------------------------------------------------
-
-import { component as Image, fixtures } from '.';
 
 export default {
   component: Image,

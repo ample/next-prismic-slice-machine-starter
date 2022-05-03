@@ -1,7 +1,3 @@
-import React from 'react';
-
-// ---------------------------------------------------------
-
 import Button from '@components/button';
 import Card, { fixtures } from '@slices/Card';
 import Layout from '@layout/index';
