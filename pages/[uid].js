@@ -1,5 +1,6 @@
 import { asLink } from '@prismicio/helpers';
 import { createClient, linkResolver } from '@root/prismicio';
+import { PrismicRichText } from '@prismicio/react';
 import { SliceZone } from '@prismicio/react';
 
 // ---------------------------------------------------------
@@ -9,31 +10,36 @@ import { components } from '@slices/index';
 
 // ---------------------------------------------------------
 
-export async function getStaticProps({ params, previewData }) {
+export const getStaticProps = async ({ params, previewData }) => {
   const client = createClient({ previewData });
 
-  const flexiblePage = await client.getByUID('flexible-page', params.uid);
+  const page = await client.getByUID('flexible-page', params.uid);
 
   return {
-    props: { flexiblePage },
+    props: { page },
   };
-}
+};
 
-export async function getStaticPaths() {
+export const getStaticPaths = async () => {
   const client = createClient();
   const documents = await client.getAllByType('flexible-page');
   return {
-    fallback: true,
+    fallback: false,
     paths: documents.map((doc) => asLink(doc, linkResolver)),
   };
-}
+};
 
 // ---------------------------------------------------------
 
-const FlexiblePage = ({ flexiblePage }) => {
+const FlexiblePage = ({ page }) => {
+  let { body, slices } = page.data;
+
+  // -------------------------------------------------------
+
   return (
     <Layout>
-      <SliceZone components={components} slices={flexiblePage.data.slices} />
+      <PrismicRichText field={body} />
+      <SliceZone components={components} slices={slices} />
     </Layout>
   );
 };

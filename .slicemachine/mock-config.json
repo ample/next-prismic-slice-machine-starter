@@ -1,7 +1,7 @@
 {
   "_cts": {
     "homepage": {
-      "Body": {
+      "body": {
         "config": {
           "patternType": "PARAGRAPH",
           "blocks": 1

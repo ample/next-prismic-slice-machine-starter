@@ -1,17 +1,35 @@
-import Button from '@components/button';
-import Card, { fixtures } from '@slices/Card';
-import Layout from '@layout/index';
+import { createClient } from '@root/prismicio';
+import { PrismicRichText } from '@prismicio/react';
+import { SliceZone } from '@prismicio/react';
 
 // ---------------------------------------------------------
 
-const Home = () => (
-  <Layout>
-    <h1>Heading</h1>
-    Note that the only other page is a <Button url="/404/">404 page</Button>,
-    but there are some starter components in <code>components</code>. Go to the{' '}
-    <Button url="/storybook/">documentation</Button> section to see more.
-    <Card {...fixtures._props} />
-  </Layout>
-);
+import Layout from '@layout/index';
+import { components } from '@slices/index';
+
+// ---------------------------------------------------------
+
+export const getStaticProps = async ({ previewData }) => {
+  const client = createClient({ previewData });
+
+  const page = await client.getSingle('homepage');
+
+  return {
+    props: { page },
+  };
+};
+
+// ---------------------------------------------------------
+
+const Home = ({ page }) => {
+  let { body, slices } = page.data;
+
+  return (
+    <Layout>
+      <PrismicRichText field={body} />
+      <SliceZone components={components} slices={slices} />
+    </Layout>
+  );
+};
 
 export default Home;

@@ -11,19 +11,19 @@ import '../styles/global-styles.scss';
 
 // ---------------------------------------------------------
 
-export default function App({ Component, pageProps }) {
-  return (
-    <PrismicProvider
-      internalLinkComponent={({ children, href, ...props }) => (
-        <Link href={href}>
-          <a {...props}>{children}</a>
-        </Link>
-      )}
-      linkResolver={linkResolver}
-    >
-      <PrismicPreview repositoryName={repositoryName}>
-        <Component {...pageProps} />
-      </PrismicPreview>
-    </PrismicProvider>
-  );
-}
+const App = ({ Component, pageProps }) => (
+  <PrismicProvider
+    internalLinkComponent={({ children, href, ...props }) => (
+      <Link href={href}>
+        <a {...props}>{children}</a>
+      </Link>
+    )}
+    linkResolver={linkResolver}
+  >
+    <PrismicPreview repositoryName={repositoryName}>
+      <Component {...pageProps} />
+    </PrismicPreview>
+  </PrismicProvider>
+);
+
+export default App;

@@ -5,13 +5,13 @@
   "status": true,
   "json": {
     "Main": {
-      "Body": {
+      "body": {
         "type": "StructuredText",
         "config": {
           "label": "Body",
           "placeholder": "",
           "allowTargetBlank": true,
-          "multi": "paragraph,heading2,heading1,strong,em,hyperlink"
+          "multi": "paragraph,heading1,heading2,strong,em,hyperlink"
         }
       },
       "slices": {

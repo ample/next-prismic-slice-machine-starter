@@ -9,8 +9,8 @@ export const repositoryName = prismic.getRepositoryName(endpoint);
 
 // ---------------------------------------------------------
 
-// Update the Link Resolver to match your project's route structure
-export function linkResolver(doc) {
+// Update to match route structure
+export const linkResolver = (doc) => {
   switch (doc.type) {
     case 'homepage':
       return '/';
@@ -19,12 +19,12 @@ export function linkResolver(doc) {
     default:
       return null;
   }
-}
+};
 
 // ---------------------------------------------------------
 
 // This factory function allows smooth preview setup
-export function createClient(config = {}) {
+export const createClient = (config = {}) => {
   const client = prismic.createClient(endpoint, {
     ...config,
   });
@@ -36,4 +36,4 @@ export function createClient(config = {}) {
   });
 
   return client;
-}
+};
