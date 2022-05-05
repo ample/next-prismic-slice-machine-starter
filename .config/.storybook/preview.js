@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import { action } from '@storybook/addon-actions';
-import { addDecorator, addParameters } from '@storybook/react';
+import { addParameters } from '@storybook/react';
 import { setConsoleOptions } from '@storybook/addon-console';
 import { themes } from '@storybook/theming';
 
@@ -20,8 +20,6 @@ import '../../styles/global-styles.scss';
 setConsoleOptions({
   panelExclude: [],
 });
-
-addDecorator((story) => <>{story()}</>);
 
 // ---------------------------------------------------------
 
