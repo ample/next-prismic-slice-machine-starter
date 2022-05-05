@@ -18,6 +18,7 @@
     "classnames": "^2.3.1",
     "lodash": "^4.17.21",
     "next": "12.1.4",
+    "next-sitemap": "^2.5.20",
     "postcss": "^8.4.13",
     "postcss-em-media-query": "^4.1.0",
     "postcss-loader": "^6.2.1",
@@ -83,6 +84,7 @@
     "lint": "yarn lint-js . && yarn lint-scss './**/*.scss'",
     "lint-js": "eslint -c ./.config/.eslintrc.js",
     "lint-scss": "stylelint --config ./.config/stylelint.config.js",
+    "postbuild": "next-sitemap --config ./.config/next-sitemap.js",
     "prepare": "husky install .config/.husky",
     "sass-variables": "sass-export ./styles/global/variables/_color.scss -o ./.config/.storybook/stories/colors/colors.json",
     "slicemachine": "start-slicemachine",
@@ -156,7 +158,7 @@
     "url": "https://github.com/ample/next-prismic-slice-machine-starter-ample/issues"
   },
   "volta": {
-    "node": "14.19.1",
+    "node": "14.19.2",
     "yarn": "1.22.18"
   }
 }

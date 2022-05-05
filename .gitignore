@@ -1,39 +1,38 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
 .yarn
 
-# testing
-/coverage
-
-# next.js
-/.next/
-
-# production
-/build
-
 # misc
 .DS_Store
 .env*
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# next.js
+/.next/
+/build
 
-# jest
-.jest-test-results.json
+# public
+/public/robots.txt
+/public/sitemap.xml
+/public/sitemap-0.xml
 
-# Vercel
-.vercel
-
-#Storybook
-/storybook-static
-
-#Slicemachine
+# slicemachine
 .slicemachine/**/**/index.stories.js
 .slicemachine/**/**/mocks.json
 
+# storybook
+/storybook-static
+
+# testing
+/coverage
+
+# vercel
+.vercel
