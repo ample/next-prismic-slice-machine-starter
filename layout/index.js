@@ -15,26 +15,40 @@ const DebugMediaQueries = dynamic(
 
 import Footer from './footer';
 import Header from './header';
+import SEO from './seo';
 
 // ---------------------------------------------------------
 
-const Layout = ({ children }) => (
-  <>
-    <Head>
-      <title>Ample Next.js Starter</title>
-      <link href="/favicon.ico" rel="icon" />
-    </Head>
+const Layout = (props) => {
+  let { children, themeColor } = props;
 
-    <Header />
-    <main>{children}</main>
-    <Footer />
+  // -------------------------------------------------------
 
-    <DebugMediaQueries />
-  </>
-);
+  return (
+    <>
+      <Head>
+        <link href="/favicon.ico" rel="icon" />
+        <meta content={themeColor} name="theme-color"></meta>
+      </Head>
+
+      <SEO />
+
+      <Header />
+      <main>{children}</main>
+      <Footer />
+
+      <DebugMediaQueries />
+    </>
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  themeColor: PropTypes.string,
+};
+
+Layout.defaultProps = {
+  themeColor: '#000000',
 };
 
 export default Layout;

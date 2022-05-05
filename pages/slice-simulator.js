@@ -1,3 +1,4 @@
+import { NextSeo } from 'next-seo';
 import { SliceSimulator } from '@prismicio/slice-simulator-react';
 import { SliceZone } from '@prismicio/react';
 
@@ -10,12 +11,16 @@ import { components } from '@slices/index';
 
 const SliceSimulatorPage = () => {
   return (
-    <SliceSimulator
-      sliceZone={({ slices }) => (
-        <SliceZone components={components} slices={slices} />
-      )}
-      state={state}
-    />
+    <>
+      <NextSeo nofollow />
+
+      <SliceSimulator
+        sliceZone={({ slices }) => (
+          <SliceZone components={components} slices={slices} />
+        )}
+        state={state}
+      />
+    </>
   );
 };
 

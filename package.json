@@ -18,6 +18,7 @@
     "classnames": "^2.3.1",
     "lodash": "^4.17.21",
     "next": "12.1.4",
+    "next-seo": "^5.4.0",
     "next-sitemap": "^2.5.20",
     "postcss": "^8.4.13",
     "postcss-em-media-query": "^4.1.0",
