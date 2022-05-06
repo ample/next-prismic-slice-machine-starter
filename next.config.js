@@ -3,6 +3,11 @@ const path = require('path');
 // ---------------------------------------------------------
 
 module.exports = {
+  compiler: {
+    removeConsole: {
+      exclude: ['error'],
+    },
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -25,4 +30,5 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')],
     prependData: `@use 'global' as *;`,
   },
+  swcMinify: true,
 };
