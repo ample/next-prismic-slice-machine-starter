@@ -47,6 +47,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
     "@whitespace/storybook-addon-html": "^5.0.0",
+    "chromatic": "^6.5.4",
     "eslint": "^8.14.0",
     "eslint-config-next": "^12.1.5",
     "eslint-plugin-jest": "^26.1.5",
@@ -80,6 +81,7 @@
   },
   "scripts": {
     "build": "DEBUG_MEDIA_QUERIES=false next build",
+    "chromatic": "npx chromatic --project-token=CHROMATIC_PROJECT_TOKEN -b storybook:build --exit-once-uploaded",
     "clean": "rm -rf .next",
     "develop": "DEBUG_MEDIA_QUERIES=true next dev",
     "lint": "yarn lint-js . && yarn lint-scss './**/*.scss'",

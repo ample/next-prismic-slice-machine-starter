@@ -39,6 +39,7 @@ const Colors = () => {
 
 export default {
   title: 'Documentation/Colors',
+  chromatic: { disableSnapshot: true },
 };
 
 export const availableColors = () => <Colors />;
