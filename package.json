@@ -80,16 +80,16 @@
     "webpack": "^5"
   },
   "scripts": {
-    "build": "DEBUG_MEDIA_QUERIES=false next build",
+    "build": "DEBUG_MEDIA_QUERIES=false next build && yarn sitemap",
     "chromatic": "npx chromatic --project-token=CHROMATIC_PROJECT_TOKEN -b storybook:build --exit-once-uploaded",
     "clean": "rm -rf .next",
     "develop": "DEBUG_MEDIA_QUERIES=true next dev",
     "lint": "yarn lint-js . && yarn lint-scss './**/*.scss'",
     "lint-js": "eslint -c ./.config/.eslintrc.js",
     "lint-scss": "stylelint --config ./.config/stylelint.config.js",
-    "postbuild": "next-sitemap --config ./.config/next-sitemap.js",
     "prepare": "husky install .config/.husky",
     "sass-variables": "sass-export ./styles/global/variables/_color.scss -o ./.config/.storybook/stories/colors/colors.json",
+    "sitemap": "next-sitemap --config ./.config/next-sitemap.js",
     "slicemachine": "start-slicemachine",
     "start": "next start",
     "storybook": "BROWSER=none start-storybook --quiet --modern -c .config/.storybook -p 6006 ",
