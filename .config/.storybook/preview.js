@@ -1,9 +1,6 @@
-import React, { Suspense } from 'react';
-import { action } from '@storybook/addon-actions';
-import { addParameters } from '@storybook/react';
-import { setConsoleOptions } from '@storybook/addon-console';
-import { themes } from '@storybook/theming';
+import * as NextImage from 'next/image';
 import isChromatic from 'chromatic/isChromatic';
+import { setConsoleOptions } from '@storybook/addon-console';
 
 // ---------------------------------------------------------
 
@@ -36,15 +33,15 @@ setConsoleOptions({
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
+    backgrounds: {
+      default: 'light',
+      grid: {
+        disable: true,
+      },
+    },
     expanded: true,
     hideNoControlsWarning: true,
     sort: 'alpha',
-  },
-  backgrounds: {
-    default: 'light',
-    grid: {
-      disable: true,
-    },
   },
   options: {
     storySort: {
@@ -57,3 +54,23 @@ export const parameters = {
     },
   },
 };
+
+// TODO: Remove once storybook-addon-next has been updated with a fix.
+// ---------------------------------------------------------
+
+const OriginalNextImage = NextImage.default;
+
+Object.defineProperty(NextImage, 'default', {
+  configurable: true,
+  value: (props) =>
+    typeof props.src === 'string' ? (
+      <OriginalNextImage {...props} unoptimized blurDataURL={props.src} />
+    ) : (
+      <OriginalNextImage {...props} unoptimized />
+    ),
+});
+
+Object.defineProperty(NextImage, '__esModule', {
+  configurable: true,
+  value: true,
+});
