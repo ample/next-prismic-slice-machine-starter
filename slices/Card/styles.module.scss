@@ -1,0 +1,47 @@
+.card {
+  @include font-size(15px, 20px);
+
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+
+  @include media($small, down) {
+    max-width: 400px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+// ---------------------------------------------------------
+
+.card_content {
+  padding: 0 20px 20px;
+
+  .text_alignment_center & {
+    text-align: center;
+  }
+
+  .text_alignment_left & {
+    text-align: left;
+  }
+
+  .text_alignment_right & {
+    text-align: right;
+  }
+}
+
+// ---------------------------------------------------------
+
+.theme_default {
+  background-color: var(--color-blueprint-light);
+}
+
+.theme_default,
+.theme_with_button {
+  .card_image {
+    margin-bottom: 20px;
+  }
+}

@@ -1,9 +1,8 @@
-import React from 'react';
 import { capitalize } from 'lodash';
 
 // ---------------------------------------------------------
 
-import { component as Icon, fixtures, iconOptions } from '.';
+import { fixtures, component as Icon, iconOptions } from '.';
 
 // ---------------------------------------------------------
 
@@ -20,8 +19,8 @@ const Template = (args) => (
 
 // --------------------------------------------------------
 
-export const componentProps = Template.bind({});
-componentProps.args = fixtures.componentProps;
+export const _props = Template.bind({});
+_props.args = fixtures._props;
 
 // --------------------------------------------------------
 
@@ -62,7 +61,7 @@ export const icons = () =>
             let icon = `${icons.type}-${name}`;
 
             return (
-              <div style={{ ...iconName }} key={index}>
+              <div key={index} style={{ ...iconName }}>
                 <div style={{ ...svg }}>
                   <Icon name={icon} />
                 </div>

@@ -1,18 +1,21 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import NextLink from 'next/link';
+import PropTypes from 'prop-types';
+import { PrismicLink } from '@prismicio/react';
 import { useRouter } from 'next/router';
 
 // ---------------------------------------------------------
 
 const Link = (props) => {
-  let { activeClassName, children, className, title, url } = props;
+  let { activeClassName, ariaLabel, children, className, url } = props;
 
   // ---------------------------------------------------------
 
-  const currentPath = useRouter().pathname === url;
-  const externalUrl = url.match(/^http/);
+  const currentURL = url.url ? url.url : url.uid ? url.uid : url;
+
+  // ---------------------------------------------------------
+
+  const currentPath = useRouter().pathname === currentURL;
+  const externalUrl = currentURL.match(/^http/);
 
   // ---------------------------------------------------------
 
@@ -24,22 +27,19 @@ const Link = (props) => {
   // ---------------------------------------------------------
 
   let linkComponent = (
-    <NextLink href={url}>
-      <a aria-label={title} className={classes} title={title}>
-        {children}
-      </a>
-    </NextLink>
+    <PrismicLink aria-label={ariaLabel} className={classes} href={currentURL}>
+      {children}
+    </PrismicLink>
   );
 
   if (externalUrl) {
     linkComponent = (
       <a
-        aria-label={title}
+        aria-label={ariaLabel}
         className={classes}
-        href={url}
+        href={currentURL}
         rel="noreferrer"
         target="_blank"
-        title={title}
       >
         {children}
       </a>
@@ -56,19 +56,19 @@ Link.propTypes = {
   activeClassName: PropTypes.string,
 
   /**
+   * Specifies additional information to describe the link.
+   */
+  ariaLabel: PropTypes.string,
+
+  /**
    * Specifies the content that's rendered inside the link.
    */
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
 
   /**
-   * Specifies additional information about the link, this will also populate the aria-label.
-   */
-  title: PropTypes.string,
-
-  /**
    * Specifies where to link.
    */
-  url: PropTypes.string.isRequired,
+  url: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
 };
 
 Link.defaultProps = {};

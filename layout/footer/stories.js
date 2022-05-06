@@ -1,6 +1,6 @@
-import React from 'react';
+import { fixtures, component as Footer } from '.';
 
-import { component as Footer, fixtures } from '.';
+// ---------------------------------------------------------
 
 export default {
   component: Footer,
@@ -14,7 +14,11 @@ export default {
   title: 'Layout/Footer',
 };
 
+// ---------------------------------------------------------
+
 const Template = (args) => <Footer {...args} />;
 
-export const componentProps = Template.bind({});
-componentProps.args = { ...fixtures };
+// ---------------------------------------------------------
+
+export const _props = Template.bind({});
+_props.args = { ...fixtures };

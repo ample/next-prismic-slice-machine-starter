@@ -7,9 +7,9 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   moduleNameMapper: {
     '\\@components\\/(.*)$': `<rootDir>/components/$1`,
-    '\\@content\\/(.*)$': `<rootDir>/content/$1`,
     '\\@layout\\/(.*)$': `<rootDir>/layout/$1`,
     '\\@root\\/(.*)$': `<rootDir>/$1`,
+    '\\@slices\\/(.*)$': `<rootDir>/slices/$1`,
     '\\@templates\\/(.*)$': `<rootDir>/templates/$1`,
     '\\@utilities\\/(.*)$': `<rootDir>/utilities/$1`,
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',

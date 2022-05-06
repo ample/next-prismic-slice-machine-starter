@@ -1,7 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import NextImage from 'next/image';
 import path from 'path';
+import PropTypes from 'prop-types';
 import { startCase } from 'lodash';
 
 // ---------------------------------------------------------
@@ -55,20 +54,21 @@ const Image = (props) => {
     image = <SVG className={className} src={src} />;
   } else {
     image = (
-      <NextImage
-        alt={alt || defaultAltAttribute(src) || ' '}
-        blurDataURL={`${src}?fit=fill&w=10&h=10`}
-        className={className}
-        height={height}
-        layout={layout}
-        objectFit={objectFit}
-        objectPosition={objectPosition}
-        placeholder={placeholder ? placeholder : 'blur'}
-        priority={priority}
-        quality={quality}
-        src={src}
-        width={width}
-      />
+      <div className={className}>
+        <NextImage
+          alt={alt || defaultAltAttribute(src) || ' '}
+          blurDataURL={`${src}?fit=fill&w=10&h=10`}
+          height={height}
+          layout={layout}
+          objectFit={objectFit}
+          objectPosition={objectPosition}
+          placeholder={placeholder ? placeholder : 'blur'}
+          priority={priority}
+          quality={quality}
+          src={src}
+          width={width}
+        />
+      </div>
     );
   }
 
@@ -97,7 +97,7 @@ Image.propTypes = {
   className: PropTypes.string,
 
   /**
-   * Specifies the height of the image
+   * Specifies the height of the image.
    */
   height: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 
@@ -148,7 +148,7 @@ Image.propTypes = {
   url: PropTypes.string,
 
   /**
-   * Specifies the width of the image in pixels.
+   * Specifies the width of the image.
    */
   width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };

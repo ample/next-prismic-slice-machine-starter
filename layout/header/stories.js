@@ -1,8 +1,4 @@
-import React from 'react';
-
-// ---------------------------------------------------------
-
-import { component as Header, fixtures } from '.';
+import { fixtures, component as Header } from '.';
 
 // ---------------------------------------------------------
 
@@ -18,9 +14,11 @@ export default {
   title: 'Layout/Header',
 };
 
+// ---------------------------------------------------------
+
 const Template = (args) => <Header {...args} />;
 
 // ---------------------------------------------------------
 
-export const componentProps = Template.bind({});
-componentProps.args = { ...fixtures };
+export const _props = Template.bind({});
+_props.args = { ...fixtures };

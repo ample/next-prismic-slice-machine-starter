@@ -7,7 +7,7 @@ const buttonProps = {
 // ---------------------------------------------------------
 
 export default {
-  componentProps: {
+  _props: {
     ...buttonProps,
   },
   themeArrow: {

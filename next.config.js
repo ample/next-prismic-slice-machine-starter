@@ -3,6 +3,11 @@ const path = require('path');
 // ---------------------------------------------------------
 
 module.exports = {
+  compiler: {
+    removeConsole: {
+      exclude: ['error'],
+    },
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -11,7 +16,11 @@ module.exports = {
     locales: ['en'],
   },
   images: {
-    domains: ['images.unsplash.com'],
+    deviceSizes: [
+      320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920,
+      2560, 3360,
+    ],
+    domains: ['images.prismic.io', 'images.unsplash.com'],
   },
   publicRuntimeConfig: {
     DEBUG_MEDIA_QUERIES: process.env.DEBUG_MEDIA_QUERIES,
@@ -21,4 +30,5 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')],
     prependData: `@use 'global' as *;`,
   },
+  swcMinify: true,
 };

@@ -1,8 +1,4 @@
-import React from 'react';
-
-// ---------------------------------------------------------
-
-import { component as Link, fixtures } from '.';
+import { fixtures, component as Link } from '.';
 
 // ---------------------------------------------------------
 
@@ -23,8 +19,8 @@ const Template = (args) => <Link {...args} />;
 
 // ---------------------------------------------------------
 
-export const componentProps = Template.bind({});
-componentProps.args = { ...fixtures.componentProps };
+export const _Props = Template.bind({});
+_Props.args = { ...fixtures._props };
 
 export const external = Template.bind({});
 external.args = { ...fixtures.external };

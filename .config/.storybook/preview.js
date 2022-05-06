@@ -1,8 +1,6 @@
-import React, { Suspense } from 'react';
-import { action } from '@storybook/addon-actions';
-import { addDecorator, addParameters } from '@storybook/react';
+import * as NextImage from 'next/image';
+import isChromatic from 'chromatic/isChromatic';
 import { setConsoleOptions } from '@storybook/addon-console';
-import { themes } from '@storybook/theming';
 
 // ---------------------------------------------------------
 
@@ -16,22 +14,38 @@ import '../../styles/global-styles.scss';
 
 // ---------------------------------------------------------
 
+// Use the document.fonts API to check if fonts have loaded
+const fontLoader = async () => ({
+  fonts: await document.fonts.ready,
+});
+
+export const loaders = isChromatic() && document.fonts ? [fontLoader] : [];
+
+// ---------------------------------------------------------
+
 // Storybook addon for redirecting console output into action logger panel
 setConsoleOptions({
   panelExclude: [],
 });
 
-addDecorator((story) => <>{story()}</>);
-
 // ---------------------------------------------------------
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
-  controls: { sort: 'alpha', expanded: true },
-  backgrounds: {
-    default: 'light',
-    grid: {
-      disable: true,
+  controls: {
+    backgrounds: {
+      default: 'light',
+      grid: {
+        disable: true,
+      },
+    },
+    expanded: true,
+    hideNoControlsWarning: true,
+    sort: 'alpha',
+  },
+  options: {
+    storySort: {
+      order: ['Documentation', 'Components', 'Layout', 'Slices'],
     },
   },
   viewport: {
@@ -40,3 +54,23 @@ export const parameters = {
     },
   },
 };
+
+// TODO: Remove once storybook-addon-next has been updated with a fix.
+// ---------------------------------------------------------
+
+const OriginalNextImage = NextImage.default;
+
+Object.defineProperty(NextImage, 'default', {
+  configurable: true,
+  value: (props) =>
+    typeof props.src === 'string' ? (
+      <OriginalNextImage {...props} unoptimized blurDataURL={props.src} />
+    ) : (
+      <OriginalNextImage {...props} unoptimized />
+    ),
+});
+
+Object.defineProperty(NextImage, '__esModule', {
+  configurable: true,
+  value: true,
+});

@@ -1,5 +1,8 @@
 # Work in progress - Ample's NEXT.js starter configured with Prismic Slice Machine
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/31b3a6ce-906f-4cb9-9fc4-5d08f4658b30/deploy-status)](https://app.netlify.com/sites/ample-next-slicemachine-stater/deploys)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://main--62746dd9a57ceb004a509ac4.chromatic.com)
+
 This starter serves as the starting point for Ample [NEXT.js](https://nextjs.org/) development projects that use [Prismic's Slice Machine](https://prismic.io/docs/core-concepts/slice-machine). It has pre-configured preferences to make getting started less cumbersome. To create a new project from this template, click the green "Use this Template" button above.
 
 _Ample's Next.js starter can be found [here](https://github.com/ample/next-starter-ample)._
@@ -24,7 +27,7 @@ Install node packages
 yarn
 ```
 
-_Start the development server ([http://localhost:3000](http://localhost:3000))_
+Start the development server ([http://localhost:3000](http://localhost:3000))
 
 ```shell
 yarn develop
@@ -49,19 +52,17 @@ This project supports alias imports. This provides a means for importing compone
 The convention is to treat directories in our project like [NPM scopes](https://docs.npmjs.com/about-scopes). The scope is to prepend with a `@` character. There are several prefixes supported out of the box:
 
 - `@components` maps to `./components`
-- `@content` maps to `./content`
 - `@layout` maps to `./layout`
 - `@root` maps to `./`
+- `@slices` maps to `./slices`
 - `@templates` maps to `./templates`
 - `@utilities` maps to `./utilities`
 
-Unfortunately, for seamless integration across the board, we have to configure aliases for every place in which we're going to use them, which means _at least_ NEXT.js, Storybook, Jest, and VS Code. Therefore, they are replicated (with the appropriate syntax) in:
+Aliases need to be configured in NEXT.js, Storybook, Jest, and VS Code for seamless integration across the board. Therefore, they are replicated (with the appropriate syntax) in:
 
 - `.config/.jest/jest.config.js`
 - `.config/.storybook/main.js`
 - `jsconfig.json`
-
-If you wish to add a custom alias to your project, touch all appropriate config files.
 
 ### Linters
 

@@ -1,5 +1,5 @@
 export default {
-  componentProps: {
+  _props: {
     name: 'filters-like-outline',
   },
 };

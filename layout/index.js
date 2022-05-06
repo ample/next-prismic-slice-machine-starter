@@ -1,32 +1,54 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
+import PropTypes from 'prop-types';
+
+// ---------------------------------------------------------
+
+const DebugMediaQueries = dynamic(
+  () => import('@utilities/debug-media-queries'),
+  {
+    loading: () => <></>,
+  }
+);
 
 // ---------------------------------------------------------
 
 import Footer from './footer';
 import Header from './header';
-import DebugMediaQueries from '@utilities/debug-media-queries';
+import SEO from './seo';
 
 // ---------------------------------------------------------
 
-const Layout = ({ children }) => (
-  <>
-    <Head>
-      <title>Ample Next.js Starter</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+const Layout = (props) => {
+  let { children, themeColor } = props;
 
-    <Header />
-    <main>{children}</main>
-    <Footer />
+  // -------------------------------------------------------
 
-    <DebugMediaQueries />
-  </>
-);
+  return (
+    <>
+      <Head>
+        <link href="/favicon.ico" rel="icon" />
+        <meta content={themeColor} name="theme-color"></meta>
+      </Head>
+
+      <SEO />
+
+      <Header />
+      <main>{children}</main>
+      <Footer />
+
+      <DebugMediaQueries />
+    </>
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  themeColor: PropTypes.string,
+};
+
+Layout.defaultProps = {
+  themeColor: '#000000',
 };
 
 export default Layout;

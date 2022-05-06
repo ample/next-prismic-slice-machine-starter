@@ -30,8 +30,7 @@ module.exports = {
   },
   staticDirs: ['../../public'],
   stories: [
-    '../../(components|layout)**/*.stories.mdx',
-    '../../(components|layout)/**/*stories.js',
+    '../../(components|layout|slices)/**/*stories.js',
     './stories/**/*stories.js',
   ],
   webpackFinal: async (config) => {
@@ -41,10 +40,9 @@ module.exports = {
         crypto: false,
         path: require.resolve('path-browserify'),
         '@components': path.resolve(__dirname, '../../components'),
-        '@content': path.resolve(__dirname, '../../content'),
         '@layout': path.resolve(__dirname, '../../layout'),
         '@root': path.resolve(__dirname, '../../'),
-        '@styles': path.resolve(__dirname, '../../styles'),
+        '@slices': path.resolve(__dirname, '../../slices'),
         '@templates': path.resolve(__dirname, '../../templates'),
         '@utilities': path.resolve(__dirname, '../../utilities/'),
       },

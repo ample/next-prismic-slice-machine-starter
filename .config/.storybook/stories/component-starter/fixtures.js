@@ -1,5 +1,5 @@
 export default {
-  componentProps: {
+  _props: {
     nameOfProp: 'name of prop content goes here.',
   },
   themeOption: {

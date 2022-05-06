@@ -4,7 +4,6 @@
 // ----  If tests are not required for the component, remove this file.
 // ---------------------------------------------------------
 
-import React from 'react';
 import renderer from 'react-test-renderer';
 
 // ---------------------------------------------------------
