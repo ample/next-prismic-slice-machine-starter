@@ -1,6 +1,8 @@
-# Ample's NEXT.js Starter
+# Work in progress - Ample's NEXT.js starter configured with Prismic Slice Machine
 
-This starter serves as the starting point for Ample [NEXT.js](https://nextjs.org/) development projects. It has pre-configured preferences to make getting started less cumbersome. To create a new project from this template, click the green "Use this Template" button above.
+This starter serves as the starting point for Ample [NEXT.js](https://nextjs.org/) development projects that use [Prismic's Slice Machine](https://prismic.io/docs/core-concepts/slice-machine). It has pre-configured preferences to make getting started less cumbersome. To create a new project from this template, click the green "Use this Template" button above.
+
+_Ample's Next.js starter can be found [here](https://github.com/ample/next-starter-ample)._
 
 ## Prerequisite
 
@@ -12,13 +14,11 @@ curl https://get.volta.sh | bash && volta install node && volta install yarn@1
 
 ## Getting started
 
-### Development
-
 ```shell
-cd next-starter-ample
+cd next-prismic-slice-machine-starter-ample
 ```
 
-_Install node packages_
+Install node packages
 
 ```shell
 yarn
