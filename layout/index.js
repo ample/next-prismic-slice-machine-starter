@@ -27,8 +27,11 @@ const Layout = (props) => {
   return (
     <>
       <Head>
-        <link href="/favicon.ico" rel="icon" />
         <meta content={themeColor} name="theme-color"></meta>
+        <link href="/favicons/favicon-48.png" rel="icon" type="image/png" />
+        <link href="/favicons/favicon.svg" rel="icon" type="image/svg+xml" />
+        <link href="/favicons/favicon-apple-touch.png" rel="apple-touch-icon" />
+        <link href="/manifest.json" rel="manifest" />
       </Head>
 
       <SEO />
