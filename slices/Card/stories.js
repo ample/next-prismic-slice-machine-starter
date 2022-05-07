@@ -15,6 +15,9 @@ const Template = (args) => <Card {...args} />;
 
 export const _props = Template.bind({});
 _props.args = fixtures._props;
+_props.parameters = {
+  chromatic: { disableSnapshot: true },
+};
 
 export const variationDefault = Template.bind({});
 variationDefault.args = fixtures.themeDefault;

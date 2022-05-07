@@ -1,4 +1,3 @@
-import * as NextImage from 'next/image';
 import isChromatic from 'chromatic/isChromatic';
 import { setConsoleOptions } from '@storybook/addon-console';
 
@@ -54,23 +53,3 @@ export const parameters = {
     },
   },
 };
-
-// TODO: Remove once storybook-addon-next has been updated with a fix.
-// ---------------------------------------------------------
-
-const OriginalNextImage = NextImage.default;
-
-Object.defineProperty(NextImage, 'default', {
-  configurable: true,
-  value: (props) =>
-    typeof props.src === 'string' ? (
-      <OriginalNextImage {...props} unoptimized blurDataURL={props.src} />
-    ) : (
-      <OriginalNextImage {...props} unoptimized />
-    ),
-});
-
-Object.defineProperty(NextImage, '__esModule', {
-  configurable: true,
-  value: true,
-});
