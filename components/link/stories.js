@@ -5,6 +5,7 @@ import { fixtures, component as Link } from '.';
 export default {
   component: Link,
   parameters: {
+    chromatic: { disableSnapshot: true },
     docs: {
       description: {
         component:

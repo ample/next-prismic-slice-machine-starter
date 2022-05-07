@@ -26,6 +26,9 @@ const Template = (args) => <Button {...args} />;
 
 export const _props = Template.bind({});
 _props.args = fixtures._props;
+_props.parameters = {
+  chromatic: { disableSnapshot: true },
+};
 
 export const themeArrow = Template.bind({});
 themeArrow.args = fixtures.themeArrow;

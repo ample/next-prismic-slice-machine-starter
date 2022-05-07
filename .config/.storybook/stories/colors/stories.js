@@ -39,11 +39,11 @@ const Colors = () => {
 
 export default {
   title: 'Documentation/Colors',
-  chromatic: { disableSnapshot: true },
+  parameters: {
+    chromatic: { disableSnapshot: true },
+    storyshots: { disable: true },
+  },
 };
 
 export const availableColors = () => <Colors />;
 availableColors.storyName = 'Colors';
-availableColors.parameters = {
-  storyshots: { disable: true },
-};
