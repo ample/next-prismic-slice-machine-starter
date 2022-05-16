@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/LinkList Props 1`] = `
+<ul
+  className="link_list"
+>
+  <li>
+    <a
+      className=""
+      href="#"
+    >
+      Vestibulum vitae
+    </a>
+  </li>
+  <li>
+    <a
+      className=""
+      href="#"
+    >
+      Pellentesque tempor venenatis
+    </a>
+  </li>
+  <li>
+    <a
+      className=""
+      href="#"
+    >
+      Fusce molestie
+    </a>
+  </li>
+  <li>
+    <a
+      className=""
+      href="#"
+    >
+      Etiam in lacinia dolor
+    </a>
+  </li>
+</ul>
+`;
