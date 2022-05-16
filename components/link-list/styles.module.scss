@@ -1,0 +1,7 @@
+.link_list {
+  @include reset-list;
+
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
