@@ -1,12 +1,10 @@
 import { asLink } from '@prismicio/helpers';
 import { createClient, linkResolver } from '@root/prismicio';
 import { PrismicRichText } from '@prismicio/react';
-import { SliceZone } from '@prismicio/react';
 
 // ---------------------------------------------------------
 
-import Layout from '@layout/index';
-import { components } from '@slices/index';
+import FlexibleTemplate from '@templates/flexible';
 
 // ---------------------------------------------------------
 
@@ -37,10 +35,9 @@ const FlexiblePage = ({ page }) => {
   // -------------------------------------------------------
 
   return (
-    <Layout>
+    <FlexibleTemplate slices={slices}>
       <PrismicRichText field={body} />
-      <SliceZone components={components} slices={slices} />
-    </Layout>
+    </FlexibleTemplate>
   );
 };
 
