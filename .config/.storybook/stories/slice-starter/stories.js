@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 
-import ComponentName from '.'
+import SliceName from '.'
 
 // ---------------------------------------------------------
 
@@ -9,21 +9,21 @@ import fixtures from './fixtures'
 // ---------------------------------------------------------
 
 export default {
-  component: ComponentName,
+  component: SliceName,
   parameters: {
     docs: {
       description: {
         component:
-          '<div style="color: black;">**This starter component can be copied from _`.config/.storybook/stories/component-starter`_**.</div> <div>The `<ComponentName />`...add a brief description of the component or remove it.</div>',
+          '<div style="color: black;">**This starter component can be copied from _`.config/.storybook/stories/slice-starter`_**.</div> <div>The `<SliceName />`...add a brief description of the component or remove it.</div>',
       },
     },
   },
-  title: 'Documentation/Starters/Component Starter',
+  title: 'Documentation/Starters/Slice Starter',
 }
 
 // ---------------------------------------------------------
 
-const Template = (args) => <ComponentName {...args} />
+const Template = (args) => <SliceName {...args} />
 
 // ---------------------------------------------------------
 
