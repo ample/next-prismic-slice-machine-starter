@@ -1,0 +1,33 @@
+// ---------------------------------------------------------
+
+.grid {
+  display: grid;
+}
+
+// ---------------------------------------------------------
+
+.layout_is_one_half {
+  @include media($small) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.layout_is_one_third {
+  @include media($small) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include media($medium-lowest) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// ---------------------------------------------------------
+
+$gap-options: '0', '20';
+
+@each $gap in $gap-options {
+  .gap_#{$gap} {
+    gap: #{$gap}px;
+  }
+}
