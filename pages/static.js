@@ -1,6 +1,8 @@
-import Button from '@components/button';
-import Card, { fixtures } from '@slices/Card';
-import Layout from '@layout/index';
+// ---------------------------------------------------------
+
+import Button from '@components/button'
+import Card, { fixtures } from '@slices/Card'
+import Layout from '@layout/index'
 
 // ---------------------------------------------------------
 
@@ -49,6 +51,8 @@ const StaticPage = () => (
 
     <Card {...fixtures._props} />
   </Layout>
-);
+)
 
-export default StaticPage;
+// ---------------------------------------------------------
+
+export default StaticPage

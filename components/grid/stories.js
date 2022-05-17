@@ -1,26 +1,19 @@
 // ---------------------------------------------------------
 
-import { fixtures, component as Footer } from '.'
+import { fixtures, component as Grid } from '.'
 
 // ---------------------------------------------------------
 
 export default {
-  component: Footer,
-  parameters: {
-    docs: {
-      description: {
-        component: 'Global Footer Navigation with Social Nav',
-      },
-    },
-  },
-  title: 'Layout/Footer',
+  component: Grid,
+  title: 'Layout/Grid',
 }
 
 // ---------------------------------------------------------
 
-const Template = (args) => <Footer {...args} />
+const Template = (args) => <Grid {...args} />
 
 // ---------------------------------------------------------
 
 export const _props = Template.bind({})
-_props.args = { ...fixtures }
+_props.args = fixtures._props

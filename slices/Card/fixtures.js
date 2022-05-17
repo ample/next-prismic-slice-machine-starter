@@ -1,3 +1,5 @@
+// ---------------------------------------------------------
+
 const slice = {
   body: [
     {
@@ -16,7 +18,7 @@ const slice = {
   textAlignment: 'left',
   url: { link_type: 'Web', url: 'http://twitter.com' },
   variation: 'withButton',
-};
+}
 
 const buttonLabel = {
   buttonLabel: [
@@ -26,7 +28,7 @@ const buttonLabel = {
       type: 'paragraph',
     },
   ],
-};
+}
 
 // ---------------------------------------------------------
 
@@ -43,4 +45,4 @@ export default {
     ...slice,
     ...buttonLabel,
   },
-};
+}

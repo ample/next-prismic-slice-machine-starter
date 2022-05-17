@@ -1,28 +1,30 @@
-import classNames from 'classnames';
-import PropTypes from 'prop-types';
-import { PrismicLink } from '@prismicio/react';
-import { useRouter } from 'next/router';
+// ---------------------------------------------------------
+
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
+import { PrismicLink } from '@prismicio/react'
+import { useRouter } from 'next/router'
 
 // ---------------------------------------------------------
 
 const Link = (props) => {
-  let { activeClassName, ariaLabel, children, className, url } = props;
+  let { activeClassName, ariaLabel, children, className, url } = props
 
   // ---------------------------------------------------------
 
-  const currentURL = url.url ? url.url : url.uid ? url.uid : url;
+  const currentURL = url.url ? url.url : url.uid ? url.uid : url
 
   // ---------------------------------------------------------
 
-  const currentPath = useRouter().pathname === currentURL;
-  const externalUrl = currentURL.match(/^http/);
+  const currentPath = useRouter().pathname === currentURL
+  const externalUrl = currentURL.match(/^http/)
 
   // ---------------------------------------------------------
 
   const classes = classNames({
     [activeClassName]: !externalUrl && currentPath,
     [className]: className,
-  });
+  })
 
   // ---------------------------------------------------------
 
@@ -30,7 +32,7 @@ const Link = (props) => {
     <PrismicLink aria-label={ariaLabel} className={classes} href={currentURL}>
       {children}
     </PrismicLink>
-  );
+  )
 
   if (externalUrl) {
     linkComponent = (
@@ -43,11 +45,13 @@ const Link = (props) => {
       >
         {children}
       </a>
-    );
+    )
   }
 
-  return linkComponent;
-};
+  return linkComponent
+}
+
+// ---------------------------------------------------------
 
 Link.propTypes = {
   /**
@@ -69,8 +73,8 @@ Link.propTypes = {
    * Specifies where to link.
    */
   url: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
-};
+}
 
-Link.defaultProps = {};
+Link.defaultProps = {}
 
-export default Link;
+export default Link

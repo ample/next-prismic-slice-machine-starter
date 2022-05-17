@@ -1,3 +1,4 @@
+// ---------------------------------------------------------
 // The customViewports correspond to the media queries in `./utilities/debug-media-queries/styles.module.scss`.
 // ---------------------------------------------------------
 // ‘Smallest’ in Storybook has been set to 320px, given that it’s the smallest size the project is shooting for.
@@ -97,4 +98,4 @@ export const customViewports = {
       height: '80vh',
     },
   },
-};
+}

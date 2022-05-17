@@ -1,29 +1,31 @@
-import { capitalize } from 'lodash';
+// ---------------------------------------------------------
+
+import capitalize from 'lodash/capitalize'
 
 // ---------------------------------------------------------
 
-import { fixtures, component as Icon, iconOptions } from '.';
+import { fixtures, component as Icon, iconOptions } from '.'
 
 // ---------------------------------------------------------
 
 export default {
   component: Icon,
   title: 'Components/Icon',
-};
+}
 
 const Template = (args) => (
   <div style={{ width: '30px' }}>
     <Icon {...args} />
   </div>
-);
+)
 
 // --------------------------------------------------------
 
-export const _props = Template.bind({});
-_props.args = fixtures._props;
+export const _props = Template.bind({})
+_props.args = fixtures._props
 _props.parameters = {
   chromatic: { disableSnapshot: true },
-};
+}
 
 // --------------------------------------------------------
 
@@ -32,11 +34,11 @@ const iconName = {
   display: 'flex',
   marginBottom: '30px',
   width: 'calc(25% - 20px)',
-};
+}
 
 const iconType = {
   marginBottom: '10px',
-};
+}
 
 const iconTypeGroup = {
   borderTop: '1px solid var(--color-gray-5)',
@@ -45,11 +47,11 @@ const iconTypeGroup = {
   justifyContent: 'space-between',
   marginTop: '-10px',
   padding: '10px 0',
-};
+}
 
 const svg = {
   marginRight: '8px',
-};
+}
 
 // --------------------------------------------------------
 
@@ -61,7 +63,7 @@ export const icons = () =>
 
         <div style={{ ...iconTypeGroup }}>
           {icons.name.map((name, index) => {
-            let icon = `${icons.type}-${name}`;
+            let icon = `${icons.type}-${name}`
 
             return (
               <div key={index} style={{ ...iconName }}>
@@ -70,9 +72,9 @@ export const icons = () =>
                 </div>
                 <em style={{ display: 'block' }}>{icon}</em>
               </div>
-            );
+            )
           })}
         </div>
       </div>
-    );
-  });
+    )
+  })

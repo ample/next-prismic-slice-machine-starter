@@ -1,6 +1,8 @@
-import PropTypes from 'prop-types';
-import { NextSeo } from 'next-seo';
-import { useRouter } from 'next/router';
+// ---------------------------------------------------------
+
+import PropTypes from 'prop-types'
+import { NextSeo } from 'next-seo'
+import { useRouter } from 'next/router'
 
 // ---------------------------------------------------------
 
@@ -17,18 +19,18 @@ const SEO = (props) => {
     siteName,
     title,
     twitterSite,
-  } = props;
+  } = props
 
   // -------------------------------------------------------
 
-  const router = useRouter();
+  const router = useRouter()
 
   // -------------------------------------------------------
 
   const canonicalUrl = (
     process.env.NEXT_PUBLIC_SITE_URL +
     (router.asPath === '/' ? '' : router.asPath)
-  ).split('?')[0];
+  ).split('?')[0]
 
   // -------------------------------------------------------
 
@@ -61,8 +63,10 @@ const SEO = (props) => {
         }}
       />
     </>
-  );
-};
+  )
+}
+
+// ---------------------------------------------------------
 
 SEO.propTypes = {
   description: PropTypes.string,
@@ -76,11 +80,11 @@ SEO.propTypes = {
   siteName: PropTypes.string,
   title: PropTypes.string,
   twitterSite: PropTypes.string,
-};
+}
 
 SEO.defaultProps = {
   keywords: ['testing', 'testing-2', 'testing 3'],
   themeColor: '#000000',
-};
+}
 
-export default SEO;
+export default SEO

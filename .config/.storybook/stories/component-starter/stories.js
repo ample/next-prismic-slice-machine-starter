@@ -1,4 +1,6 @@
-import { component as ComponentName, fixtures } from '.';
+// ---------------------------------------------------------
+
+import { component as ComponentName, fixtures } from '.'
 
 // ---------------------------------------------------------
 
@@ -15,21 +17,23 @@ export default {
     storyshots: { disable: true },
   },
   title: 'Documentation/Component Starter',
-};
-
-const Template = (args) => <ComponentName {...args} />;
+}
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({});
-_props.args = fixtures._props;
+const Template = (args) => <ComponentName {...args} />
 
-export const themeOption = Template.bind({});
-themeOption.args = fixtures.themeOption;
+// ---------------------------------------------------------
+
+export const _props = Template.bind({})
+_props.args = fixtures._props
+
+export const themeOption = Template.bind({})
+themeOption.args = fixtures.themeOption
 themeOption.parameters = {
   docs: {
     description: {
       story: 'Optional description: this theme changes the text to orange.',
     },
   },
-};
+}

@@ -1,3 +1,5 @@
+// ---------------------------------------------------------
+
 export default {
   _props: {
     children: 'lorem ipsum',
@@ -13,4 +15,4 @@ export default {
     children: 'Internal link',
     url: '/',
   },
-};
+}

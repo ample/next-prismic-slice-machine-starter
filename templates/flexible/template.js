@@ -1,14 +1,16 @@
-import { SliceZone } from '@prismicio/react';
+// ---------------------------------------------------------
+
+import { SliceZone } from '@prismicio/react'
 
 // --------------------------------------------------------
 
-import Layout from '@layout/index';
-import { components } from '@slices/index';
+import Layout from '@layout/index'
+import { components } from '@slices/index'
 
 // ---------------------------------------------------------
 
 const FlexibleTemplate = (props) => {
-  let { children, slices } = props;
+  let { children, slices } = props
 
   // ---------------------------------------------------------
 
@@ -17,7 +19,9 @@ const FlexibleTemplate = (props) => {
       {children}
       <SliceZone components={components} slices={slices} />
     </Layout>
-  );
-};
+  )
+}
 
-export default FlexibleTemplate;
+// ---------------------------------------------------------
+
+export default FlexibleTemplate

@@ -1,10 +1,12 @@
-import PropTypes from 'prop-types';
-import { ReactSVG } from 'react-svg';
+// ---------------------------------------------------------
+
+import PropTypes from 'prop-types'
+import { ReactSVG } from 'react-svg'
 
 // ---------------------------------------------------------
 
 const Icon = (props) => {
-  let { className, name } = props;
+  let { className, name } = props
 
   return (
     <ReactSVG
@@ -12,8 +14,10 @@ const Icon = (props) => {
       src={`/icons/icon-${name}.svg`}
       wrapper="span"
     />
-  );
-};
+  )
+}
+
+// ---------------------------------------------------------
 
 Icon.propTypes = {
   /**
@@ -25,8 +29,8 @@ Icon.propTypes = {
    * Specifies the name of icon
    */
   name: PropTypes.string,
-};
+}
 
-Icon.defaultProps = {};
+Icon.defaultProps = {}
 
-export default Icon;
+export default Icon

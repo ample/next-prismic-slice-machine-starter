@@ -1,8 +1,14 @@
-import Component from './component';
-import fixtures from './fixtures';
+// ---------------------------------------------------------
 
-const Card = (props) => <Component {...props} />;
+import Component from './component'
+import fixtures from './fixtures'
 
-export default Card;
+// ---------------------------------------------------------
 
-export { Component as component, fixtures };
+const Card = (props) => <Component {...props} />
+
+export default Card
+
+// ---------------------------------------------------------
+
+export { Component as component, fixtures }

@@ -1,3 +1,5 @@
+// ---------------------------------------------------------
+
 const icons = [
   {
     name: ['check', 'bars'],
@@ -13,6 +15,8 @@ const icons = [
   },
   { name: ['facebook', 'instagram', 'linkedin', 'twitter'], type: 'social' },
   { name: ['account'], type: 'general' },
-];
+]
 
-export default icons;
+// ---------------------------------------------------------
+
+export default icons

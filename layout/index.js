@@ -1,6 +1,8 @@
-import dynamic from 'next/dynamic';
-import Head from 'next/head';
-import PropTypes from 'prop-types';
+// ---------------------------------------------------------
+
+import dynamic from 'next/dynamic'
+import Head from 'next/head'
+import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
 
@@ -9,18 +11,18 @@ const DebugMediaQueries = dynamic(
   {
     loading: () => <></>,
   }
-);
+)
 
 // ---------------------------------------------------------
 
-import Footer from './footer';
-import Header from './header';
-import SEO from './seo';
+import Footer from './footer'
+import Header from './header'
+import SEO from './seo'
 
 // ---------------------------------------------------------
 
 const Layout = (props) => {
-  let { children, themeColor } = props;
+  let { children, themeColor } = props
 
   // -------------------------------------------------------
 
@@ -42,16 +44,18 @@ const Layout = (props) => {
 
       <DebugMediaQueries />
     </>
-  );
-};
+  )
+}
+
+// ---------------------------------------------------------
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   themeColor: PropTypes.string,
-};
+}
 
 Layout.defaultProps = {
   themeColor: '#000000',
-};
+}
 
-export default Layout;
+export default Layout

@@ -1,29 +1,31 @@
-import NextImage from 'next/image';
-import path from 'path';
-import PropTypes from 'prop-types';
-import { startCase } from 'lodash';
+// ---------------------------------------------------------
+
+import NextImage from 'next/image'
+import path from 'path'
+import PropTypes from 'prop-types'
+import startCase from 'lodash/startCase'
 
 // ---------------------------------------------------------
 
-import Link from '@components/link';
-import SVG from './svgs';
+import Link from '@components/link'
+import SVG from './svgs'
 
 // ---------------------------------------------------------
 
 export const defaultAltAttribute = (image) => {
-  const filename = path.basename(image, path.extname(image));
-  return startCase(filename);
-};
+  const filename = path.basename(image, path.extname(image))
+  return startCase(filename)
+}
 
 export const imageExtension = (image) => {
-  const extension = path.extname(image);
-  return extension;
-};
+  const extension = path.extname(image)
+  return extension
+}
 
 // ---------------------------------------------------------
 
 const Image = (props) => {
-  if (!props.src) return null;
+  if (!props.src) return null
 
   // -------------------------------------------------------
 
@@ -40,18 +42,18 @@ const Image = (props) => {
     src,
     url,
     width,
-  } = props;
+  } = props
 
   // -------------------------------------------------------
 
-  const isSVG = imageExtension(src) === '.svg';
+  const isSVG = imageExtension(src) === '.svg'
 
   // -------------------------------------------------------
 
-  let image;
+  let image
 
   if (isSVG) {
-    image = <SVG className={className} src={src} />;
+    image = <SVG className={className} src={src} />
   } else {
     image = (
       <div className={className}>
@@ -69,21 +71,21 @@ const Image = (props) => {
           width={width}
         />
       </div>
-    );
+    )
   }
 
   // ---------------------------------------------------------
 
-  let imageComponent;
+  let imageComponent
 
   if (url) {
-    imageComponent = <Link url={url}>{image}</Link>;
+    imageComponent = <Link url={url}>{image}</Link>
   } else {
-    imageComponent = image;
+    imageComponent = image
   }
 
-  return <>{imageComponent}</>;
-};
+  return <>{imageComponent}</>
+}
 
 Image.propTypes = {
   /**
@@ -151,8 +153,8 @@ Image.propTypes = {
    * Specifies the width of the image.
    */
   width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-};
+}
 
-Image.defaultProps = {};
+Image.defaultProps = {}
 
-export default Image;
+export default Image

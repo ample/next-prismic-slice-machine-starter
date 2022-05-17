@@ -1,4 +1,6 @@
-const path = require('path');
+// ---------------------------------------------------------
+
+const path = require('path')
 
 // ---------------------------------------------------------
 
@@ -46,8 +48,8 @@ module.exports = {
         '@templates': path.resolve(__dirname, '../../templates'),
         '@utilities': path.resolve(__dirname, '../../utilities/'),
       },
-    };
+    }
 
-    return config;
+    return config
   },
-};
+}

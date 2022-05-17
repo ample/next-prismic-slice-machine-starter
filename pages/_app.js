@@ -1,13 +1,15 @@
-import Link from 'next/link';
-import { linkResolver, repositoryName } from '../prismicio';
-import { PrismicPreview } from '@prismicio/next';
-import { PrismicProvider } from '@prismicio/react';
+// ---------------------------------------------------------
+
+import Link from 'next/link'
+import { linkResolver, repositoryName } from '../prismicio'
+import { PrismicPreview } from '@prismicio/next'
+import { PrismicProvider } from '@prismicio/react'
 
 // ---------------------------------------------------------
 
-import '../styles/libs/sanitize.scss';
+import '../styles/libs/sanitize.scss'
 // eslint-disable-next-line sort-imports-es6-autofix/sort-imports-es6
-import '../styles/global-styles.scss';
+import '../styles/global-styles.scss'
 
 // ---------------------------------------------------------
 
@@ -24,6 +26,6 @@ const App = ({ Component, pageProps }) => (
       <Component {...pageProps} />
     </PrismicPreview>
   </PrismicProvider>
-);
+)
 
-export default App;
+export default App

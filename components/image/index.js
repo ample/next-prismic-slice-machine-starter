@@ -1,6 +1,12 @@
-import component from './component';
-import fixtures from './fixtures';
+// ---------------------------------------------------------
 
-export default component;
+import component from './component'
+import fixtures from './fixtures'
 
-export { component, fixtures };
+// ---------------------------------------------------------
+
+export default component
+
+// ---------------------------------------------------------
+
+export { component, fixtures }

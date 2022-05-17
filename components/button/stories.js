@@ -1,4 +1,6 @@
-import { component as Button, fixtures } from '.';
+// ---------------------------------------------------------
+
+import { component as Button, fixtures } from '.'
 
 // ---------------------------------------------------------
 
@@ -18,29 +20,31 @@ export default {
     },
   },
   title: 'Components/Button',
-};
-
-const Template = (args) => <Button {...args} />;
+}
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({});
-_props.args = fixtures._props;
+const Template = (args) => <Button {...args} />
+
+// ---------------------------------------------------------
+
+export const _props = Template.bind({})
+_props.args = fixtures._props
 _props.parameters = {
   chromatic: { disableSnapshot: true },
-};
+}
 
-export const themeArrow = Template.bind({});
-themeArrow.args = fixtures.themeArrow;
+export const themeArrow = Template.bind({})
+themeArrow.args = fixtures.themeArrow
 
-export const themeDefault = Template.bind({});
-themeDefault.args = fixtures.themeDefault;
+export const themeDefault = Template.bind({})
+themeDefault.args = fixtures.themeDefault
 
-export const themeOutline = Template.bind({});
-themeOutline.args = fixtures.themeOutline;
+export const themeOutline = Template.bind({})
+themeOutline.args = fixtures.themeOutline
 
-export const withButtonElement = Template.bind({});
-withButtonElement.args = fixtures.withButtonElement;
+export const withButtonElement = Template.bind({})
+withButtonElement.args = fixtures.withButtonElement
 
-export const withButtonElementDisabled = Template.bind({});
-withButtonElementDisabled.args = fixtures.withButtonElementDisabled;
+export const withButtonElementDisabled = Template.bind({})
+withButtonElementDisabled.args = fixtures.withButtonElementDisabled
