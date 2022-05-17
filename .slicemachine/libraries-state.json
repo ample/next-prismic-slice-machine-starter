@@ -227,7 +227,97 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/jeff/Projects/ample/next-prismic-slice-machine-starter/.slicemachine/assets/slices/Card/default/preview.png",
+            "width": 800,
+            "height": 534
+          },
+          "withButton": {
+            "path": "/Users/jeff/Projects/ample/next-prismic-slice-machine-starter/.slicemachine/assets/slices/Card/withButton/preview.png",
+            "width": 800,
+            "height": 750
+          }
+        }
+      },
+      "jumbotron": {
+        "library": "slices",
+        "id": "jumbotron",
+        "name": "Jumbotron",
+        "description": "Jumbotron",
+        "model": {
+          "id": "jumbotron",
+          "type": "SharedSlice",
+          "name": "Jumbotron",
+          "description": "Jumbotron",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Jumbotron",
+              "primary": {
+                "body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Body",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "multi": "heading1,paragraph,em,strong"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "jumbotron",
+            "items": [],
+            "primary": {
+              "body": [
+                {
+                  "type": "paragraph",
+                  "text": "Laborum mollit sunt labore labore deserunt nisi consectetur deserunt fugiat sint. Sit do laboris duis dolor adipisicing qui fugiat.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/jeff/Projects/ample/next-prismic-slice-machine-starter/.slicemachine/assets/slices/Jumbotron/default/preview.png",
+            "width": 800,
+            "height": 444
+          }
+        }
       }
     }
   }
