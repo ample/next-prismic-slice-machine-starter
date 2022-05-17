@@ -9,7 +9,7 @@ import renderer from 'react-test-renderer'
 
 // ---------------------------------------------------------
 
-import ComponentName from '.'
+import SliceName from '.'
 
 // ---------------------------------------------------------
 
@@ -17,11 +17,9 @@ import fixtures from './fixtures'
 
 // ---------------------------------------------------------
 
-describe('ComponentName', () => {
+describe('SliceName', () => {
   it('FPO snapshot', () => {
-    const tree = renderer
-      .create(<ComponentName {...fixtures._props} />)
-      .toJSON()
+    const tree = renderer.create(<SliceName {...fixtures._props} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

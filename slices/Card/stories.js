@@ -1,8 +1,12 @@
 // ---------------------------------------------------------
 
-import { component as Card, fixtures } from '.'
+import Card from '.'
 
 // ---------------------------------------------------------
+
+import fixtures from './fixtures'
+
+// ----------------------------------------------------------------------
 
 export default {
   component: Card,

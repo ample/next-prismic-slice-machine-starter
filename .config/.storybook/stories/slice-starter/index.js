@@ -9,7 +9,7 @@ import Link from '@components/link'
 
 // ---------------------------------------------------------
 
-import { component_name, theme_type } from './styles.module.scss'
+import { slice_name, theme_type } from './styles.module.scss'
 
 const themeOptions = {
   'theme-option': theme_type,
@@ -17,12 +17,12 @@ const themeOptions = {
 
 // ---------------------------------------------------------
 
-const ComponentName = (props) => {
+const SliceName = (props) => {
   let { className, nameOfProp, theme } = props
 
   // -------------------------------------------------------
 
-  const classes = classNames(component_name, {
+  const classes = classNames(slice_name, {
     [className]: className,
     [themeOptions[theme]]: themeOptions[theme],
   })
@@ -38,7 +38,7 @@ const ComponentName = (props) => {
 
 // ---------------------------------------------------------
 
-ComponentName.propTypes = {
+SliceName.propTypes = {
   /**
    * Specifies a brief description of the "nameOfProp"
    */
@@ -50,6 +50,6 @@ ComponentName.propTypes = {
   theme: PropTypes.oneOf(Object.keys(themeOptions)),
 }
 
-ComponentName.defaultProps = {}
+SliceName.defaultProps = {}
 
-export default ComponentName
+export default SliceName

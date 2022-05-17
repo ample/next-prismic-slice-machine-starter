@@ -1,0 +1,20 @@
+// ---------------------------------------------------------
+
+.jumbotron {
+  display: grid;
+  max-height: 800px;
+  overflow: hidden;
+
+  > * {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    position: relative;
+  }
+}
+
+// ---------------------------------------------------------
+
+.jumbotron_content {
+  color: var(--color-white);
+  padding: 40px;
+}

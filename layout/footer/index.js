@@ -1,12 +1,33 @@
 // ---------------------------------------------------------
 
-import component from './component'
-import fixtures from './fixtures'
+import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
 
-export default component
+import { footer } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
-export { component, fixtures }
+const Footer = (props) => {
+  let { heading } = props
+
+  return (
+    <footer className={footer}>
+      <hr />
+      {heading}
+    </footer>
+  )
+}
+
+// ---------------------------------------------------------
+
+Footer.propTypes = {
+  /**
+   * Specifies the heading
+   */
+  heading: PropTypes.string,
+}
+
+Footer.defaultProps = {}
+
+export default Footer
