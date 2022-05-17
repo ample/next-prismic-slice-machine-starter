@@ -1,12 +1,14 @@
-import classNames from 'classnames';
-import PropTypes from 'prop-types';
-import { PrismicRichText } from '@prismicio/react';
+// ---------------------------------------------------------
+
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
+import { PrismicRichText } from '@prismicio/react'
 
 // ---------------------------------------------------------
 
-import Button from '@components/button';
-import Image from '@components/image';
-import Link from '@components/link';
+import Button from '@components/button'
+import Image from '@components/image'
+import Link from '@components/link'
 
 // ---------------------------------------------------------
 
@@ -19,36 +21,36 @@ import {
   text_alignment_right,
   theme_default,
   theme_with_button,
-} from './styles.module.scss';
+} from './styles.module.scss'
 
 const alignmentOptions = {
   center: text_alignment_center,
   left: text_alignment_left,
   right: text_alignment_right,
-};
+}
 
 const variationOptions = {
   default: theme_default,
   withButton: theme_with_button,
-};
+}
 
 // ---------------------------------------------------------
 
 const Card = (props) => {
-  let slice = props.slice ? props.slice.primary : props;
-  let { body, buttonLabel, heading, image, textAlignment, url } = slice;
+  let slice = props.slice ? props.slice.primary : props
+  let { body, buttonLabel, heading, image, textAlignment, url } = slice
 
   // -------------------------------------------------------
 
-  let variation = props.slice ? props.slice.variation : props.variation;
-  let button = buttonLabel ? buttonLabel[0].text : undefined;
+  let variation = props.slice ? props.slice.variation : props.variation
+  let button = buttonLabel ? buttonLabel[0].text : undefined
 
   // -------------------------------------------------------
 
   const classes = classNames(card, {
     [alignmentOptions[textAlignment]]: alignmentOptions[textAlignment],
     [variationOptions[variation]]: variationOptions[variation],
-  });
+  })
 
   // -------------------------------------------------------
 
@@ -70,22 +72,24 @@ const Card = (props) => {
         {buttonLabel && <Button>{button}</Button>}
       </div>
     </>
-  );
+  )
 
   // -------------------------------------------------------
 
-  let cardComponent = <div className={classes}>{cardContents}</div>;
+  let cardComponent = <div className={classes}>{cardContents}</div>
 
   if (url) {
     cardComponent = (
       <Link className={classes} url={url}>
         {cardContents}
       </Link>
-    );
+    )
   }
 
-  return cardComponent;
-};
+  return cardComponent
+}
+
+// ---------------------------------------------------------
 
 Card.propTypes = {
   /**
@@ -122,11 +126,11 @@ Card.propTypes = {
    * Specifies the theme variation.
    */
   variation: PropTypes.oneOf(Object.keys(variationOptions)),
-};
+}
 
 Card.defaultProps = {
   textAlignment: 'left',
   url: null,
-};
+}
 
-export default Card;
+export default Card

@@ -43,41 +43,39 @@
 
 // ---------------------------------------------------------
 
-.theme {
-  &_default {
-    @include default-button;
+.theme_default {
+  @include default-button;
+}
+
+// ------------------------------------------------------
+
+.theme_arrow {
+  color: var(--color-blueprint);
+  position: relative;
+
+  svg {
+    fill: currentColor;
+    height: 10px;
+    margin-left: 6px;
+    width: 12px;
   }
 
-  // ------------------------------------------------------
-
-  &_arrow {
-    color: var(--color-blueprint);
-    position: relative;
-
-    svg {
-      fill: currentColor;
-      height: 10px;
-      margin-left: 6px;
-      width: 12px;
-    }
-
-    @include hover {
-      color: var(--color-blueprint-bright);
-    }
+  @include hover {
+    color: var(--color-blueprint-bright);
   }
+}
 
-  // ------------------------------------------------------
+// ------------------------------------------------------
 
-  &_outline {
-    @include default-button;
+.theme_outline {
+  @include default-button;
 
-    background-color: var(--color-white);
-    border-color: var(--color-blueprint);
-    color: var(--color-blueprint);
+  background-color: var(--color-white);
+  border-color: var(--color-blueprint);
+  color: var(--color-blueprint);
 
-    @include hover {
-      background-color: var(--color-blueprint-light);
-      color: var(--color-white);
-    }
+  @include hover {
+    background-color: var(--color-blueprint-light);
+    color: var(--color-white);
   }
 }

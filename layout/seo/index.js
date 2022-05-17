@@ -1,5 +1,11 @@
-import component from './component';
+// ---------------------------------------------------------
 
-export default component;
+import component from './component'
 
-export { component };
+// ---------------------------------------------------------
+
+export default component
+
+// ---------------------------------------------------------
+
+export { component }

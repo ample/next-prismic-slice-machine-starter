@@ -1,19 +1,23 @@
-import PropTypes from 'prop-types';
-import { ReactSVG } from 'react-svg';
+// ---------------------------------------------------------
+
+import PropTypes from 'prop-types'
+import { ReactSVG } from 'react-svg'
 
 // ---------------------------------------------------------
 
 const SVGs = ({ className, src }) => {
-  return <ReactSVG className={className} src={src} wrapper="span" />;
-};
+  return <ReactSVG className={className} src={src} wrapper="span" />
+}
+
+// ---------------------------------------------------------
 
 SVGs.propTypes = {
   /**
    * Specifies the SVG src
    */
   src: PropTypes.string,
-};
+}
 
-SVGs.defaultProps = {};
+SVGs.defaultProps = {}
 
-export default SVGs;
+export default SVGs

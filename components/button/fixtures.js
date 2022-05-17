@@ -1,8 +1,10 @@
+// ---------------------------------------------------------
+
 const buttonProps = {
   children: 'Call to action',
   theme: 'arrow',
   url: '#',
-};
+}
 
 // ---------------------------------------------------------
 
@@ -34,4 +36,4 @@ export default {
     type: 'button',
     url: null,
   },
-};
+}

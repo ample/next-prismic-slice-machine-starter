@@ -1,3 +1,5 @@
+// ---------------------------------------------------------
+
 export default {
   _props: {
     links: [
@@ -7,4 +9,4 @@ export default {
       { label: 'Etiam in lacinia dolor', url: '#' },
     ],
   },
-};
+}

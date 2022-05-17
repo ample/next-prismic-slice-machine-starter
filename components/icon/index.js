@@ -1,14 +1,18 @@
-import Component from './component';
-import fixtures from './fixtures';
+// ---------------------------------------------------------
+
+import Component from './component'
+import fixtures from './fixtures'
 
 // ---------------------------------------------------------
 
-import iconOptions from './icons';
+import iconOptions from './icons'
 
 // ---------------------------------------------------------
 
-const Icon = (props) => <Component {...props} />;
+const Icon = (props) => <Component {...props} />
 
-export default Icon;
+export default Icon
 
-export { Component as component, fixtures, iconOptions };
+// ---------------------------------------------------------
+
+export { Component as component, fixtures, iconOptions }

@@ -1,7 +1,7 @@
 // ---------------------------------------------------------
 
-import classNames from 'classnames';
-import PropTypes from 'prop-types';
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
 
@@ -11,31 +11,31 @@ import {
   grid,
   layout_is_one_half,
   layout_is_one_third,
-} from './styles.module.scss';
+} from './styles.module.scss'
 
 // ---------------------------------------------------------
 
 const gapOptions = {
   0: gap_0,
   20: gap_20,
-};
+}
 
 const layoutOptions = {
   '1/2': layout_is_one_half,
   '1/3': layout_is_one_third,
   2: layout_is_one_half,
   3: layout_is_one_third,
-};
+}
 
 // ---------------------------------------------------------
 
 const Grid = (props) => {
-  let { children, className, gap, layout } = props;
+  let { children, className, gap, layout } = props
 
   // -------------------------------------------------------
 
   if (!layout) {
-    layout = (children || []).length;
+    layout = (children || []).length
   }
 
   // -------------------------------------------------------
@@ -44,12 +44,12 @@ const Grid = (props) => {
     [className]: className,
     [gapOptions[gap]]: gapOptions[gap],
     [layoutOptions[layout]]: layoutOptions[layout],
-  });
+  })
 
   // -------------------------------------------------------
 
-  return <div className={classes}>{children}</div>;
-};
+  return <div className={classes}>{children}</div>
+}
 
 // ---------------------------------------------------------
 
@@ -68,10 +68,10 @@ Grid.propTypes = {
    * Specifies the width of each child in the grid on larger screens.
    */
   layout: PropTypes.oneOf(Object.keys(layoutOptions)),
-};
+}
 
 Grid.defaultProps = {
   gap: 10,
-};
+}
 
-export default Grid;
+export default Grid

@@ -1,11 +1,13 @@
-import { NextSeo } from 'next-seo';
-import { SliceSimulator } from '@prismicio/slice-simulator-react';
-import { SliceZone } from '@prismicio/react';
+// ---------------------------------------------------------
+
+import { NextSeo } from 'next-seo'
+import { SliceSimulator } from '@prismicio/slice-simulator-react'
+import { SliceZone } from '@prismicio/react'
 
 // ---------------------------------------------------------
 
-import state from '../.slicemachine/libraries-state.json';
-import { components } from '@slices/index';
+import state from '../.slicemachine/libraries-state.json'
+import { components } from '@slices/index'
 
 // ---------------------------------------------------------
 
@@ -21,7 +23,9 @@ const SliceSimulatorPage = () => {
         state={state}
       />
     </>
-  );
-};
+  )
+}
 
-export default SliceSimulatorPage;
+// ---------------------------------------------------------
+
+export default SliceSimulatorPage

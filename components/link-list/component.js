@@ -1,24 +1,26 @@
-import classNames from 'classnames';
-import PropTypes from 'prop-types';
+// ---------------------------------------------------------
+
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
 
-import Link from '@components/link';
+import Link from '@components/link'
 
 // ---------------------------------------------------------
 
-import { link_list } from './styles.module.scss';
+import { link_list } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
 const LinkList = (props) => {
-  let { activeClassName, className, links = [] } = props;
+  let { activeClassName, className, links = [] } = props
 
   // -------------------------------------------------------
 
   const classes = classNames(link_list, {
     [className]: className,
-  });
+  })
 
   // -------------------------------------------------------
 
@@ -36,20 +38,22 @@ const LinkList = (props) => {
               {item.label}
             </Link>
           </li>
-        );
+        )
       })}
     </ul>
-  );
-};
+  )
+}
+
+// ---------------------------------------------------------
 
 LinkList.propTypes = {
   /**
-   * Specifies an active class name
+   * Specifies an active class.
    */
   activeClassName: PropTypes.string,
 
   /**
-   * An array of links
+   * Specifies an array of links.
    */
   links: PropTypes.arrayOf(
     PropTypes.shape({
@@ -59,8 +63,8 @@ LinkList.propTypes = {
       url: PropTypes.string,
     })
   ),
-};
+}
 
-LinkList.defaultProps = {};
+LinkList.defaultProps = {}
 
-export default LinkList;
+export default LinkList

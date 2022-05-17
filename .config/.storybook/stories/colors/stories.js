@@ -1,12 +1,14 @@
-import colors from './colors.json';
+// ---------------------------------------------------------
+
+import colors from './colors.json'
 
 // ---------------------------------------------------------
 
-import { colors_container, color } from './styles.module.scss';
+import { colors_container, color } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
-const colorVariables = colors.variables[0].mapValue;
+const colorVariables = colors.variables[0].mapValue
 
 // ---------------------------------------------------------
 
@@ -29,11 +31,11 @@ const Colors = () => {
               </span>
             </div>
           </div>
-        );
+        )
       })}
     </div>
-  );
-};
+  )
+}
 
 // ---------------------------------------------------------
 
@@ -43,7 +45,7 @@ export default {
     chromatic: { disableSnapshot: true },
     storyshots: { disable: true },
   },
-};
+}
 
-export const availableColors = () => <Colors />;
-availableColors.storyName = 'Colors';
+export const availableColors = () => <Colors />
+availableColors.storyName = 'Colors'

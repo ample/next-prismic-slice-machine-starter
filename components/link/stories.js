@@ -1,4 +1,6 @@
-import { fixtures, component as Link } from '.';
+// ---------------------------------------------------------
+
+import { fixtures, component as Link } from '.'
 
 // ---------------------------------------------------------
 
@@ -14,24 +16,24 @@ export default {
     },
   },
   title: 'Components/Link',
-};
+}
 
-const Template = (args) => <Link {...args} />;
+const Template = (args) => <Link {...args} />
 
 // ---------------------------------------------------------
 
-export const _Props = Template.bind({});
-_Props.args = { ...fixtures._props };
+export const _Props = Template.bind({})
+_Props.args = { ...fixtures._props }
 
-export const external = Template.bind({});
-external.args = { ...fixtures.external };
+export const external = Template.bind({})
+external.args = { ...fixtures.external }
 external.parameters = {
   docs: {
     description: {
       story: 'Links that start with `https://` will open in new tab.',
     },
   },
-};
+}
 
-export const internal = Template.bind({});
-internal.args = { ...fixtures.internal };
+export const internal = Template.bind({})
+internal.args = { ...fixtures.internal }

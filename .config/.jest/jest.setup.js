@@ -1,3 +1,5 @@
+// ---------------------------------------------------------
+
 const mockedUseRouter = {
   asPath: '/',
   back: jest.fn(),
@@ -11,9 +13,9 @@ const mockedUseRouter = {
   push: jest.fn(),
   query: {},
   replace: jest.fn(),
-};
+}
 
 jest.mock('next/dist/client/router', () => ({
   __esModule: true,
   useRouter: () => mockedUseRouter,
-}));
+}))

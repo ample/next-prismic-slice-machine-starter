@@ -1,4 +1,6 @@
-const path = require('path');
+// ---------------------------------------------------------
+
+const path = require('path')
 
 // ---------------------------------------------------------
 
@@ -31,4 +33,4 @@ module.exports = {
     prependData: `@use 'global' as *;`,
   },
   swcMinify: true,
-};
+}

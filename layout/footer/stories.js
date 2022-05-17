@@ -1,4 +1,6 @@
-import { fixtures, component as Footer } from '.';
+// ---------------------------------------------------------
+
+import { fixtures, component as Footer } from '.'
 
 // ---------------------------------------------------------
 
@@ -12,13 +14,13 @@ export default {
     },
   },
   title: 'Layout/Footer',
-};
+}
 
 // ---------------------------------------------------------
 
-const Template = (args) => <Footer {...args} />;
+const Template = (args) => <Footer {...args} />
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({});
-_props.args = { ...fixtures };
+export const _props = Template.bind({})
+_props.args = { ...fixtures }

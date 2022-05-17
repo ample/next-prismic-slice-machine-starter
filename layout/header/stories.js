@@ -1,4 +1,6 @@
-import { fixtures, component as Header } from '.';
+// ---------------------------------------------------------
+
+import { fixtures, component as Header } from '.'
 
 // ---------------------------------------------------------
 
@@ -12,13 +14,13 @@ export default {
     },
   },
   title: 'Layout/Header',
-};
+}
 
 // ---------------------------------------------------------
 
-const Template = (args) => <Header {...args} />;
+const Template = (args) => <Header {...args} />
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({});
-_props.args = { ...fixtures };
+export const _props = Template.bind({})
+_props.args = { ...fixtures }

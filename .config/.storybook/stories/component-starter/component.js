@@ -1,29 +1,31 @@
-import classNames from 'classnames';
-import PropTypes from 'prop-types';
+// ---------------------------------------------------------
+
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
 
-import Link from '@components/link';
+import Link from '@components/link'
 
 // ---------------------------------------------------------
 
-import { component_name, theme_type } from './styles.module.scss';
+import { component_name, theme_type } from './styles.module.scss'
 
 const themeOptions = {
   'theme-option': theme_type,
-};
+}
 
 // ---------------------------------------------------------
 
 const ComponentName = (props) => {
-  let { className, nameOfProp, theme } = props;
+  let { className, nameOfProp, theme } = props
 
   // -------------------------------------------------------
 
   const classes = classNames(component_name, {
     [className]: className,
     [themeOptions[theme]]: themeOptions[theme],
-  });
+  })
 
   // -------------------------------------------------------
 
@@ -31,8 +33,8 @@ const ComponentName = (props) => {
     <Link className={classes} url="url">
       <h2>{nameOfProp}</h2>
     </Link>
-  );
-};
+  )
+}
 
 // ---------------------------------------------------------
 
@@ -46,8 +48,8 @@ ComponentName.propTypes = {
    * Specifies the theme.
    */
   theme: PropTypes.oneOf(Object.keys(themeOptions)),
-};
+}
 
-ComponentName.defaultProps = {};
+ComponentName.defaultProps = {}
 
-export default ComponentName;
+export default ComponentName

@@ -1,3 +1,5 @@
+// ---------------------------------------------------------
+
 export default {
   _props: {
     nameOfProp: 'name of prop content goes here.',
@@ -6,4 +8,4 @@ export default {
     nameOfProp: 'name of prop content goes here.',
     theme: 'theme-option',
   },
-};
+}

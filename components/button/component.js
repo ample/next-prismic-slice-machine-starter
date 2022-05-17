@@ -1,10 +1,12 @@
-import classNames from 'classnames';
-import PropTypes from 'prop-types';
+// ---------------------------------------------------------
+
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
 
-import Icon from '@components/icon';
-import Link from '@components/link';
+import Icon from '@components/icon'
+import Link from '@components/link'
 
 // ---------------------------------------------------------
 
@@ -13,26 +15,26 @@ import {
   theme_arrow,
   theme_default,
   theme_outline,
-} from './styles.module.scss';
+} from './styles.module.scss'
 
 const themeOptions = {
   arrow: theme_arrow,
   default: theme_default,
   outline: theme_outline,
-};
+}
 
 // ---------------------------------------------------------
 
 const Button = (props) => {
   let { children, className, disabled, onClick, theme, title, type, url } =
-    props;
+    props
 
   // -------------------------------------------------------
 
   const classes = classNames(button, {
     [className]: className,
     [themeOptions[theme]]: themeOptions[theme],
-  });
+  })
 
   // -------------------------------------------------------
 
@@ -41,7 +43,7 @@ const Button = (props) => {
       {children}
       {theme === 'arrow' && <Icon name="arrow-right" />}
     </>
-  );
+  )
 
   let buttonComponent = (
     <button
@@ -53,18 +55,18 @@ const Button = (props) => {
     >
       {buttonContents}
     </button>
-  );
+  )
 
   if (url) {
     buttonComponent = (
       <Link className={classes} title={title} url={url}>
         {buttonContents}
       </Link>
-    );
+    )
   }
 
-  return buttonComponent;
-};
+  return buttonComponent
+}
 
 // ---------------------------------------------------------
 
@@ -103,10 +105,10 @@ Button.propTypes = {
    * Specifies where to link.
    */
   url: PropTypes.string,
-};
+}
 
 Button.defaultProps = {
   theme: 'default',
-};
+}
 
-export default Button;
+export default Button

@@ -1,5 +1,11 @@
-import template from './template';
+// ---------------------------------------------------------
 
-export default template;
+import template from './template'
 
-export { template };
+// ---------------------------------------------------------
+
+export default template
+
+// ---------------------------------------------------------
+
+export { template }

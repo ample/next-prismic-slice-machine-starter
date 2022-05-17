@@ -8,7 +8,7 @@ const child = (
       dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
     </p>
   </div>
-);
+)
 
 // ---------------------------------------------------------
 
@@ -28,4 +28,4 @@ export default {
     gap: '20',
     layout: '1/2',
   },
-};
+}
