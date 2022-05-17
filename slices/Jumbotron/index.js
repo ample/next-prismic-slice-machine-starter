@@ -25,6 +25,7 @@ const Jumbotron = (props) => {
           layout="responsive"
           src={image.url}
           {...image.dimensions}
+          priority
         />
       )}
 
