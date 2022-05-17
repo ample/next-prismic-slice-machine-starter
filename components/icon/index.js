@@ -1,18 +1,36 @@
 // ---------------------------------------------------------
 
-import Component from './component'
-import fixtures from './fixtures'
+import PropTypes from 'prop-types'
+import { ReactSVG } from 'react-svg'
 
 // ---------------------------------------------------------
 
-import iconOptions from './icons'
+const Icon = (props) => {
+  let { className, name } = props
+
+  return (
+    <ReactSVG
+      className={className}
+      src={`/icons/icon-${name}.svg`}
+      wrapper="span"
+    />
+  )
+}
 
 // ---------------------------------------------------------
 
-const Icon = (props) => <Component {...props} />
+Icon.propTypes = {
+  /**
+   * Specifies a CSS class on the wrapping element of the SVG.
+   */
+  className: PropTypes.string,
+
+  /**
+   * Specifies the name of icon
+   */
+  name: PropTypes.string,
+}
+
+Icon.defaultProps = {}
 
 export default Icon
-
-// ---------------------------------------------------------
-
-export { Component as component, fixtures, iconOptions }

@@ -4,7 +4,12 @@ import capitalize from 'lodash/capitalize'
 
 // ---------------------------------------------------------
 
-import { fixtures, component as Icon, iconOptions } from '.'
+import Icon from '.'
+
+// ---------------------------------------------------------
+
+import fixtures from './fixtures'
+import iconOptions from './icons'
 
 // ---------------------------------------------------------
 
