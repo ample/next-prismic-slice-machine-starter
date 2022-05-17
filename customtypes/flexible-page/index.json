@@ -28,6 +28,9 @@
           "choices": {
             "card": {
               "type": "SharedSlice"
+            },
+            "jumbotron": {
+              "type": "SharedSlice"
             }
           }
         }
