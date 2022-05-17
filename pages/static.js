@@ -1,8 +1,12 @@
 // ---------------------------------------------------------
 
 import Button from '@components/button'
-import Card, { fixtures } from '@slices/Card'
+import Card from '@slices/Card'
 import Layout from '@layout/index'
+
+// ---------------------------------------------------------
+
+import fixtures from '@slices/Card/fixtures'
 
 // ---------------------------------------------------------
 
