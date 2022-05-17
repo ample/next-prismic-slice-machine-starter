@@ -17,12 +17,15 @@ export default {
     children: [
       {
         ...child,
+        key: 1,
       },
       {
         ...child,
+        key: 2,
       },
       {
         ...child,
+        key: 3,
       },
     ],
     gap: '20',
