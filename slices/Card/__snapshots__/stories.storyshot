@@ -1,11 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Slices/Card Props 1`] = `
-<a
+<div
   className="card text_alignment_left theme_with_button"
-  href="http://twitter.com"
-  rel="noreferrer"
-  target="_blank"
 >
   <div
     className="card_image"
@@ -125,15 +122,12 @@ exports[`Storyshots Slices/Card Props 1`] = `
       Et excepteur et est et velit est magna id ad id.
     </button>
   </div>
-</a>
+</div>
 `;
 
 exports[`Storyshots Slices/Card Variation Default 1`] = `
-<a
+<div
   className="card text_alignment_left theme_default"
-  href="http://twitter.com"
-  rel="noreferrer"
-  target="_blank"
 >
   <div
     className="card_image"
@@ -248,15 +242,12 @@ exports[`Storyshots Slices/Card Variation Default 1`] = `
       Est proident adipisicing reprehenderit in occaecat non. Aute enim minim labore nisi ullamco enim sint Lorem excepteur exercitation anim tempor ad minim ut. Sunt enim aliqua elit occaecat.
     </p>
   </div>
-</a>
+</div>
 `;
 
 exports[`Storyshots Slices/Card Variation With Button 1`] = `
-<a
+<div
   className="card text_alignment_left theme_with_button"
-  href="http://twitter.com"
-  rel="noreferrer"
-  target="_blank"
 >
   <div
     className="card_image"
@@ -376,5 +367,5 @@ exports[`Storyshots Slices/Card Variation With Button 1`] = `
       Et excepteur et est et velit est magna id ad id.
     </button>
   </div>
-</a>
+</div>
 `;
