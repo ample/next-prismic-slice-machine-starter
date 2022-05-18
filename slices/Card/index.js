@@ -78,7 +78,7 @@ const Card = (props) => {
 
   let cardComponent = <div className={classes}>{cardContents}</div>
 
-  if (url) {
+  if (url.slug) {
     cardComponent = (
       <Link className={classes} url={url}>
         {cardContents}
