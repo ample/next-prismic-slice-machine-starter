@@ -58,11 +58,7 @@
                   "config": {
                     "label": "Text Alignment",
                     "placeholder": "",
-                    "options": [
-                      "left",
-                      "center",
-                      "right"
-                    ],
+                    "options": ["left", "center", "right"],
                     "default_value": "left"
                   }
                 }
@@ -119,11 +115,7 @@
                   "config": {
                     "label": "Text Alignment",
                     "placeholder": "",
-                    "options": [
-                      "left",
-                      "center",
-                      "right"
-                    ],
+                    "options": ["left", "center", "right"],
                     "default_value": "left"
                   }
                 },
@@ -227,18 +219,7 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {
-          "default": {
-            "path": "/Users/jeff/Projects/ample/next-prismic-slice-machine-starter/.slicemachine/assets/slices/Card/default/preview.png",
-            "width": 800,
-            "height": 534
-          },
-          "withButton": {
-            "path": "/Users/jeff/Projects/ample/next-prismic-slice-machine-starter/.slicemachine/assets/slices/Card/withButton/preview.png",
-            "width": 800,
-            "height": 750
-          }
-        }
+        "screenshotPaths": {}
       },
       "jumbotron": {
         "library": "slices",
@@ -311,13 +292,7 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {
-          "default": {
-            "path": "/Users/jeff/Projects/ample/next-prismic-slice-machine-starter/.slicemachine/assets/slices/Jumbotron/default/preview.png",
-            "width": 800,
-            "height": 444
-          }
-        }
+        "screenshotPaths": {}
       }
     }
   }

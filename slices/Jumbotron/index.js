@@ -15,7 +15,7 @@ import { jumbotron, jumbotron_content } from './styles.module.scss'
 
 const Jumbotron = (props) => {
   let slice = props.slice ? props.slice.primary : props
-  let { body, image } = slice
+  let { body, heading, image } = slice
 
   return (
     <section className={jumbotron}>
@@ -30,6 +30,7 @@ const Jumbotron = (props) => {
       )}
 
       <div className={jumbotron_content}>
+        {heading && <PrismicRichText field={heading} />}
         {body && <PrismicRichText field={body} />}
       </div>
     </section>
