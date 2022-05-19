@@ -76,14 +76,14 @@ const Card = (props) => {
 
   // -------------------------------------------------------
 
-  let cardComponent = <div className={classes}>{cardContents}</div>
+  let cardComponent = (
+    <Link className={classes} url={url}>
+      {cardContents}
+    </Link>
+  )
 
-  if (url) {
-    cardComponent = (
-      <Link className={classes} url={url}>
-        {cardContents}
-      </Link>
-    )
+  if (url.link_type === 'Any') {
+    cardComponent = <div className={classes}>{cardContents}</div>
   }
 
   return cardComponent

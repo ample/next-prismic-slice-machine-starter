@@ -147,7 +147,7 @@ Image.propTypes = {
   /**
    * Specifies where to link.
    */
-  url: PropTypes.string,
+  url: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 
   /**
    * Specifies the width of the image.

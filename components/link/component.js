@@ -10,23 +10,23 @@ import { useRouter } from 'next/router'
 const Link = (props) => {
   let { activeClassName, ariaLabel, children, className, url } = props
 
-  // ---------------------------------------------------------
+  // -------------------------------------------------------
 
-  const currentURL = url.url ? url.url : url.uid ? url.uid : url
+  let currentURL = url.slug ? url.slug : url.url ? url.url : url
 
-  // ---------------------------------------------------------
+  // -------------------------------------------------------
 
+  const externalUrl = url.url
   const currentPath = useRouter().pathname === currentURL
-  const externalUrl = currentURL.match(/^http/)
 
-  // ---------------------------------------------------------
+  // -------------------------------------------------------
 
   const classes = classNames({
     [activeClassName]: !externalUrl && currentPath,
     [className]: className,
   })
 
-  // ---------------------------------------------------------
+  // -------------------------------------------------------
 
   let linkComponent = (
     <PrismicLink aria-label={ariaLabel} className={classes} href={currentURL}>

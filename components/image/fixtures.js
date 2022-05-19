@@ -39,7 +39,9 @@ export default {
   },
   withLink: {
     ...layoutIsNotFill,
-    url: 'https://www.helloample.com/',
+    url: {
+      url: 'https://www.helloample.com/',
+    },
   },
   withSVG: {
     src: '/storybook/ample-logo.svg',
