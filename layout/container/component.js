@@ -14,6 +14,9 @@ import {
   container_background_image,
   container_content,
   has_background_image,
+  spacing_large,
+  spacing_medium,
+  spacing_small,
   text_alignment_center,
   text_alignment_right,
   theme_one,
@@ -23,6 +26,13 @@ import {
 } from './styles.module.scss'
 
 // ---------------------------------------------------------
+
+const spacingOptions = {
+  large: spacing_large,
+  medium: spacing_medium,
+  none: null,
+  small: spacing_small,
+}
 
 const textAlignmentOptions = {
   center: text_alignment_center,
@@ -45,8 +55,16 @@ const widthOptions = {
 // ---------------------------------------------------------
 
 const Container = (props) => {
-  let { backgroundImage, children, className, textAlignment, theme, width } =
-    props
+  let {
+    backgroundImage,
+    children,
+    className,
+    element: Element,
+    spacing,
+    textAlignment,
+    theme,
+    width,
+  } = props
 
   // -------------------------------------------------------
 
@@ -54,26 +72,31 @@ const Container = (props) => {
     [className]: className,
     [has_background_image]: backgroundImage,
     [textAlignmentOptions[textAlignment]]: textAlignmentOptions[textAlignment],
-    [widthOptions[width]]: widthOptions[width],
     [themeOptions[theme]]: [themeOptions[theme]],
+  })
+
+  const contentClasses = classNames(container_content, {
+    [spacingOptions[spacing]]: spacingOptions[spacing],
+    [widthOptions[width]]: widthOptions[width],
   })
 
   // -------------------------------------------------------
 
   return (
-    <div className={classes}>
+    <Element className={classes}>
       {backgroundImage && (
         <Image
           alt={backgroundImage.alt}
           className={container_background_image}
-          layout="responsive"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="top"
           src={backgroundImage.url}
-          {...backgroundImage.dimensions}
         />
       )}
 
-      <div className={container_content}>{children}</div>
-    </div>
+      <div className={contentClasses}>{children}</div>
+    </Element>
   )
 }
 
@@ -89,6 +112,16 @@ Container.propTypes = {
    * Specifies the content of the container.
    */
   children: PropTypes.node,
+
+  /**
+   * Specifies the HTML element to use as the container's wrapping element.
+   */
+  element: PropTypes.oneOf(['div', 'footer', 'header', 'section']),
+
+  /**
+   * Specifies the space between the content and the container's wrapping element.
+   */
+  spacing: PropTypes.oneOf(Object.keys(spacingOptions)),
 
   /**
    * Specifies the alignment of the container's text.
@@ -107,6 +140,8 @@ Container.propTypes = {
 }
 
 Container.defaultProps = {
+  element: 'section',
+  spacing: 'none',
   textAlignment: 'left',
   theme: 'none',
   width: 'fluid',

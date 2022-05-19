@@ -1,5 +1,9 @@
 // --------------------------------------------------------
 
+@use 'sass:list';
+
+// ---------------------------------------------------------
+
 .container {
   display: grid;
 
@@ -15,7 +19,18 @@
 // ---------------------------------------------------------
 
 .container_content {
-  display: flex;
+  // --
+}
+
+// ---------------------------------------------------------
+
+$spacing-classes: (('small', 25px), ('medium', 40px), ('large', 60px));
+
+@each $spacing in $spacing-classes {
+  .spacing_#{nth($spacing, 1)} {
+    margin-bottom: rfs(list.nth($spacing, 2));
+    margin-top: rfs(list.nth($spacing, 2));
+  }
 }
 
 // ---------------------------------------------------------
@@ -33,6 +48,13 @@
 .width_fluid,
 .width_fixed {
   @include container;
+}
+
+.width_fluid {
+  @include media($large) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .width_fixed {

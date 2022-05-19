@@ -1,7 +1,11 @@
 // ---------------------------------------------------------
 
+import { Fragment } from 'react'
+
+// ---------------------------------------------------------
+
 const child = (
-  <div>
+  <Fragment>
     <h2>Lorem ipsum dolor sit amet</h2>
     <p>
       Malesuada fames ac turpis egestas maecenas. Purus sit amet volutpat
@@ -13,7 +17,7 @@ const child = (
       etiam erat. Ornare quam viverra orci sagittis eu volutpat odio. Donec enim
       diam vulputate ut pharetra.
     </p>
-  </div>
+  </Fragment>
 )
 
 // ---------------------------------------------------------
@@ -30,5 +34,6 @@ export default {
       url: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=900&h=500&fit=crop',
     },
     children: [{ ...child, key: '1' }],
+    spacing: 'large',
   },
 }

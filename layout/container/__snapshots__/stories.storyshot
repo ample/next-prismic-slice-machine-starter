@@ -1,27 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Layout/Container Props 1`] = `
-<div
-  className="container null width_fluid"
+<section
+  className="container null"
 >
   <div
-    className="container_content"
+    className="container_content width_fluid"
   >
-    <div>
-      <h2>
-        Lorem ipsum dolor sit amet
-      </h2>
-      <p>
-        Malesuada fames ac turpis egestas maecenas. Purus sit amet volutpat consequat mauris nunc congue. Id venenatis a condimentum vitae sapien pellentesque. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. In fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Bibendum est ultricies integer quis auctor elit. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Maecenas volutpat blandit aliquam etiam erat. Ornare quam viverra orci sagittis eu volutpat odio. Donec enim diam vulputate ut pharetra.
-      </p>
-    </div>
+    <h2>
+      Lorem ipsum dolor sit amet
+    </h2>
+    <p>
+      Malesuada fames ac turpis egestas maecenas. Purus sit amet volutpat consequat mauris nunc congue. Id venenatis a condimentum vitae sapien pellentesque. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. In fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Bibendum est ultricies integer quis auctor elit. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Maecenas volutpat blandit aliquam etiam erat. Ornare quam viverra orci sagittis eu volutpat odio. Donec enim diam vulputate ut pharetra.
+    </p>
   </div>
-</div>
+</section>
 `;
 
 exports[`Storyshots Layout/Container With Background Image 1`] = `
-<div
-  className="container has_background_image null width_fluid"
+<section
+  className="container has_background_image null"
 >
   <div
     className="container_background_image"
@@ -31,43 +29,31 @@ exports[`Storyshots Layout/Container With Background Image 1`] = `
         Object {
           "background": "none",
           "border": 0,
+          "bottom": 0,
           "boxSizing": "border-box",
           "display": "block",
           "height": "initial",
+          "left": 0,
           "margin": 0,
           "opacity": 1,
           "overflow": "hidden",
           "padding": 0,
-          "position": "relative",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
           "width": "initial",
         }
       }
     >
-      <span
-        style={
-          Object {
-            "background": "none",
-            "border": 0,
-            "boxSizing": "border-box",
-            "display": "block",
-            "height": "initial",
-            "margin": 0,
-            "opacity": 1,
-            "padding": 0,
-            "paddingTop": "55.55555555555556%",
-            "width": "initial",
-          }
-        }
-      />
       <img
         alt="Placeholder image"
-        data-nimg="responsive"
+        data-nimg="fill"
         decoding="async"
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {
             "backgroundImage": "url(\\"https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
-            "backgroundPosition": "0% 0%",
+            "backgroundPosition": "top",
             "backgroundSize": "cover",
             "border": "none",
             "bottom": 0,
@@ -81,8 +67,8 @@ exports[`Storyshots Layout/Container With Background Image 1`] = `
             "maxWidth": "100%",
             "minHeight": "100%",
             "minWidth": "100%",
-            "objectFit": undefined,
-            "objectPosition": undefined,
+            "objectFit": "cover",
+            "objectPosition": "top",
             "padding": 0,
             "position": "absolute",
             "right": 0,
@@ -94,7 +80,7 @@ exports[`Storyshots Layout/Container With Background Image 1`] = `
       <noscript>
         <img
           alt="Placeholder image"
-          data-nimg="responsive"
+          data-nimg="fill"
           decoding="async"
           loading="lazy"
           sizes="100vw"
@@ -113,8 +99,8 @@ exports[`Storyshots Layout/Container With Background Image 1`] = `
               "maxWidth": "100%",
               "minHeight": "100%",
               "minWidth": "100%",
-              "objectFit": undefined,
-              "objectPosition": undefined,
+              "objectFit": "cover",
+              "objectPosition": "top",
               "padding": 0,
               "position": "absolute",
               "right": 0,
@@ -127,16 +113,14 @@ exports[`Storyshots Layout/Container With Background Image 1`] = `
     </span>
   </div>
   <div
-    className="container_content"
+    className="container_content spacing_large width_fluid"
   >
-    <div>
-      <h2>
-        Lorem ipsum dolor sit amet
-      </h2>
-      <p>
-        Malesuada fames ac turpis egestas maecenas. Purus sit amet volutpat consequat mauris nunc congue. Id venenatis a condimentum vitae sapien pellentesque. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. In fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Bibendum est ultricies integer quis auctor elit. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Maecenas volutpat blandit aliquam etiam erat. Ornare quam viverra orci sagittis eu volutpat odio. Donec enim diam vulputate ut pharetra.
-      </p>
-    </div>
+    <h2>
+      Lorem ipsum dolor sit amet
+    </h2>
+    <p>
+      Malesuada fames ac turpis egestas maecenas. Purus sit amet volutpat consequat mauris nunc congue. Id venenatis a condimentum vitae sapien pellentesque. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. In fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Bibendum est ultricies integer quis auctor elit. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Maecenas volutpat blandit aliquam etiam erat. Ornare quam viverra orci sagittis eu volutpat odio. Donec enim diam vulputate ut pharetra.
+    </p>
   </div>
-</div>
+</section>
 `;
