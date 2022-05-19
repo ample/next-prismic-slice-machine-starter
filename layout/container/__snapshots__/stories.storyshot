@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Layout/Container Props 1`] = `
+<section
+  className="container null"
+>
+  <div
+    className="container_content width_fluid"
+  >
+    <h2>
+      Lorem ipsum dolor sit amet
+    </h2>
+    <p>
+      Malesuada fames ac turpis egestas maecenas. Purus sit amet volutpat consequat mauris nunc congue. Id venenatis a condimentum vitae sapien pellentesque. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. In fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Bibendum est ultricies integer quis auctor elit. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Maecenas volutpat blandit aliquam etiam erat. Ornare quam viverra orci sagittis eu volutpat odio. Donec enim diam vulputate ut pharetra.
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Storyshots Layout/Container With Background Image 1`] = `
+<section
+  className="container has_background_image null"
+>
+  <div
+    className="container_background_image"
+  >
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": "initial",
+          "left": 0,
+          "margin": 0,
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": "initial",
+        }
+      }
+    >
+      <img
+        alt="Placeholder image"
+        data-nimg="fill"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
+            "backgroundPosition": "top",
+            "backgroundSize": "cover",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "filter": "blur(20px)",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": "cover",
+            "objectPosition": "top",
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          alt="Placeholder image"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75"
+          srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": "cover",
+              "objectPosition": "top",
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
+  </div>
+  <div
+    className="container_content spacing_large width_fluid"
+  >
+    <h2>
+      Lorem ipsum dolor sit amet
+    </h2>
+    <p>
+      Malesuada fames ac turpis egestas maecenas. Purus sit amet volutpat consequat mauris nunc congue. Id venenatis a condimentum vitae sapien pellentesque. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. In fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Bibendum est ultricies integer quis auctor elit. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Maecenas volutpat blandit aliquam etiam erat. Ornare quam viverra orci sagittis eu volutpat odio. Donec enim diam vulputate ut pharetra.
+    </p>
+  </div>
+</section>
+`;

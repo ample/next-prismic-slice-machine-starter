@@ -5,13 +5,38 @@
   "status": true,
   "json": {
     "Main": {
-      "body": {
-        "type": "StructuredText",
+      "jumbotron": {
+        "type": "Group",
         "config": {
-          "label": "Body",
-          "placeholder": "",
-          "allowTargetBlank": true,
-          "multi": "paragraph,heading1,heading2,strong,em,hyperlink"
+          "label": "Jumbotron",
+          "fields": {
+            "heading": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Heading",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "multi": "heading1"
+              }
+            },
+            "body": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Body",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "multi": "paragraph"
+              }
+            },
+            "image": {
+              "type": "Image",
+              "config": {
+                "label": "Image",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
         }
       },
       "slices": {

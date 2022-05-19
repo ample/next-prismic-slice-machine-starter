@@ -1,13 +1,16 @@
 // ---------------------------------------------------------
 
 import { createClient } from '@root/prismicio'
-import { PrismicRichText } from '@prismicio/react'
 import { SliceZone } from '@prismicio/react'
 
 // ---------------------------------------------------------
 
 import Layout from '@layout/index'
 import { components } from '@slices/index'
+
+// ---------------------------------------------------------
+
+import Jumbotron from '@slices/Jumbotron'
 
 // ---------------------------------------------------------
 
@@ -24,11 +27,11 @@ export const getStaticProps = async ({ previewData }) => {
 // ---------------------------------------------------------
 
 const Home = ({ page }) => {
-  let { body, slices } = page.data
+  let { jumbotron, slices } = page.data
 
   return (
     <Layout>
-      <PrismicRichText field={body} />
+      <Jumbotron {...jumbotron[0]} />
       <SliceZone components={components} slices={slices} />
     </Layout>
   )

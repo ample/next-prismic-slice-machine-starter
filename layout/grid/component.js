@@ -32,8 +32,6 @@ const layoutOptions = {
 const Grid = (props) => {
   let { children, className, gap, layout } = props
 
-  console.log(layout)
-
   // -------------------------------------------------------
 
   if (!layout) {

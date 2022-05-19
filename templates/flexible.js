@@ -10,13 +10,12 @@ import { components } from '@slices/index'
 // ---------------------------------------------------------
 
 const FlexibleTemplate = (props) => {
-  let { children, slices } = props
+  let { slices } = props
 
   // ---------------------------------------------------------
 
   return (
     <Layout>
-      {children}
       <SliceZone components={components} slices={slices} />
     </Layout>
   )

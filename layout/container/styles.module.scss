@@ -1,0 +1,62 @@
+// --------------------------------------------------------
+
+@use 'sass:list';
+
+// ---------------------------------------------------------
+
+.container {
+  display: grid;
+
+  &.has_background_image {
+    > * {
+      grid-column-start: 1;
+      grid-row-start: 1;
+      position: relative;
+    }
+  }
+}
+
+// ---------------------------------------------------------
+
+.container_content {
+  // --
+}
+
+// ---------------------------------------------------------
+
+$spacing-classes: (('small', 25px), ('medium', 40px), ('large', 60px));
+
+@each $spacing in $spacing-classes {
+  .spacing_#{nth($spacing, 1)} {
+    margin-bottom: rfs(list.nth($spacing, 2));
+    margin-top: rfs(list.nth($spacing, 2));
+  }
+}
+
+// ---------------------------------------------------------
+
+.text_alignment_center {
+  text-align: center;
+}
+
+.text_alignment_right {
+  text-align: right;
+}
+
+// ---------------------------------------------------------
+
+.width_fluid,
+.width_fixed {
+  @include container;
+}
+
+.width_fluid {
+  @include media($large) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.width_fixed {
+  max-width: 600px;
+}

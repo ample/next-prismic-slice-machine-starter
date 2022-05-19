@@ -2,7 +2,6 @@
 
 import { asLink } from '@prismicio/helpers'
 import { createClient, linkResolver } from '@root/prismicio'
-import { PrismicRichText } from '@prismicio/react'
 
 // ---------------------------------------------------------
 
@@ -32,15 +31,9 @@ export const getStaticPaths = async () => {
 // ---------------------------------------------------------
 
 const FlexiblePage = ({ page }) => {
-  let { body, slices } = page.data
+  let { slices } = page.data
 
-  // -------------------------------------------------------
-
-  return (
-    <FlexibleTemplate slices={slices}>
-      <PrismicRichText field={body} />
-    </FlexibleTemplate>
-  )
+  return <FlexibleTemplate slices={slices} />
 }
 
 // ---------------------------------------------------------
