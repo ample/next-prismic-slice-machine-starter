@@ -44,13 +44,6 @@ h2.sbdocs-h2 {
 }
 
 // --------------------------------------------------------
-// remove storybook upgrade notification from UI
-
-[href='/?path=/settings/about'] {
-  display: none !important;
-}
-
-// --------------------------------------------------------
 // center story in canvas tab
 
 .sb-centered {
