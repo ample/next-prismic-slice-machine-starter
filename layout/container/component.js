@@ -5,9 +5,15 @@ import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
 
+import Image from '@components/image'
+
+// ---------------------------------------------------------
+
 import {
   container,
+  container_background_image,
   container_content,
+  has_background_image,
   text_alignment_center,
   text_alignment_right,
   theme_one,
@@ -39,17 +45,33 @@ const widthOptions = {
 // ---------------------------------------------------------
 
 const Container = (props) => {
-  let { children, className, textAlignment, theme, width } = props
+  let { backgroundImage, children, className, textAlignment, theme, width } =
+    props
+
+  // -------------------------------------------------------
 
   const classes = classNames(container, {
     [className]: className,
+    [has_background_image]: backgroundImage,
     [textAlignmentOptions[textAlignment]]: textAlignmentOptions[textAlignment],
     [widthOptions[width]]: widthOptions[width],
     [themeOptions[theme]]: [themeOptions[theme]],
   })
 
+  // -------------------------------------------------------
+
   return (
     <div className={classes}>
+      {backgroundImage && (
+        <Image
+          alt={backgroundImage.alt}
+          className={container_background_image}
+          layout="responsive"
+          src={backgroundImage.url}
+          {...backgroundImage.dimensions}
+        />
+      )}
+
       <div className={container_content}>{children}</div>
     </div>
   )
@@ -58,6 +80,11 @@ const Container = (props) => {
 // ---------------------------------------------------------
 
 Container.propTypes = {
+  /**
+   * Specifies the background image src, alt text, and dimensions.
+   */
+  backgroundImage: PropTypes.object,
+
   /**
    * Specifies the content of the container.
    */

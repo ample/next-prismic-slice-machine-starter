@@ -1,15 +1,21 @@
 // --------------------------------------------------------
 
 .container {
-  // --
+  display: grid;
+
+  &.has_background_image {
+    > * {
+      grid-column-start: 1;
+      grid-row-start: 1;
+      position: relative;
+    }
+  }
 }
 
 // ---------------------------------------------------------
 
 .container_content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 // ---------------------------------------------------------
@@ -24,12 +30,11 @@
 
 // ---------------------------------------------------------
 
-.width_fluid {
+.width_fluid,
+.width_fixed {
   @include container;
 }
 
 .width_fixed {
-  @include container;
-
   max-width: 600px;
 }
