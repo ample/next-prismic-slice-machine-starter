@@ -2,8 +2,12 @@
 
 .jumbotron {
   display: grid;
-  max-height: 800px;
+  height: 100vh;
   overflow: hidden;
+
+  @include media($small) {
+    max-height: 800px;
+  }
 
   > * {
     grid-column-start: 1;
