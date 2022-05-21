@@ -1,7 +1,7 @@
 // ---------------------------------------------------------
 
-import component from './component'
+import SliceName from './component'
 
 // ---------------------------------------------------------
 
-export default component
+export default SliceName
