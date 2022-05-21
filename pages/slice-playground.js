@@ -2,20 +2,15 @@
 
 import { createClient } from '@root/prismicio'
 import { NextSeo } from 'next-seo'
-import { SliceSimulator } from '@prismicio/slice-simulator-react'
-import { SliceZone } from '@prismicio/react'
 
 // ---------------------------------------------------------
 
-import state from '../.slicemachine/libraries-state.json'
-import { components } from '@slices/index'
-
-// ---------------------------------------------------------
-
+import Card from '@slices/Card'
 import Layout from '@layout/index'
 
 // ---------------------------------------------------------
 
+import fixtures from '@slices/Card/fixtures'
 import { PageNotFoundContent } from './404'
 
 // ---------------------------------------------------------
@@ -40,31 +35,26 @@ const isProduction = process.env.NODE_ENV === 'production'
 
 // ---------------------------------------------------------
 
-const SliceSimulatorPage = (props) => {
+const SlicePlayground = (props) => {
   let { footer, header } = props
 
+  // -------------------------------------------------------
+
   return (
-    <>
+    <Layout footer={footer} header={header}>
       <NextSeo nofollow />
 
       {!isProduction ? (
         <>
-          <SliceSimulator
-            sliceZone={({ slices }) => (
-              <SliceZone components={components} slices={slices} />
-            )}
-            state={state}
-          />
+          <Card {...fixtures._props} />
         </>
       ) : (
-        <Layout footer={footer} header={header}>
-          {PageNotFoundContent}
-        </Layout>
+        PageNotFoundContent
       )}
-    </>
+    </Layout>
   )
 }
 
 // ---------------------------------------------------------
 
-export default SliceSimulatorPage
+export default SlicePlayground
