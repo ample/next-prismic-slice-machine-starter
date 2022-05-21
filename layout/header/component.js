@@ -41,7 +41,7 @@ const Header = (props) => {
 
 Header.propTypes = {
   /**
-   * Specifies the links for the header navigation.
+   * Specifies global navigation links.
    */
   navigationLinks: PropTypes.array,
 }

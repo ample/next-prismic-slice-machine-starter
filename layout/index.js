@@ -22,7 +22,7 @@ import SEO from './seo'
 // ---------------------------------------------------------
 
 const Layout = (props) => {
-  let { children, header, themeColor } = props
+  let { children, footer, header, themeColor } = props
 
   // -------------------------------------------------------
 
@@ -40,7 +40,7 @@ const Layout = (props) => {
 
       <Header {...header} />
       <main>{children}</main>
-      <Footer />
+      <Footer {...footer} />
 
       <DebugMediaQueries />
     </>
@@ -52,6 +52,7 @@ const Layout = (props) => {
 Layout.propTypes = {
   // TODO: add prop descriptions
   children: PropTypes.node.isRequired,
+  footer: PropTypes.object,
   header: PropTypes.object,
   themeColor: PropTypes.string,
 }
