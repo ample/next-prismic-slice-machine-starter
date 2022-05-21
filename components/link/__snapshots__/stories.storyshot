@@ -4,7 +4,7 @@ exports[`Storyshots Components/Link External 1`] = `
 <a
   aria-label="This link will open in a new tab."
   className=""
-  href="https://www.helloample.com/"
+  href="https://www.ample.co"
   rel="noreferrer"
   target="_blank"
 >

@@ -1,0 +1,35 @@
+{
+  "id": "header",
+  "label": "Header",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "navigationLinks": {
+        "type": "Group",
+        "config": {
+          "label": "Navigation",
+          "fields": {
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Label",
+                "placeholder": "Link Label",
+                "allowTargetBlank": true,
+                "single": "paragraph"
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "Select a Link",
+                "select": null
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

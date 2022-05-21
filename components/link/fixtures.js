@@ -8,9 +8,7 @@ export default {
   external: {
     ariaLabel: 'This link will open in a new tab.',
     children: 'External link',
-    url: {
-      url: 'https://www.helloample.com/',
-    },
+    url: 'https://www.ample.co',
   },
   internal: {
     ariaLabel: 'This link will not open in a new tab.',

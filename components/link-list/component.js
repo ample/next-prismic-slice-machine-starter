@@ -60,7 +60,7 @@ LinkList.propTypes = {
       className: PropTypes.string,
       label: PropTypes.string,
       title: PropTypes.string,
-      url: PropTypes.string,
+      url: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
     })
   ),
 }
