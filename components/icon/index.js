@@ -1,7 +1,7 @@
 // ---------------------------------------------------------
 
-import component from './component'
+import Icon from './component'
 
 // ---------------------------------------------------------
 
-export default component
+export default Icon

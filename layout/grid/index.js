@@ -1,7 +1,7 @@
 // ---------------------------------------------------------
 
-import component from './component'
+import Grid from './component'
 
 // ---------------------------------------------------------
 
-export default component
+export default Grid

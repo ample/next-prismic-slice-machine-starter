@@ -1,7 +1,7 @@
 // ---------------------------------------------------------
 
-import component from './component'
+import Header from './component'
 
 // ---------------------------------------------------------
 
-export default component
+export default Header
