@@ -10,5 +10,5 @@
       "@utilities/*": ["./utilities/*"]
     }
   },
-  "exclude": ["node_modules", "public"]
+  "exclude": [".next", "node_modules", "public", "storybook-static"]
 }
