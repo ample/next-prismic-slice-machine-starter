@@ -15,12 +15,14 @@ export const getStaticProps = async ({ params, previewData }) => {
   const footer = await client.getSingle('footer')
   const header = await client.getSingle('header')
   const page = await client.getByUID('flexible-page', params.uid)
+  const seo = await client.getSingle('seo')
 
   return {
     props: {
       footer: footer.data,
       header: header.data,
       page: page.data,
+      seo: seo.data,
     },
   }
 }
@@ -37,10 +39,15 @@ export const getStaticPaths = async () => {
 // ---------------------------------------------------------
 
 const FlexiblePage = (props) => {
-  let { footer, header, page } = props
+  let { footer, header, page, seo } = props
 
   return (
-    <FlexibleTemplate footer={footer} header={header} slices={page.slices} />
+    <FlexibleTemplate
+      footer={footer}
+      header={header}
+      seo={seo}
+      slices={page.slices}
+    />
   )
 }
 

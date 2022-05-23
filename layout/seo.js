@@ -1,6 +1,7 @@
 // ---------------------------------------------------------
 
 import PropTypes from 'prop-types'
+import { Fragment } from 'react'
 import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 
@@ -11,14 +12,10 @@ const SEO = (props) => {
     description,
     keywords,
     nofollow,
-    openGraphDescription,
     openGraphImage,
-    openGraphImageAlt,
-    openGraphTitle,
-    openGraphUrl,
-    siteName,
+    openGraphSiteName,
     title,
-    twitterSite,
+    twitterHandle,
   } = props
 
   // -------------------------------------------------------
@@ -32,34 +29,36 @@ const SEO = (props) => {
     (router.asPath === '/' ? '' : router.asPath)
   ).split('?')[0]
 
-  // -------------------------------------------------------
+  // ---------------------------------------------------------
 
   return (
     <>
-      {keywords && <meta content={keywords} name="keywords"></meta>}
+      {keywords && (
+        <meta key="keywords" content={keywords[0].text} name="keywords"></meta>
+      )}
+
       <NextSeo
         canonical={canonicalUrl}
-        description={description}
-        nofollow={nofollow}
+        description={
+          description && description[0].text ? description[0].text : description
+        }
+        nofollow={nofollow ? nofollow : undefined}
         openGraph={{
-          description: openGraphDescription,
           images: [
             {
-              alt: openGraphImageAlt,
-              height: 600,
-              type: 'image/jpeg',
-              url: openGraphImage,
-              width: 800,
+              alt: openGraphImage ? openGraphImage.alt : undefined,
+              height: openGraphImage ? 600 : undefined,
+              type: openGraphImage ? 'image/jpeg' : undefined,
+              url: openGraphImage ? openGraphImage.url : undefined,
+              width: openGraphImage ? 800 : undefined,
             },
           ],
-          site_name: siteName,
-          title: openGraphTitle,
-          url: openGraphUrl,
+          site_name: openGraphSiteName ? openGraphSiteName[0].text : undefined,
         }}
-        title={title}
+        title={title && title[0].text ? title[0].text : title}
         twitter={{
           cardType: 'summary_large_image',
-          site: twitterSite,
+          site: twitterHandle ? twitterHandle[0].text : undefined,
         }}
       />
     </>
@@ -69,21 +68,16 @@ const SEO = (props) => {
 // ---------------------------------------------------------
 
 SEO.propTypes = {
-  description: PropTypes.string,
+  description: PropTypes.oneOfType([PropTypes.array, PropTypes.string]),
   keywords: PropTypes.array,
   nofollow: PropTypes.bool,
-  openGraphDescription: PropTypes.string,
-  openGraphImage: PropTypes.string,
-  openGraphImageAlt: PropTypes.string,
-  openGraphTitle: PropTypes.string,
-  openGraphUrl: PropTypes.string,
-  siteName: PropTypes.string,
-  title: PropTypes.string,
-  twitterSite: PropTypes.string,
+  openGraphImage: PropTypes.object,
+  openGraphSiteName: PropTypes.array,
+  title: PropTypes.oneOfType([PropTypes.array, PropTypes.string]),
+  twitterHandle: PropTypes.array,
 }
 
 SEO.defaultProps = {
-  keywords: ['testing', 'testing-2', 'testing 3'],
   themeColor: '#000000',
 }
 
