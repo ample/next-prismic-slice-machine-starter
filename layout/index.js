@@ -22,7 +22,7 @@ import SEO from './seo'
 // ---------------------------------------------------------
 
 const Layout = (props) => {
-  let { children, footer, header, themeColor } = props
+  let { children, footer, header, seo, themeColor } = props
 
   // -------------------------------------------------------
 
@@ -37,7 +37,7 @@ const Layout = (props) => {
         <link href="/manifest.json" rel="manifest" />
       </Head>
 
-      <SEO />
+      <SEO {...seo} />
 
       <Header {...header} />
       <main>{children}</main>
@@ -55,6 +55,7 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
   footer: PropTypes.object,
   header: PropTypes.object,
+  seo: PropTypes.object,
   themeColor: PropTypes.string,
 }
 

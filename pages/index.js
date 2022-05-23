@@ -20,12 +20,14 @@ export const getStaticProps = async ({ previewData }) => {
   const footer = await client.getSingle('footer')
   const header = await client.getSingle('header')
   const page = await client.getSingle('homepage')
+  const seo = await client.getSingle('seo')
 
   return {
     props: {
       footer: footer.data,
       header: header.data,
       page: page.data,
+      seo: seo.data,
     },
   }
 }
@@ -33,10 +35,10 @@ export const getStaticProps = async ({ previewData }) => {
 // ---------------------------------------------------------
 
 const Home = (props) => {
-  let { footer, header, page } = props
+  let { footer, header, page, seo } = props
 
   return (
-    <Layout footer={footer} header={header}>
+    <Layout footer={footer} header={header} seo={seo}>
       <Jumbotron {...page.jumbotron[0]} />
       <SliceZone components={components} slices={page.slices} />
     </Layout>
