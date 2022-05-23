@@ -1,7 +1,7 @@
 // ---------------------------------------------------------
 
-import component from './component'
+import Button from './component'
 
 // ---------------------------------------------------------
 
-export default component
+export default Button

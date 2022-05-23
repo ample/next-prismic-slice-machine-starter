@@ -4,16 +4,34 @@ import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
 
+import Link from '@components/link'
+
+// ---------------------------------------------------------
+
 import { header } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
 const Header = (props) => {
-  let { heading } = props
+  let { navigationLinks } = props
 
   return (
     <header className={header}>
-      {heading}
+      <Link url="/">Logo goes here</Link>
+
+      <nav>
+        <ul>
+          {navigationLinks.map((nav) => {
+            let label = nav.label[0].text
+
+            return (
+              <li key={label}>
+                <Link url={nav.link}>{label}</Link>
+              </li>
+            )
+          })}
+        </ul>
+      </nav>
       <hr />
     </header>
   )
@@ -23,9 +41,9 @@ const Header = (props) => {
 
 Header.propTypes = {
   /**
-   * Specifies the heading
+   * Specifies global navigation links.
    */
-  heading: PropTypes.string,
+  navigationLinks: PropTypes.array,
 }
 
 Header.defaultProps = {}

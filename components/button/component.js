@@ -104,7 +104,7 @@ Button.propTypes = {
   /**
    * Specifies where to link.
    */
-  url: PropTypes.string,
+  url: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 }
 
 Button.defaultProps = {

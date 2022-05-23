@@ -1,7 +1,7 @@
 // ---------------------------------------------------------
 
-import component from './component'
+import ComponentName from './component'
 
 // ---------------------------------------------------------
 
-export default component
+export default ComponentName

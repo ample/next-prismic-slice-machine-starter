@@ -1,11 +1,17 @@
 // ---------------------------------------------------------
 
 import { createClient } from '@root/prismicio'
+import { NextSeo } from 'next-seo'
 
 // ---------------------------------------------------------
 
+import Card from '@slices/Card'
 import Layout from '@layout/index'
-import Link from '@components/link'
+
+// ---------------------------------------------------------
+
+import fixtures from '@slices/Card/fixtures'
+import { PageNotFoundContent } from './404'
 
 // ---------------------------------------------------------
 
@@ -25,26 +31,30 @@ export const getStaticProps = async ({ previewData }) => {
 
 // ---------------------------------------------------------
 
-export const PageNotFoundContent = (
-  <>
-    <h1>NOT FOUND</h1>
-    <p>Uh oh! This page doesn't exist.</p>
-    <Link url="/">Back to the homepage?</Link>
-  </>
-)
+const isProduction = process.env.NODE_ENV === 'production'
 
 // ---------------------------------------------------------
 
-const PageNotFound = (props) => {
+const SlicePlayground = (props) => {
   let { footer, header } = props
+
+  // -------------------------------------------------------
 
   return (
     <Layout footer={footer} header={header}>
-      {PageNotFoundContent}
+      <NextSeo nofollow />
+
+      {!isProduction ? (
+        <>
+          <Card {...fixtures._props} />
+        </>
+      ) : (
+        PageNotFoundContent
+      )}
     </Layout>
   )
 }
 
 // ---------------------------------------------------------
 
-export default PageNotFound
+export default SlicePlayground

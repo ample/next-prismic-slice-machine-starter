@@ -4,17 +4,35 @@ import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
 
+import Link from '@components/link'
+
+// ---------------------------------------------------------
+
 import { footer } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
 const Footer = (props) => {
-  let { heading } = props
+  let { navigationLinks } = props
 
   return (
     <footer className={footer}>
       <hr />
-      {heading}
+      <Link url="/">Logo goes here</Link>
+
+      <nav>
+        <ul>
+          {navigationLinks.map((nav) => {
+            let label = nav.label[0].text
+
+            return (
+              <li key={label}>
+                <Link url={nav.link}>{label}</Link>
+              </li>
+            )
+          })}
+        </ul>
+      </nav>
     </footer>
   )
 }
@@ -23,9 +41,9 @@ const Footer = (props) => {
 
 Footer.propTypes = {
   /**
-   * Specifies the heading
+   * Specifies global navigation links.
    */
-  heading: PropTypes.string,
+  navigationLinks: PropTypes.array,
 }
 
 Footer.defaultProps = {}

@@ -1,7 +1,7 @@
 // ---------------------------------------------------------
 
-import component from './component'
+import Footer from './component'
 
 // ---------------------------------------------------------
 
-export default component
+export default Footer

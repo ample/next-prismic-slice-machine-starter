@@ -5,6 +5,45 @@ exports[`Storyshots Layout/Footer Props 1`] = `
   className="footer"
 >
   <hr />
-  And this is the footer.
+  <a
+    className=""
+    href="/"
+  >
+    Logo goes here
+  </a>
+  <nav>
+    <ul>
+      <li>
+        <a
+          className=""
+          href="https://ample.co"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Dolore irure
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          href="https://ample.co"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Voluptate proident
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          href="https://ample.co"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Laborum et proident
+        </a>
+      </li>
+    </ul>
+  </nav>
 </footer>
 `;

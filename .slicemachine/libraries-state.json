@@ -58,7 +58,11 @@
                   "config": {
                     "label": "Text Alignment",
                     "placeholder": "",
-                    "options": ["left", "center", "right"],
+                    "options": [
+                      "left",
+                      "center",
+                      "right"
+                    ],
                     "default_value": "left"
                   }
                 }
@@ -115,7 +119,11 @@
                   "config": {
                     "label": "Text Alignment",
                     "placeholder": "",
-                    "options": ["left", "center", "right"],
+                    "options": [
+                      "left",
+                      "center",
+                      "right"
+                    ],
                     "default_value": "left"
                   }
                 },

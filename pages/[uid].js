@@ -12,10 +12,16 @@ import FlexibleTemplate from '@templates/flexible'
 export const getStaticProps = async ({ params, previewData }) => {
   const client = createClient({ previewData })
 
+  const footer = await client.getSingle('footer')
+  const header = await client.getSingle('header')
   const page = await client.getByUID('flexible-page', params.uid)
 
   return {
-    props: { page },
+    props: {
+      footer: footer.data,
+      header: header.data,
+      page: page.data,
+    },
   }
 }
 
@@ -30,10 +36,12 @@ export const getStaticPaths = async () => {
 
 // ---------------------------------------------------------
 
-const FlexiblePage = ({ page }) => {
-  let { slices } = page.data
+const FlexiblePage = (props) => {
+  let { footer, header, page } = props
 
-  return <FlexibleTemplate slices={slices} />
+  return (
+    <FlexibleTemplate footer={footer} header={header} slices={page.slices} />
+  )
 }
 
 // ---------------------------------------------------------

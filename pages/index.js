@@ -17,22 +17,28 @@ import Jumbotron from '@slices/Jumbotron'
 export const getStaticProps = async ({ previewData }) => {
   const client = createClient({ previewData })
 
+  const footer = await client.getSingle('footer')
+  const header = await client.getSingle('header')
   const page = await client.getSingle('homepage')
 
   return {
-    props: { page },
+    props: {
+      footer: footer.data,
+      header: header.data,
+      page: page.data,
+    },
   }
 }
 
 // ---------------------------------------------------------
 
-const Home = ({ page }) => {
-  let { jumbotron, slices } = page.data
+const Home = (props) => {
+  let { footer, header, page } = props
 
   return (
-    <Layout>
-      <Jumbotron {...jumbotron[0]} />
-      <SliceZone components={components} slices={slices} />
+    <Layout footer={footer} header={header}>
+      <Jumbotron {...page.jumbotron[0]} />
+      <SliceZone components={components} slices={page.slices} />
     </Layout>
   )
 }

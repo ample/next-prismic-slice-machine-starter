@@ -14,10 +14,16 @@ const Link = (props) => {
 
   let currentURL = url.slug ? url.slug : url.url ? url.url : url
 
+  const linkFromPrismic = typeof url === 'object'
+
   // -------------------------------------------------------
 
-  const externalUrl = url.url
   const currentPath = useRouter().pathname === currentURL
+
+  const externalUrl =
+    url.link_type === 'Web' ||
+    url.link_type === 'Media' ||
+    (!linkFromPrismic && url.match(/^http/))
 
   // -------------------------------------------------------
 
@@ -28,13 +34,15 @@ const Link = (props) => {
 
   // -------------------------------------------------------
 
-  let linkComponent = (
-    <PrismicLink aria-label={ariaLabel} className={classes} href={currentURL}>
-      {children}
-    </PrismicLink>
-  )
+  let linkComponent
 
-  if (externalUrl) {
+  if (!linkFromPrismic && !externalUrl) {
+    linkComponent = (
+      <PrismicLink aria-label={ariaLabel} className={classes} href={url}>
+        {children}
+      </PrismicLink>
+    )
+  } else if (externalUrl) {
     linkComponent = (
       <a
         aria-label={ariaLabel}
@@ -45,6 +53,12 @@ const Link = (props) => {
       >
         {children}
       </a>
+    )
+  } else if (linkFromPrismic) {
+    linkComponent = (
+      <PrismicLink aria-label={ariaLabel} className={classes} field={url}>
+        {children}
+      </PrismicLink>
     )
   }
 
