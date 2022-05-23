@@ -19,7 +19,7 @@
     "lodash": "^4.17.21",
     "next": "12.1.4",
     "next-seo": "^5.4.0",
-    "next-sitemap": "^2.5.20",
+    "next-sitemap": "^2.5.24",
     "postcss": "^8.4.14",
     "postcss-em-media-query": "^4.1.0",
     "postcss-loader": "^7.0.0",
@@ -34,7 +34,7 @@
     "react-svg": "^15.0.1",
     "rfs": "https://github.com/twbs/rfs/#307feb3d05b98077394092379154578a6ba12f5a",
     "sass": "^1.52.1",
-    "sharp": "^0.30.4"
+    "sharp": "^0.30.5"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^6.5.4",
