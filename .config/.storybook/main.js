@@ -17,7 +17,7 @@ module.exports = {
         },
       },
     },
-    '@whitespace/storybook-addon-html',
+    // '@whitespace/storybook-addon-html',
     {
       name: 'storybook-addon-next',
       options: {
@@ -47,6 +47,9 @@ module.exports = {
         '@slices': path.resolve(__dirname, '../../slices'),
         '@templates': path.resolve(__dirname, '../../templates'),
         '@utilities': path.resolve(__dirname, '../../utilities/'),
+      },
+      fallback: {
+        util: require.resolve('util/'),
       },
     }
 
