@@ -22,7 +22,7 @@ import SEO from './seo'
 // ---------------------------------------------------------
 
 const Layout = (props) => {
-  let { children, footer, header, seo, themeColor } = props
+  let { children, footer, header, seo, seoPageSpecific, themeColor } = props
 
   // -------------------------------------------------------
 
@@ -37,7 +37,7 @@ const Layout = (props) => {
         <link href="/manifest.json" rel="manifest" />
       </Head>
 
-      <SEO {...seo} />
+      <SEO {...seo} pageSpecific={seoPageSpecific} />
 
       <Header {...header} />
       <main>{children}</main>
@@ -51,11 +51,34 @@ const Layout = (props) => {
 // ---------------------------------------------------------
 
 Layout.propTypes = {
-  // TODO: add prop descriptions
+  /**
+   * Specifies page content.
+   */
   children: PropTypes.node.isRequired,
+
+  /**
+   * Specifies footer content.
+   */
   footer: PropTypes.object,
+
+  /**
+   * Specifies Header content.
+   */
   header: PropTypes.object,
+
+  /**
+   * Specifies SEO metadata
+   */
   seo: PropTypes.object,
+
+  /**
+   * Specifies page specific SEO metadata
+   */
+  seoPageSpecific: PropTypes.object,
+
+  /**
+   * Specifies theme-color meta tag value.
+   */
   themeColor: PropTypes.string,
 }
 

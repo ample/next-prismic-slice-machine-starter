@@ -1,5 +1,6 @@
 // ---------------------------------------------------------
 
+import Head from 'next/head'
 import PropTypes from 'prop-types'
 import { Fragment } from 'react'
 import { NextSeo } from 'next-seo'
@@ -14,6 +15,7 @@ const SEO = (props) => {
     nofollow,
     openGraphImage,
     openGraphSiteName,
+    pageSpecific,
     title,
     twitterHandle,
   } = props
@@ -29,19 +31,44 @@ const SEO = (props) => {
     (router.asPath === '/' ? '' : router.asPath)
   ).split('?')[0]
 
-  // ---------------------------------------------------------
+  // -------------------------------------------------------
+
+  let pageDescription = description
+  const globalDescription = description !== undefined && description[0].text
+  const pageSpecificDescription = pageSpecific?.description[0].text
+
+  if (globalDescription) pageDescription = globalDescription
+  if (pageSpecificDescription) pageDescription = pageSpecificDescription
+
+  // -------------------------------------------------------
+
+  let pageKeywords = keywords
+  const globalKeywords = keywords !== undefined && keywords[0].text
+  const pageSpecificKeywords = pageSpecific?.keywords[0].text
+
+  if (globalKeywords) pageKeywords = globalKeywords
+  if (pageSpecificKeywords) pageKeywords = pageSpecificKeywords
+
+  // -------------------------------------------------------
+
+  let pageTitle = title
+  const globalTitle = title !== undefined && title[0].text
+  const pageSpecificTitle = pageSpecific?.title[0].text
+
+  if (globalTitle) pageTitle = globalTitle
+  if (pageSpecificTitle) pageTitle = pageSpecificTitle
+
+  // -------------------------------------------------------
 
   return (
     <>
-      {keywords && (
-        <meta key="keywords" content={keywords[0].text} name="keywords"></meta>
-      )}
+      <Head>
+        {pageKeywords && <meta content={pageKeywords} name="keywords" />}
+      </Head>
 
       <NextSeo
         canonical={canonicalUrl}
-        description={
-          description && description[0].text ? description[0].text : description
-        }
+        description={pageDescription}
         nofollow={nofollow ? nofollow : undefined}
         openGraph={{
           images: [
@@ -55,7 +82,7 @@ const SEO = (props) => {
           ],
           site_name: openGraphSiteName ? openGraphSiteName[0].text : undefined,
         }}
-        title={title && title[0].text ? title[0].text : title}
+        title={pageTitle}
         twitter={{
           cardType: 'summary_large_image',
           site: twitterHandle ? twitterHandle[0].text : undefined,
@@ -69,10 +96,11 @@ const SEO = (props) => {
 
 SEO.propTypes = {
   description: PropTypes.oneOfType([PropTypes.array, PropTypes.string]),
-  keywords: PropTypes.array,
+  keywords: PropTypes.oneOfType([PropTypes.array, PropTypes.string]),
   nofollow: PropTypes.bool,
   openGraphImage: PropTypes.object,
   openGraphSiteName: PropTypes.array,
+  pageSpecific: PropTypes.object,
   title: PropTypes.oneOfType([PropTypes.array, PropTypes.string]),
   twitterHandle: PropTypes.array,
 }

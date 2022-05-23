@@ -23,6 +23,11 @@ export const getStaticProps = async ({ params, previewData }) => {
       header: header.data,
       page: page.data,
       seo: seo.data,
+      seoPageSpecific: {
+        description: page.data.description,
+        keywords: page.data.keywords,
+        title: page.data.title,
+      },
     },
   }
 }
@@ -39,13 +44,14 @@ export const getStaticPaths = async () => {
 // ---------------------------------------------------------
 
 const FlexiblePage = (props) => {
-  let { footer, header, page, seo } = props
+  let { footer, header, page, seo, seoPageSpecific } = props
 
   return (
     <FlexibleTemplate
       footer={footer}
       header={header}
       seo={seo}
+      seoPageSpecific={seoPageSpecific}
       slices={page.slices}
     />
   )

@@ -43,7 +43,12 @@ const PageNotFound = (props) => {
 
   return (
     <Layout footer={footer} header={header} seo={seo}>
-      <SEO description="Page not found" title="Page not found" nofollow />
+      <SEO
+        description="Page not found"
+        keywords="404, nofollow, page, not, found"
+        title="Page not found"
+        nofollow
+      />
       {PageNotFoundContent}
     </Layout>
   )

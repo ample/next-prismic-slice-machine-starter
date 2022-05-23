@@ -28,6 +28,11 @@ export const getStaticProps = async ({ previewData }) => {
       header: header.data,
       page: page.data,
       seo: seo.data,
+      seoPageSpecific: {
+        description: page.data.description,
+        keywords: page.data.keywords,
+        title: page.data.title,
+      },
     },
   }
 }
@@ -35,10 +40,16 @@ export const getStaticProps = async ({ previewData }) => {
 // ---------------------------------------------------------
 
 const Home = (props) => {
-  let { footer, header, page, seo } = props
+  const { footer, header, page, seo, seoPageSpecific } = props
 
   return (
-    <Layout footer={footer} header={header} seo={seo}>
+    <Layout
+      footer={footer}
+      header={header}
+      page={page}
+      seo={seo}
+      seoPageSpecific={seoPageSpecific}
+    >
       <Jumbotron {...page.jumbotron[0]} />
       <SliceZone components={components} slices={page.slices} />
     </Layout>
