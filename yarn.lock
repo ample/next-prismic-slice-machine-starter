@@ -2395,10 +2395,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@slicemachine/core@1.1.8":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@slicemachine/core/-/core-1.1.8.tgz#36f08f9242eadda733566f4b6c09381366aa010f"
-  integrity sha512-y5wRXgFWMlZ6xGAndURuDT0L7StqMjcmzfq/dstln6frwWjXuOorx/oJB6B2bPXowyl3qtPVMYL4+DdP2Xquyg==
+"@slicemachine/core@1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@slicemachine/core/-/core-1.1.9.tgz#812ca6aa192619a79cc012ba34aadfded42721f2"
+  integrity sha512-G0XzQapmerVDVehLwC40u34YY1ocOajVdt1l+64wdlzFr8q/5FSbFIsbQPH5usmwAC7JlI270eyZbqRgqba2vA==
   dependencies:
     "@prismicio/types-internal" "^0.2.8"
     axios "^0.26.0"
@@ -6711,10 +6711,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-ejs@^3.1.6:
-  version "3.1.7"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.7.tgz#c544d9c7f715783dd92f0bddcf73a59e6962d006"
-  integrity sha512-BIar7R6abbUxDA3bfXrO4DSgwo8I+fB5/1zgujl3HLLjwd6+9iOnrT+t3grn2qbk9vOgBubXOFwX2m9axoFaGw==
+ejs@^3.1.7:
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.8.tgz#758d32910c78047585c7ef1f92f9ee041c1c190b"
+  integrity sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==
   dependencies:
     jake "^10.8.5"
 
@@ -14030,15 +14030,15 @@ slice-ansi@^5.0.0:
     ansi-styles "^6.0.0"
     is-fullwidth-code-point "^4.0.0"
 
-slice-machine-ui@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.3.7.tgz#5df5a6c87e775fc9cef2402976418d56d3b5bafc"
-  integrity sha512-3g9kUKRBqVfacuh6TJHELNP+XJqAl8oKtadUVSrbpkRo56AedqOyOy5yp7ckgoUZd6U2w+ydx7s+GArqI9K1ow==
+slice-machine-ui@^0.3.8:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.3.8.tgz#5d9b8fd12c1a3d1279f52dd31a865d0b107a377a"
+  integrity sha512-KV+x9+afZ20F4jc/kHMFlyZCV94OBGzf9QoH2RpkABdHcOW3okULmf8PET7lsshXlOg3VvrnYwmmudvIQHsZgg==
   dependencies:
     "@babel/register" "^7.17.7"
     "@faker-js/faker" "^6.0.0"
     "@prismicio/types-internal" "^0.2.7"
-    "@slicemachine/core" "1.1.8"
+    "@slicemachine/core" "1.1.9"
     "@svgr/webpack" "^5.4.0"
     atob "^2.1.2"
     axios "^0.26.0"
@@ -14050,7 +14050,7 @@ slice-machine-ui@^0.3.7:
     cors "^2.8.5"
     dedent "^0.7.0"
     deepmerge "^4.2.2"
-    ejs "^3.1.6"
+    ejs "^3.1.7"
     esm "^3.2.25"
     express "^4.17.1"
     express-form-data "^2.0.14"

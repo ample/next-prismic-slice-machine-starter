@@ -65,7 +65,7 @@
     "prettier": "^2.6.2",
     "react-test-renderer": "^18.1.0",
     "sass-export": "^2.1.1",
-    "slice-machine-ui": "^0.3.7",
+    "slice-machine-ui": "^0.3.8",
     "storybook-addon-next": "^1.6.2",
     "storybook-dark-mode": "^1.1.0",
     "storybook-mobile": "^1.0.0",
