@@ -47,6 +47,8 @@ exports[`Storyshots Slices/Card Props 1`] = `
         alt="Placeholder image"
         data-nimg="responsive"
         decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {
@@ -175,6 +177,8 @@ exports[`Storyshots Slices/Card Variation Default 1`] = `
         alt="Placeholder image"
         data-nimg="responsive"
         decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {
@@ -298,6 +302,8 @@ exports[`Storyshots Slices/Card Variation With Button 1`] = `
         alt="Placeholder image"
         data-nimg="responsive"
         decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {

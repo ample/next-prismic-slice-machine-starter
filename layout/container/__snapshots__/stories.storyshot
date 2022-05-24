@@ -49,6 +49,8 @@ exports[`Storyshots Layout/Container With Background Image 1`] = `
         alt="Placeholder image"
         data-nimg="fill"
         decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {

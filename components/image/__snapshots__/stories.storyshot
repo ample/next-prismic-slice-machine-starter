@@ -36,6 +36,8 @@ exports[`Storyshots Components/Image Layout Is Fill 1`] = `
         alt="alt text helps screen-reading tools describe images to visually impaired readers"
         data-nimg="fill"
         decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {
@@ -134,6 +136,8 @@ exports[`Storyshots Components/Image Layout Is Fixed 1`] = `
         alt="alt text helps screen-reading tools describe images to visually impaired readers"
         data-nimg="fixed"
         decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {
@@ -267,6 +271,8 @@ exports[`Storyshots Components/Image Layout Is Intrinsic 1`] = `
         alt="alt text helps screen-reading tools describe images to visually impaired readers"
         data-nimg="intrinsic"
         decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {
@@ -380,6 +386,8 @@ exports[`Storyshots Components/Image Layout Is Responsive 1`] = `
         alt="alt text helps screen-reading tools describe images to visually impaired readers"
         data-nimg="responsive"
         decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {
@@ -514,6 +522,8 @@ exports[`Storyshots Components/Image Props 1`] = `
         alt="alt text helps screen-reading tools describe images to visually impaired readers"
         data-nimg="intrinsic"
         decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={
           Object {
@@ -653,6 +663,8 @@ exports[`Storyshots Components/Image With Link 1`] = `
           alt="alt text helps screen-reading tools describe images to visually impaired readers"
           data-nimg="intrinsic"
           decoding="async"
+          onError={[Function]}
+          onLoad={[Function]}
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
           style={
             Object {
