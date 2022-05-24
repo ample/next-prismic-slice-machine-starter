@@ -10,7 +10,7 @@ import fixtures from './fixtures'
 
 export default {
   component: Card,
-  title: 'Slices/Card',
+  title: 'Components/Card',
 }
 
 // ---------------------------------------------------------
@@ -25,8 +25,8 @@ _props.parameters = {
   chromatic: { disableSnapshot: true },
 }
 
-export const variationDefault = Template.bind({})
-variationDefault.args = fixtures.themeDefault
+export const themeDefault = Template.bind({})
+themeDefault.args = fixtures.themeDefault
 
-export const variationWithButton = Template.bind({})
-variationWithButton.args = fixtures.themeWithButton
+export const themeWithButton = Template.bind({})
+themeWithButton.args = fixtures.themeWithButton
