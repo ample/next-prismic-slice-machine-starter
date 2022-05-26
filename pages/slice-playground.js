@@ -5,12 +5,12 @@ import { NextSeo } from 'next-seo'
 
 // ---------------------------------------------------------
 
-import Card from '@slices/Card'
+import Card from '@components/card'
 import Layout from '@layout/index'
 
 // ---------------------------------------------------------
 
-import fixtures from '@slices/Card/fixtures'
+import fixtures from '@components/card/fixtures'
 import { PageNotFoundContent } from './404'
 
 // ---------------------------------------------------------
