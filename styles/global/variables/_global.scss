@@ -1,13 +1,10 @@
 // --------------------------------------------------------
-
-@use '../mixins/media' as *;
-
-// Global variables -- All variables should start with --global
+// global variables should start with --global
 // ---------------------------------------------------
 
-$global: (
-  '--global-header-mobile-height': 64px,
-  '--global-max-width': $large-lowest,
-  '--global-padding': 20px,
-  '--global-text-color': var(--color-blueprint),
-);
+:root {
+  --global-header-mobile-height: 64px;
+  --global-max-width: $large-lowest;
+  --global-padding: 20px;
+  --global-text-color: var(--color-blueprint);
+}
