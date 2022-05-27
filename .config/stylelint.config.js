@@ -106,7 +106,7 @@ module.exports = {
     'selector-attribute-brackets-space-inside': 'never',
     'selector-attribute-operator-space-after': 'never',
     'selector-attribute-operator-space-before': 'never',
-    'selector-class-pattern': '^[a-z0-9]+([_-][a-z0-9]+)*$',
+    'selector-class-pattern': '^[a-z0-9]+([_][a-z0-9||A-Z0-9]+)*$',
     'selector-combinator-space-after': 'always',
     'selector-combinator-space-before': 'always',
     'selector-list-comma-newline-after': 'always',
