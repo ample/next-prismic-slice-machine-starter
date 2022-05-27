@@ -13,10 +13,6 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
   images: {
     deviceSizes: [
       320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920,
