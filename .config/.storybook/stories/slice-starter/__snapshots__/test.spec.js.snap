@@ -4,6 +4,8 @@ exports[`SliceName FPO snapshot 1`] = `
 <a
   className="slice_name"
   href="url"
+  rel="noopener noreferrer"
+  target="_blank"
 >
   <h2>
     name of prop content goes here.

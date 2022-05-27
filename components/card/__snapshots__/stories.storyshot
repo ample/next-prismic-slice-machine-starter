@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Slices/Card Props 1`] = `
+exports[`Storyshots Components/Card Props 1`] = `
 <a
   className="card text_alignment_left theme_with_button"
   href="http://twitter.com"
@@ -130,7 +130,7 @@ exports[`Storyshots Slices/Card Props 1`] = `
 </a>
 `;
 
-exports[`Storyshots Slices/Card Variation Default 1`] = `
+exports[`Storyshots Components/Card Theme Default 1`] = `
 <a
   className="card text_alignment_left theme_default"
   href="http://twitter.com"
@@ -255,7 +255,7 @@ exports[`Storyshots Slices/Card Variation Default 1`] = `
 </a>
 `;
 
-exports[`Storyshots Slices/Card Variation With Button 1`] = `
+exports[`Storyshots Components/Card Theme With Button 1`] = `
 <a
   className="card text_alignment_left theme_with_button"
   href="http://twitter.com"
