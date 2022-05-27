@@ -22,6 +22,16 @@
   }
 }
 
+.layout_is_one_fourth {
+  @include media($small) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include media($medium-lowest) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 // ---------------------------------------------------------
 
 $gap-options: '0', '20';

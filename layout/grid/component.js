@@ -9,6 +9,7 @@ import {
   gap_0,
   gap_20,
   grid,
+  layout_is_one_fourth,
   layout_is_one_half,
   layout_is_one_third,
 } from './styles.module.scss'
@@ -25,6 +26,7 @@ const layoutOptions = {
   '1/3': layout_is_one_third,
   2: layout_is_one_half,
   3: layout_is_one_third,
+  4: layout_is_one_fourth,
 }
 
 // ---------------------------------------------------------
@@ -71,7 +73,7 @@ Grid.propTypes = {
 }
 
 Grid.defaultProps = {
-  gap: 10,
+  gap: '20',
 }
 
 export default Grid

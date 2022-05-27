@@ -65,6 +65,47 @@
           }
         }
       }
+    },
+    "SectionForDemo": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "heading": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "body": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "image": {
+            "content": "https://images.unsplash.com/photo-1585399000684-d2f72660f092"
+          },
+          "url": {
+            "content": "https://ample.co"
+          },
+          "buttonLabel": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "withoutHeader": {
+        "primary": {}
+      }
     }
   }
 }
