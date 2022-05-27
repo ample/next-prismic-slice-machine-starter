@@ -19,6 +19,9 @@
           "choices": {
             "jumbotron": {
               "type": "SharedSlice"
+            },
+            "section_for_demo": {
+              "type": "SharedSlice"
             }
           }
         }

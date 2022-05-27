@@ -43,7 +43,7 @@ const Card = (props) => {
   // -------------------------------------------------------
 
   let variation = props.slice ? props.slice.variation : props.variation
-  let button = buttonLabel ? buttonLabel[0].text : undefined
+  let button = buttonLabel && buttonLabel[0] ? buttonLabel[0].text : undefined
 
   // -------------------------------------------------------
 
@@ -69,7 +69,7 @@ const Card = (props) => {
       <div className={card_content}>
         {heading && <PrismicRichText field={heading} />}
         {body && <PrismicRichText field={body} />}
-        {buttonLabel && <Button>{button}</Button>}
+        {button && <Button>{button}</Button>}
       </div>
     </>
   )

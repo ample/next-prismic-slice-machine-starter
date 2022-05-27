@@ -1,7 +1,22 @@
 // ---------------------------------------------------------
-// Color palette -- All color variables should start with color-
+// color variables should start with --color
+// ---------------------------------------------------------
+// colors in :root and the $color list should match
+// to keep colors up to date in Storybook
 // ---------------------------------------------------------
 // Run `yarn sass-variables` to keep colors updated in Storybook.
+// ---------------------------------------------------------
+
+:root {
+  --color-black: #000;
+  --color-blueprint: #0065f2;
+  --color-blueprint-bright: #408cf6;
+  --color-blueprint-soft: #5a9af4;
+  --color-blueprint-light: #e6f1fc;
+  --color-blueprint-lighter: #f2f8ff;
+  --color-white: #fff;
+}
+
 // ---------------------------------------------------------
 
 $color: (
@@ -13,3 +28,5 @@ $color: (
   '--color-blueprint-lighter': #f2f8ff,
   '--color-white': #fff,
 );
+
+// ---------------------------------------------------------

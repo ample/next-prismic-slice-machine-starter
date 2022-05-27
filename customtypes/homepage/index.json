@@ -44,7 +44,7 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "card": {
+            "section_for_demo": {
               "type": "SharedSlice"
             }
           }

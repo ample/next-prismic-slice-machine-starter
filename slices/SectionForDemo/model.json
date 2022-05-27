@@ -1,0 +1,134 @@
+{
+  "id": "section_for_demo",
+  "type": "SharedSlice",
+  "name": "SectionForDemo",
+  "description": "SectionForDemo",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SectionForDemo",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Card Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Card Body",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Card Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "url": {
+          "type": "Link",
+          "config": {
+            "label": "Card URL",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "buttonLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Card Button Label",
+            "placeholder": "Label of an optional button",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "withoutHeader",
+      "name": "Without header",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SectionForDemo",
+      "primary": {},
+      "items": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Card Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Card Body",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Card Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "url": {
+          "type": "Link",
+          "config": {
+            "label": "Card URL",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "buttonLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Card Button Label",
+            "placeholder": "Label of an optional button",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

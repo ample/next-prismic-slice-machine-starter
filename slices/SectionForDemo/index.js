@@ -1,8 +1,7 @@
 // ---------------------------------------------------------
 
-@use './color' as *;
-@use './font' as *;
-@use './global' as *;
-@use './z-index' as *;
+import SectionForDemo from './component'
 
 // ---------------------------------------------------------
+
+export default SectionForDemo

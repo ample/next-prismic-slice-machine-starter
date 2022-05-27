@@ -1,12 +1,12 @@
 // ---------------------------------------------------------
-// z-index variables -- All variables should start with z-index
+// z-index variables should start with --z-index
 // ---------------------------------------------------------
 
-$z-index: (
-  '--z-index': 0,
-  '--z-index-plus-one': 1,
-  '--z-index-plus-two': 2,
-  '--z-index-plus-three': 3,
-  '--z-index-plus-four': 4,
-  '--z-index-debug': 10,
-);
+:root {
+  --z-index: 0;
+  --z-index-plus-one: 1;
+  --z-index-plus-two: 2;
+  --z-index-plus-three: 3;
+  --z-index-plus-four: 4;
+  --z-index-debug: 10;
+}
