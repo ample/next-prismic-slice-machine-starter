@@ -6,6 +6,12 @@
 
 // ---------------------------------------------------------
 
-.section_theme_type {
-  color: orange;
+.theme_default {
+  background-color: var(--color-blueprint-lighter);
+  color: var(--color-blueprint);
+}
+
+.theme_withoutHeader {
+  background-color: var(--color-blueprint-bright);
+  color: var(--color-white);
 }
