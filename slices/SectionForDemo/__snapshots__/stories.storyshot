@@ -1,0 +1,799 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Slices/Section For Demo Default 1`] = `
+<section
+  className="container section_for_demo theme_default "
+>
+  <div
+    className="container_content spacing_large"
+  >
+    <h1>
+      Target magnetic systems
+    </h1>
+    <p>
+      Veniam nulla cillum laboris minim amet duis fugiat. Adipisicing incididunt labore non excepteur est sunt non voluptate ex labore excepteur et anim.
+    </p>
+    <div
+      className="grid gap_20 layout_is_one_third"
+    >
+      <a
+        className="card text_alignment_left theme_default"
+        href="https://ample.co"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <div
+          className="card_image"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "opacity": 1,
+                  "padding": 0,
+                  "paddingTop": "55.55555555555556%",
+                  "width": "initial",
+                }
+              }
+            />
+            <img
+              alt="Placeholder image"
+              data-nimg="responsive"
+              decoding="async"
+              onError={[Function]}
+              onLoad={[Function]}
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
+                  "backgroundPosition": "0% 0%",
+                  "backgroundSize": "cover",
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "filter": "blur(20px)",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                alt="Placeholder image"
+                data-nimg="responsive"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75"
+                srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75 3840w"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </div>
+        <div
+          className="card_content"
+        >
+          <p>
+            Ullamco consectetur elit veniam reprehenderit aliqua et anim culpa mollit quis eiusmod velit labore duis. Laboris nulla proident duis nisi. Anim elit esse Lorem ut laboris commodo commodo aliqua nostrud cupidatat dolore aute occaecat.
+          </p>
+          <p>
+            Tempor voluptate ad cupidatat reprehenderit ea anim qui laboris sint adipisicing duis fugiat.
+          </p>
+          <button
+            className="button theme_default"
+          >
+            Quis ex consequat.
+          </button>
+        </div>
+      </a>
+      <a
+        className="card text_alignment_left theme_default"
+        href="https://ample.co"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <div
+          className="card_image"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "opacity": 1,
+                  "padding": 0,
+                  "paddingTop": "55.55555555555556%",
+                  "width": "initial",
+                }
+              }
+            />
+            <img
+              alt="Placeholder image"
+              data-nimg="responsive"
+              decoding="async"
+              onError={[Function]}
+              onLoad={[Function]}
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
+                  "backgroundPosition": "0% 0%",
+                  "backgroundSize": "cover",
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "filter": "blur(20px)",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                alt="Placeholder image"
+                data-nimg="responsive"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75"
+                srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75 3840w"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </div>
+        <div
+          className="card_content"
+        >
+          <p>
+            Ullamco consectetur elit veniam reprehenderit aliqua et anim culpa mollit quis eiusmod velit labore duis. Laboris nulla proident duis nisi. Anim elit esse Lorem ut laboris commodo commodo aliqua nostrud cupidatat dolore aute occaecat.
+          </p>
+          <p>
+            Tempor voluptate ad cupidatat reprehenderit ea anim qui laboris sint adipisicing duis fugiat.
+          </p>
+          <button
+            className="button theme_default"
+          >
+            Quis ex consequat.
+          </button>
+        </div>
+      </a>
+      <a
+        className="card text_alignment_left theme_default"
+        href="https://ample.co"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <div
+          className="card_image"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "opacity": 1,
+                  "padding": 0,
+                  "paddingTop": "55.55555555555556%",
+                  "width": "initial",
+                }
+              }
+            />
+            <img
+              alt="Placeholder image"
+              data-nimg="responsive"
+              decoding="async"
+              onError={[Function]}
+              onLoad={[Function]}
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
+                  "backgroundPosition": "0% 0%",
+                  "backgroundSize": "cover",
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "filter": "blur(20px)",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                alt="Placeholder image"
+                data-nimg="responsive"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75"
+                srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75 3840w"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </div>
+        <div
+          className="card_content"
+        >
+          <p>
+            Ullamco consectetur elit veniam reprehenderit aliqua et anim culpa mollit quis eiusmod velit labore duis. Laboris nulla proident duis nisi. Anim elit esse Lorem ut laboris commodo commodo aliqua nostrud cupidatat dolore aute occaecat.
+          </p>
+          <p>
+            Tempor voluptate ad cupidatat reprehenderit ea anim qui laboris sint adipisicing duis fugiat.
+          </p>
+          <button
+            className="button theme_default"
+          >
+            Quis ex consequat.
+          </button>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Storyshots Slices/Section For Demo Without Header 1`] = `
+<section
+  className="container section_for_demo theme_withoutHeader "
+>
+  <div
+    className="container_content spacing_large"
+  >
+    <div
+      className="grid gap_20 layout_is_one_third"
+    >
+      <a
+        className="card text_alignment_left theme_with_button"
+        href="https://ample.co"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <div
+          className="card_image"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "opacity": 1,
+                  "padding": 0,
+                  "paddingTop": "55.55555555555556%",
+                  "width": "initial",
+                }
+              }
+            />
+            <img
+              alt="Placeholder image"
+              data-nimg="responsive"
+              decoding="async"
+              onError={[Function]}
+              onLoad={[Function]}
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
+                  "backgroundPosition": "0% 0%",
+                  "backgroundSize": "cover",
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "filter": "blur(20px)",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                alt="Placeholder image"
+                data-nimg="responsive"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75"
+                srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1587840171670-8b850147754e%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75 3840w"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </div>
+        <div
+          className="card_content"
+        >
+          <p>
+            Ullamco consectetur elit veniam reprehenderit aliqua et anim culpa mollit quis eiusmod velit labore duis. Laboris nulla proident duis nisi. Anim elit esse Lorem ut laboris commodo commodo aliqua nostrud cupidatat dolore aute occaecat.
+          </p>
+          <p>
+            Tempor voluptate ad cupidatat reprehenderit ea anim qui laboris sint adipisicing duis fugiat.
+          </p>
+          <button
+            className="button theme_default"
+          >
+            Quis ex consequat.
+          </button>
+        </div>
+      </a>
+      <a
+        className="card text_alignment_left theme_with_button"
+        href="https://ample.co"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <div
+          className="card_image"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "opacity": 1,
+                  "padding": 0,
+                  "paddingTop": "55.55555555555556%",
+                  "width": "initial",
+                }
+              }
+            />
+            <img
+              alt="Placeholder image"
+              data-nimg="responsive"
+              decoding="async"
+              onError={[Function]}
+              onLoad={[Function]}
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
+                  "backgroundPosition": "0% 0%",
+                  "backgroundSize": "cover",
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "filter": "blur(20px)",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                alt="Placeholder image"
+                data-nimg="responsive"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75"
+                srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1486312338219-ce68d2c6f44d%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75 3840w"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </div>
+        <div
+          className="card_content"
+        >
+          <p>
+            Ullamco consectetur elit veniam reprehenderit aliqua et anim culpa mollit quis eiusmod velit labore duis. Laboris nulla proident duis nisi. Anim elit esse Lorem ut laboris commodo commodo aliqua nostrud cupidatat dolore aute occaecat.
+          </p>
+          <p>
+            Tempor voluptate ad cupidatat reprehenderit ea anim qui laboris sint adipisicing duis fugiat.
+          </p>
+          <button
+            className="button theme_default"
+          >
+            Quis ex consequat.
+          </button>
+        </div>
+      </a>
+      <a
+        className="card text_alignment_left theme_with_button"
+        href="https://ample.co"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <div
+          className="card_image"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "opacity": 1,
+                  "padding": 0,
+                  "paddingTop": "55.55555555555556%",
+                  "width": "initial",
+                }
+              }
+            />
+            <img
+              alt="Placeholder image"
+              data-nimg="responsive"
+              decoding="async"
+              onError={[Function]}
+              onLoad={[Function]}
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
+                  "backgroundPosition": "0% 0%",
+                  "backgroundSize": "cover",
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "filter": "blur(20px)",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                alt="Placeholder image"
+                data-nimg="responsive"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75"
+                srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1601933973783-43cf8a7d4c5f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75 3840w"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </div>
+        <div
+          className="card_content"
+        >
+          <p>
+            Ullamco consectetur elit veniam reprehenderit aliqua et anim culpa mollit quis eiusmod velit labore duis. Laboris nulla proident duis nisi. Anim elit esse Lorem ut laboris commodo commodo aliqua nostrud cupidatat dolore aute occaecat.
+          </p>
+          <p>
+            Tempor voluptate ad cupidatat reprehenderit ea anim qui laboris sint adipisicing duis fugiat.
+          </p>
+          <button
+            className="button theme_default"
+          >
+            Quis ex consequat.
+          </button>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+`;

@@ -8,6 +8,10 @@ import fixtures from './fixtures'
 
 // ---------------------------------------------------------
 
+import '@slices/storybook.scss'
+
+// ---------------------------------------------------------
+
 export default {
   component: SectionForDemo,
   title: 'Slices/Section For Demo',
@@ -19,9 +23,14 @@ const Template = (args) => <SectionForDemo {...args} />
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({})
-_props.args = fixtures._props
-_props.parameters = {
+export const _default = Template.bind({})
+_default.args = fixtures._default
+_default.parameters = {
   chromatic: { disableSnapshot: true },
-  storyshots: { disable: true },
+}
+
+export const withoutHeader = Template.bind({})
+withoutHeader.args = fixtures.withoutHeader
+withoutHeader.parameters = {
+  chromatic: { disableSnapshot: true },
 }

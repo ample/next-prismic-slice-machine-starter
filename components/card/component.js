@@ -42,8 +42,20 @@ const Card = (props) => {
 
   // -------------------------------------------------------
 
-  let variation = props.slice ? props.slice.variation : props.variation
   let button = buttonLabel && buttonLabel[0] ? buttonLabel[0].text : undefined
+  let variation = props.slice
+    ? props.slice.variation
+    : props.variation
+    ? props.variation
+    : undefined
+
+  // -------------------------------------------------------
+
+  const containsButton = button !== undefined
+  const undefinedVariation = variation === undefined
+
+  if (undefinedVariation && containsButton) variation = 'withButton'
+  if (undefinedVariation) variation = 'default'
 
   // -------------------------------------------------------
 
@@ -67,8 +79,8 @@ const Card = (props) => {
       )}
 
       <div className={card_content}>
-        {heading && <PrismicRichText field={heading} />}
-        {body && <PrismicRichText field={body} />}
+        <PrismicRichText field={heading} />
+        <PrismicRichText field={body} />
         {button && <Button>{button}</Button>}
       </div>
     </>
