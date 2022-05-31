@@ -21,4 +21,8 @@
 .jumbotron_content {
   color: var(--color-white);
   padding: 40px;
+
+  p {
+    @include font-size(16px, 24px);
+  }
 }

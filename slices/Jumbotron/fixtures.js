@@ -4,7 +4,12 @@ const slice = {
   body: [
     {
       spans: [],
-      text: 'Est proident adipisicing reprehenderit in occaecat non. Aute enim minim labore nisi ullamco enim sint Lorem excepteur exercitation anim tempor ad minim ut. Sunt enim aliqua elit occaecat.',
+      text: 'Est proident adipisicing.',
+      type: 'heading1',
+    },
+    {
+      spans: [],
+      text: 'Reprehenderit in occaecat non. Aute enim minim labore nisi ullamco enim sint Lorem excepteur exercitation anim tempor ad minim ut. Sunt enim aliqua elit occaecat.',
       type: 'paragraph',
     },
   ],
@@ -19,7 +24,7 @@ const slice = {
 // ---------------------------------------------------------
 
 export default {
-  _props: {
+  _default: {
     ...slice,
   },
 }

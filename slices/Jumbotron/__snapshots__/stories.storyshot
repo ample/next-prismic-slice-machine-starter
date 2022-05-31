@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Slices/Jumbotron Props 1`] = `
+exports[`Storyshots Slices/Jumbotron Default 1`] = `
 <section
   className="jumbotron"
 >
@@ -112,8 +112,11 @@ exports[`Storyshots Slices/Jumbotron Props 1`] = `
   <div
     className="jumbotron_content"
   >
+    <h1>
+      Est proident adipisicing.
+    </h1>
     <p>
-      Est proident adipisicing reprehenderit in occaecat non. Aute enim minim labore nisi ullamco enim sint Lorem excepteur exercitation anim tempor ad minim ut. Sunt enim aliqua elit occaecat.
+      Reprehenderit in occaecat non. Aute enim minim labore nisi ullamco enim sint Lorem excepteur exercitation anim tempor ad minim ut. Sunt enim aliqua elit occaecat.
     </p>
   </div>
 </section>

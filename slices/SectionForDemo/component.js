@@ -6,14 +6,14 @@ import { PrismicRichText } from '@prismicio/react'
 
 // ---------------------------------------------------------
 
+import Card from '@components/card'
 import Container from '@layout/container'
 import Grid from '@layout/grid'
 
 // ---------------------------------------------------------
 
-import Card from '@components/card'
 import {
-  container,
+  section_for_demo,
   theme_default,
   theme_withoutHeader,
 } from './styles.module.scss'
@@ -27,15 +27,22 @@ const themeOptions = {
 
 const SectionForDemo = (props) => {
   let slice = props.slice ? props.slice.primary : props
-  let cards = props.slice.items
-  let theme = props.slice.variation
-
   let { description, title } = slice
 
   // -------------------------------------------------------
 
-  const classes = classNames(container, {
-    [themeOptions[theme]]: themeOptions[theme],
+  let cards = props.slice ? props.slice.items : props.items
+  let variation = props.slice ? props.slice.variation : props.variation
+
+  // -------------------------------------------------------
+
+  let cardVariation = 'default'
+  if (variation === 'withoutHeader') cardVariation = 'withButton'
+
+  // ---------------------------------------------------------
+
+  const classes = classNames(section_for_demo, {
+    [themeOptions[variation]]: themeOptions[variation],
   })
 
   // -------------------------------------------------------
@@ -46,7 +53,7 @@ const SectionForDemo = (props) => {
       <PrismicRichText field={description} />
       <Grid>
         {cards.map((card, key) => {
-          return <Card key={key} {...card} />
+          return <Card key={key} variation={cardVariation} {...card} />
         })}
       </Grid>
     </Container>
@@ -57,9 +64,13 @@ const SectionForDemo = (props) => {
 
 SectionForDemo.propTypes = {
   /**
+   * Specifies Repeatable Zone items.
+   */
+  items: PropTypes.array,
+  /**
    * Specifies the theme variation.
    */
-  theme: PropTypes.oneOf(Object.keys(themeOptions)),
+  variation: PropTypes.oneOf(Object.keys(themeOptions)),
 }
 
 SectionForDemo.defaultProps = {}

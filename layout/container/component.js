@@ -30,18 +30,18 @@ import {
 const spacingOptions = {
   large: spacing_large,
   medium: spacing_medium,
-  none: null,
+  none: '',
   small: spacing_small,
 }
 
 const textAlignmentOptions = {
   center: text_alignment_center,
-  left: null,
+  left: '',
   right: text_alignment_right,
 }
 
 const themeOptions = {
-  none: null,
+  none: '',
   'theme-one': theme_one,
   'theme-two': theme_two,
 }
@@ -49,7 +49,7 @@ const themeOptions = {
 const widthOptions = {
   fixed: width_fixed,
   fluid: width_fluid,
-  full: null,
+  full: '',
 }
 
 // ---------------------------------------------------------

@@ -2,7 +2,7 @@
 
 exports[`Storyshots Layout/Container Props 1`] = `
 <section
-  className="container null"
+  className="container "
 >
   <div
     className="container_content width_fluid"
@@ -19,7 +19,7 @@ exports[`Storyshots Layout/Container Props 1`] = `
 
 exports[`Storyshots Layout/Container With Background Image 1`] = `
 <section
-  className="container has_background_image null"
+  className="container has_background_image "
 >
   <div
     className="container_background_image"
