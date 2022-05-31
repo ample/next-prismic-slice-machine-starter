@@ -2,7 +2,6 @@
 
 import Head from 'next/head'
 import PropTypes from 'prop-types'
-import { Fragment } from 'react'
 import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 
