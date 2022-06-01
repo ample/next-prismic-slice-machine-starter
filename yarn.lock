@@ -2292,10 +2292,10 @@
     "@prismicio/helpers" "^2.2.1"
     "@prismicio/types" "^0.1.27"
 
-"@prismicio/client@^6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-6.5.0.tgz#00fadff0572cb7d2d90c9f4bf7acb99723316042"
-  integrity sha512-ZAGmytsrsa1oDFsxjOmVrJ+a4aOp8Psi4JaD90nAFt1N3WquS4jzVkPCnDXg6j3ZufV26BIxMiPPi4XCzl9KyA==
+"@prismicio/client@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-6.5.1.tgz#cf1da0d41579b18ab88684cf4146487cc340fc66"
+  integrity sha512-SrluBNcTQ34UZI1oa+DLTWohaE8U2BU2QRpjZ9GOYa9Kty1RqWxFxr+qUTk7LS0QSbmVPEq1AngL5IR2HFZw2A==
   dependencies:
     "@prismicio/helpers" "^2.3.0"
     "@prismicio/types" "^0.1.27"

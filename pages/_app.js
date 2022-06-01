@@ -1,7 +1,7 @@
 // ---------------------------------------------------------
 
 import Link from 'next/link'
-import { linkResolver, repositoryName } from '../prismicio'
+import { linkResolver, repositoryName } from '@root/prismicio'
 import { PrismicPreview } from '@prismicio/next'
 import { PrismicProvider } from '@prismicio/react'
 
