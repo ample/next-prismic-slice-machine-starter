@@ -1,5 +1,5 @@
 {
-  "_latest": "0.3.7",
+  "_latest": "0.3.8",
   "apiEndpoint": "https://ample-prismic-demo.prismic.io/api/v2",
   "libraries": ["@/slices"],
   "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
