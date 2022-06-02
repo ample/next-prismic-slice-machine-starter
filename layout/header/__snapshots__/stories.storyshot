@@ -4,48 +4,51 @@ exports[`Storyshots Layout/Header Props 1`] = `
 <header
   className="header"
 >
-  <a
-    className=""
-    href="/"
+  <div
+    className="header_content"
   >
-    Logo goes here
-  </a>
-  <nav
-    aria-label="Main"
-  >
-    <ul>
-      <li>
-        <a
-          className=""
-          href="https://ample.co"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Dolore irure
-        </a>
-      </li>
-      <li>
-        <a
-          className=""
-          href="https://ample.co"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Voluptate proident
-        </a>
-      </li>
-      <li>
-        <a
-          className=""
-          href="https://ample.co"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Laborum et proident
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <hr />
+    <a
+      className=""
+      href="/"
+    >
+      Logo goes here
+    </a>
+    <nav
+      aria-label="Main"
+    >
+      <ul>
+        <li>
+          <a
+            className=""
+            href="https://ample.co"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Dolore irure
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="https://ample.co"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Voluptate proident
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="https://ample.co"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Laborum et proident
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 `;

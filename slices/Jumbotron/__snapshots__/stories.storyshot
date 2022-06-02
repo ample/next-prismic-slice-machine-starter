@@ -10,37 +10,25 @@ exports[`Storyshots Slices/Jumbotron Default 1`] = `
         Object {
           "background": "none",
           "border": 0,
+          "bottom": 0,
           "boxSizing": "border-box",
           "display": "block",
           "height": "initial",
+          "left": 0,
           "margin": 0,
           "opacity": 1,
           "overflow": "hidden",
           "padding": 0,
-          "position": "relative",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
           "width": "initial",
         }
       }
     >
-      <span
-        style={
-          Object {
-            "background": "none",
-            "border": 0,
-            "boxSizing": "border-box",
-            "display": "block",
-            "height": "initial",
-            "margin": 0,
-            "opacity": 1,
-            "padding": 0,
-            "paddingTop": "55.55555555555556%",
-            "width": "initial",
-          }
-        }
-      />
       <img
         alt="Placeholder image"
-        data-nimg="responsive"
+        data-nimg="fill"
         decoding="async"
         onError={[Function]}
         onLoad={[Function]}
@@ -77,7 +65,7 @@ exports[`Storyshots Slices/Jumbotron Default 1`] = `
       <noscript>
         <img
           alt="Placeholder image"
-          data-nimg="responsive"
+          data-nimg="fill"
           decoding="async"
           loading="lazy"
           sizes="100vw"

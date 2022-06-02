@@ -4,48 +4,51 @@ exports[`Storyshots Layout/Footer Props 1`] = `
 <footer
   className="footer"
 >
-  <hr />
-  <a
-    className=""
-    href="/"
+  <div
+    className="footer_content"
   >
-    Logo goes here
-  </a>
-  <nav
-    aria-label="Footer"
-  >
-    <ul>
-      <li>
-        <a
-          className=""
-          href="https://ample.co"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Dolore irure
-        </a>
-      </li>
-      <li>
-        <a
-          className=""
-          href="https://ample.co"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Voluptate proident
-        </a>
-      </li>
-      <li>
-        <a
-          className=""
-          href="https://ample.co"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Laborum et proident
-        </a>
-      </li>
-    </ul>
-  </nav>
+    <a
+      className=""
+      href="/"
+    >
+      Logo goes here
+    </a>
+    <nav
+      aria-label="Footer"
+    >
+      <ul>
+        <li>
+          <a
+            className=""
+            href="https://ample.co"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Dolore irure
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="https://ample.co"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Voluptate proident
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="https://ample.co"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Laborum et proident
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </footer>
 `;
