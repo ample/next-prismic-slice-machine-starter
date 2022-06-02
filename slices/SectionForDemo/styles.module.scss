@@ -7,8 +7,18 @@
 // ---------------------------------------------------------
 
 .theme_default {
-  background-color: var(--color-blueprint-lighter);
+  background-color: var(--color-blueprint-light);
   color: var(--color-blueprint);
+
+  header {
+    color: var(--color-black);
+
+    p {
+      @include font-size(16px, 22px);
+
+      margin-bottom: rfs(40px);
+    }
+  }
 }
 
 .theme_withoutHeader {
