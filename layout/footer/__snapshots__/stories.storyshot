@@ -11,7 +11,9 @@ exports[`Storyshots Layout/Footer Props 1`] = `
   >
     Logo goes here
   </a>
-  <nav>
+  <nav
+    aria-label="Footer"
+  >
     <ul>
       <li>
         <a

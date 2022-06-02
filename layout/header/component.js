@@ -19,7 +19,7 @@ const Header = (props) => {
     <header className={header}>
       <Link url="/">Logo goes here</Link>
 
-      <nav>
+      <nav aria-label="Main">
         <ul>
           {navigationLinks.map((nav) => {
             let label = nav.label[0].text

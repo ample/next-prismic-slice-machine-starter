@@ -20,7 +20,7 @@ const Footer = (props) => {
       <hr />
       <Link url="/">Logo goes here</Link>
 
-      <nav>
+      <nav aria-label="Footer">
         <ul>
           {navigationLinks.map((nav) => {
             let label = nav.label[0].text

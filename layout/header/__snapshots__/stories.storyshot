@@ -10,7 +10,9 @@ exports[`Storyshots Layout/Header Props 1`] = `
   >
     Logo goes here
   </a>
-  <nav>
+  <nav
+    aria-label="Main"
+  >
     <ul>
       <li>
         <a
