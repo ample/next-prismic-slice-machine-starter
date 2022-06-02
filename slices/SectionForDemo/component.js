@@ -48,7 +48,7 @@ const SectionForDemo = (props) => {
   // -------------------------------------------------------
 
   return (
-    <Container className={classes} spacing="large" width="full">
+    <Container className={classes} spacing="large" width="fluid">
       {title && (
         <header>
           <PrismicRichText field={title} />

@@ -3,8 +3,7 @@
 // ---------------------------------------------------
 
 :root {
-  --global-header-mobile-height: 64px;
-  --global-max-width: $large-lowest;
+  --global-max-width: 1280px; // $large-lowest
   --global-padding: 20px;
-  --global-text-color: var(--color-blueprint);
+  --global-text-color: var(--color-black);
 }

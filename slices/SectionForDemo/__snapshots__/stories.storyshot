@@ -5,7 +5,7 @@ exports[`Storyshots Slices/Section For Demo Default 1`] = `
   className="container section_for_demo theme_default "
 >
   <div
-    className="container_content spacing_large"
+    className="container_content spacing_large width_fluid"
   >
     <header>
       <h1>
@@ -409,7 +409,7 @@ exports[`Storyshots Slices/Section For Demo Without Header 1`] = `
   className="container section_for_demo theme_withoutHeader "
 >
   <div
-    className="container_content spacing_large"
+    className="container_content spacing_large width_fluid"
   >
     <div
       className="grid gap_20 layout_is_one_third"
