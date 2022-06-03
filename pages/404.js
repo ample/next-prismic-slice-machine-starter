@@ -28,16 +28,6 @@ export const getStaticProps = async ({ previewData }) => {
 
 // ---------------------------------------------------------
 
-export const PageNotFoundContent = (
-  <>
-    <h1>NOT FOUND</h1>
-    <p>Uh oh! This page doesn't exist.</p>
-    <Link url="/">Back to the homepage?</Link>
-  </>
-)
-
-// ---------------------------------------------------------
-
 const PageNotFound = (props) => {
   let { footer, header, seo } = props
 
@@ -49,7 +39,9 @@ const PageNotFound = (props) => {
         title="Page not found"
         nofollow
       />
-      {PageNotFoundContent}
+      <h1>NOT FOUND</h1>
+      <p>Uh oh! This page doesn't exist.</p>
+      <Link url="/">Back to the homepage?</Link>
     </Layout>
   )
 }
