@@ -8,10 +8,6 @@ import fixtures from './fixtures'
 
 // ---------------------------------------------------------
 
-import '@slices/storybook.scss'
-
-// ---------------------------------------------------------
-
 export default {
   component: SectionForDemo,
   title: 'Slices/Section For Demo',
