@@ -1,7 +1,3 @@
-// ---------------------------------------------------------
-
-@use 'media' as *;
-
 // --------------------------------------------------------
 
 @mixin container {
@@ -15,7 +11,7 @@
 @mixin container-header {
   @include container;
 
-  @include media($full-navigation, down) {
+  @media (--large) {
     padding: 0 calc(var(--global-padding) / 2);
   }
 }

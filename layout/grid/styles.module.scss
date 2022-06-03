@@ -7,27 +7,27 @@
 // ---------------------------------------------------------
 
 .layout_is_one_half {
-  @include media($small) {
+  @media (--small) {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 .layout_is_one_third {
-  @include media($small) {
+  @media (--small) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @include media($medium-lowest) {
+  @media (--medium-lowest) {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 .layout_is_one_fourth {
-  @include media($small) {
+  @media (--small) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @include media($medium-lowest) {
+  @media (--medium-lowest) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

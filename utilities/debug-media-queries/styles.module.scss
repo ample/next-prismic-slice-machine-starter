@@ -87,7 +87,7 @@ $size: 44px;
 
     @media screen and (min-width: $min-width) {
       &::after {
-        content: '#{nth($mq, 1)} - min-width: #{$min-width} (#{$min-width-pixels}px)';
+        content: '@media (--#{nth($mq, 1)}) | #{$min-width} | #{$min-width-pixels}px';
       }
     }
   }
