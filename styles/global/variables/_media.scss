@@ -1,0 +1,22 @@
+// --------------------------------------------------------
+// media variables should start with --media
+// ---------------------------------------------------
+
+:root {
+  --media-smallest: 0;
+  --media-x-small-lowest: 360px;
+  --media-x-small: 400px;
+  --media-x-small-highest: 480px;
+  --media-small-lowest: 600px;
+  --media-small: 720px;
+  --media-small-highest: 840px;
+  --media-medium-lowest: 960px;
+  --media-medium: 1040px;
+  --media-medium-highest: 1140px;
+  --media-large-lowest: 1280px;
+  --media-large: 1440px;
+  --media-large-highest: 1600px;
+  --media-x-large-lowest: 1920px;
+  --media-x-large: 2560px;
+  --media-x-large-highest: 3360px;
+}
