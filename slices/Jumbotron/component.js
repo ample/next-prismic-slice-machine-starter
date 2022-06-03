@@ -20,7 +20,13 @@ const Jumbotron = (props) => {
   return (
     <section className={jumbotron}>
       {image && (
-        <Image alt={image.alt} layout="fill" src={image.url} priority />
+        <Image
+          alt={image.alt}
+          layout="fill"
+          objectFit="cover"
+          src={image.url}
+          priority
+        />
       )}
 
       <div className={jumbotron_content}>

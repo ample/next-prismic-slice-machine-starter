@@ -11,7 +11,7 @@ exports[`Storyshots Layout/Header Props 1`] = `
       className=""
       href="/"
     >
-      Logo goes here
+      Logo
     </a>
     <nav
       aria-label="Main"

@@ -18,7 +18,7 @@ const Header = (props) => {
   return (
     <header className={header}>
       <div className={header_content}>
-        <Link url="/">Logo goes here</Link>
+        <Link url="/">Logo</Link>
 
         <nav aria-label="Main">
           <ul>

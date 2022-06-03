@@ -18,7 +18,7 @@ const Footer = (props) => {
   return (
     <footer className={footer}>
       <div className={footer_content}>
-        <Link url="/">Logo goes here</Link>
+        <Link url="/">Logo</Link>
 
         <nav aria-label="Footer">
           <ul>
