@@ -33,7 +33,7 @@
     "react-sizeme": "^3.0.2",
     "react-svg": "^15.0.1",
     "rfs": "https://github.com/twbs/rfs/#307feb3d05b98077394092379154578a6ba12f5a",
-    "sass": "^1.52.1",
+    "sass": "^1.52.2",
     "sharp": "^0.30.5"
   },
   "devDependencies": {
