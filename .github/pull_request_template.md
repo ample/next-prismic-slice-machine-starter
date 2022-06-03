@@ -10,7 +10,7 @@
 
 <!-- ## Tester Notes -->
 
-<!-- Optional: Add Screenshot and notes about testing using Markdown checkboxes.
+<!-- Optional: Add Screenshots and notes about testing using Markdown checkboxes.
 
 - [ ] Test item
   - Additional test item info.
