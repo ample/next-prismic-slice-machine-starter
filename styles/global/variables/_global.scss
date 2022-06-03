@@ -3,7 +3,7 @@
 // ---------------------------------------------------
 
 :root {
-  --global-max-width: 1280px; // $large-lowest
+  --global-max-width: var(--large-lowest);
   --global-padding: 20px;
   --global-text-color: var(--color-black);
 }
