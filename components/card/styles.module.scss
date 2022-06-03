@@ -9,6 +9,7 @@
   flex-direction: column;
 
   @include media($small, down) {
+    margin: 0 auto;
     max-width: 400px;
   }
 
@@ -39,7 +40,7 @@
 // ---------------------------------------------------------
 
 .theme_default {
-  background-color: var(--color-blueprint-light);
+  background-color: var(--color-blueprint-lighter);
 }
 
 .theme_default,

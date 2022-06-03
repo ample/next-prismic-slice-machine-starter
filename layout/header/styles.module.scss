@@ -1,5 +1,27 @@
 // ---------------------------------------------------------
 
 .header {
-  // ---------------------------------------------------------
+  background-color: var(--color-blueprint);
+  padding: 30px 0;
+
+  a {
+    color: var(--color-white);
+  }
+}
+
+.header_content {
+  @include container-header;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    margin: 0;
+
+    li {
+      margin-left: 18px;
+    }
+  }
 }

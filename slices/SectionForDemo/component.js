@@ -48,9 +48,13 @@ const SectionForDemo = (props) => {
   // -------------------------------------------------------
 
   return (
-    <Container className={classes} spacing="large" width="full">
-      <PrismicRichText field={title} />
-      <PrismicRichText field={description} />
+    <Container className={classes} spacing="large" width="fluid">
+      {title && (
+        <header>
+          <PrismicRichText field={title} />
+          <PrismicRichText field={description} />
+        </header>
+      )}
       <Grid>
         {cards.map((card, key) => {
           return <Card key={key} variation={cardVariation} {...card} />

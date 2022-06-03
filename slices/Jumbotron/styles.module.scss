@@ -2,12 +2,7 @@
 
 .jumbotron {
   display: grid;
-  height: 100vh;
   overflow: hidden;
-
-  @include media($small) {
-    max-height: 800px;
-  }
 
   > * {
     grid-column-start: 1;
@@ -19,8 +14,10 @@
 // ---------------------------------------------------------
 
 .jumbotron_content {
-  color: var(--color-white);
   padding: 40px;
+  width: 100%;
+
+  @include container;
 
   p {
     @include font-size(16px, 24px);

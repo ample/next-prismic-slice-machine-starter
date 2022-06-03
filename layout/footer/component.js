@@ -8,7 +8,7 @@ import Link from '@components/link'
 
 // ---------------------------------------------------------
 
-import { footer } from './styles.module.scss'
+import { footer, footer_content } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
@@ -17,22 +17,23 @@ const Footer = (props) => {
 
   return (
     <footer className={footer}>
-      <hr />
-      <Link url="/">Logo goes here</Link>
+      <div className={footer_content}>
+        <Link url="/">Logo</Link>
 
-      <nav>
-        <ul>
-          {navigationLinks.map((nav) => {
-            let label = nav.label[0].text
+        <nav aria-label="Footer">
+          <ul>
+            {navigationLinks.map((nav) => {
+              let label = nav.label[0].text
 
-            return (
-              <li key={label}>
-                <Link url={nav.link}>{label}</Link>
-              </li>
-            )
-          })}
-        </ul>
-      </nav>
+              return (
+                <li key={label}>
+                  <Link url={nav.link}>{label}</Link>
+                </li>
+              )
+            })}
+          </ul>
+        </nav>
+      </div>
     </footer>
   )
 }
