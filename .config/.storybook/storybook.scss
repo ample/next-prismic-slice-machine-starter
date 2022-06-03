@@ -11,7 +11,7 @@
 // extend storybook docs content area
 
 .sbdocs-content {
-  max-width: $x-large-highest !important;
+  max-width: var(--x-large-highest) !important;
 }
 
 // --------------------------------------------------------
