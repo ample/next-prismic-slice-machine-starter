@@ -37,17 +37,12 @@ const variationOptions = {
 // ---------------------------------------------------------
 
 const Card = (props) => {
-  let slice = props.slice ? props.slice.primary : props
-  let { body, buttonLabel, heading, image, textAlignment, url } = slice
+  let { body, buttonLabel, heading, image, textAlignment, url, variation } =
+    props
 
   // -------------------------------------------------------
 
   let button = buttonLabel && buttonLabel[0] ? buttonLabel[0].text : undefined
-  let variation = props.slice
-    ? props.slice.variation
-    : props.variation
-    ? props.variation
-    : undefined
 
   // -------------------------------------------------------
 
