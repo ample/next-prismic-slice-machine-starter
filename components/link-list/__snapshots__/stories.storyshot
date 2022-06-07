@@ -15,7 +15,9 @@ exports[`Storyshots Components/LinkList Props 1`] = `
   <li>
     <a
       className=""
-      href="#"
+      href="https://www.ample.co"
+      rel="noreferrer"
+      target="_blank"
     >
       Pellentesque tempor venenatis
     </a>

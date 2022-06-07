@@ -3,16 +3,22 @@
 export default {
   _props: {
     children: 'lorem ipsum',
-    url: '#',
+    url: '/',
   },
   external: {
     ariaLabel: 'This link will open in a new tab.',
     children: 'External link',
-    url: 'https://www.ample.co',
+    url: {
+      link_type: 'Web',
+      url: 'https://www.ample.co',
+    },
   },
   internal: {
     ariaLabel: 'This link will not open in a new tab.',
     children: 'Internal link',
-    url: '/',
+    url: {
+      link_type: 'Document',
+      url: '#',
+    },
   },
 }

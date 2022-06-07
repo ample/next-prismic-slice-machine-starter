@@ -16,7 +16,7 @@ exports[`Storyshots Components/Link Internal 1`] = `
 <a
   aria-label="This link will not open in a new tab."
   className=""
-  href="/"
+  href="#"
 >
   Internal link
 </a>
@@ -25,7 +25,7 @@ exports[`Storyshots Components/Link Internal 1`] = `
 exports[`Storyshots Components/Link Props 1`] = `
 <a
   className=""
-  href="#"
+  href="/"
 >
   lorem ipsum
 </a>
