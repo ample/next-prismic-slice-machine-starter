@@ -741,6 +741,9 @@ exports[`Storyshots Components/Image With SVG 1`] = `
     }
   }
 >
-  <span />
+  <span
+    aria-label="alt text helps screen-reading tools describe images to visually impaired readers"
+    role="img"
+  />
 </div>
 `;

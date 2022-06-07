@@ -42,6 +42,7 @@ export default {
     url: 'https://www.ample.co',
   },
   withSVG: {
+    alt: alt,
     src: '/storybook/ample-logo.svg',
   },
 }

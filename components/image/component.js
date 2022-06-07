@@ -53,7 +53,7 @@ const Image = (props) => {
   let image
 
   if (isSVG) {
-    image = <SVG className={className} src={src} />
+    image = <SVG className={className} src={src} title={alt} />
   } else {
     image = (
       <div className={className}>
