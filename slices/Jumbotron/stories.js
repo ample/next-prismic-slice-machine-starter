@@ -9,6 +9,18 @@ import fixtures from './fixtures'
 // ---------------------------------------------------------
 
 export default {
+  argTypes: {
+    body: {
+      table: {
+        disable: true,
+      },
+    },
+    image: {
+      table: {
+        disable: true,
+      },
+    },
+  },
   component: Jumbotron,
   title: 'Slices/Jumbotron',
 }
