@@ -18,7 +18,7 @@ import {
   theme_withoutHeader,
 } from './styles.module.scss'
 
-const themeOptions = {
+const variationOptions = {
   default: theme_default,
   withoutHeader: theme_withoutHeader,
 }
@@ -42,7 +42,7 @@ const SectionForDemo = (props) => {
   // ---------------------------------------------------------
 
   const classes = classNames(section_for_demo, {
-    [themeOptions[variation]]: themeOptions[variation],
+    [variationOptions[variation]]: variationOptions[variation],
   })
 
   // -------------------------------------------------------
@@ -74,7 +74,7 @@ SectionForDemo.propTypes = {
   /**
    * Specifies the theme variation.
    */
-  variation: PropTypes.oneOf(Object.keys(themeOptions)),
+  variation: PropTypes.oneOf(Object.keys(variationOptions)),
 }
 
 SectionForDemo.defaultProps = {}
