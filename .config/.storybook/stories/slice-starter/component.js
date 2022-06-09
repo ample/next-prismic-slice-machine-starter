@@ -2,6 +2,7 @@
 
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
+import { PrismicRichText } from '@prismicio/react'
 
 // ---------------------------------------------------------
 
@@ -9,29 +10,33 @@ import Link from '@components/link'
 
 // ---------------------------------------------------------
 
-import { slice_name, theme_type } from './styles.module.scss'
+import { slice_name, variation_option_name } from './styles.module.scss'
 
-const themeOptions = {
-  'theme-option': theme_type,
+const variationOptions = {
+  'variation-option': variation_option_name,
 }
 
 // ---------------------------------------------------------
 
 const SliceName = (props) => {
-  let { className, nameOfProp, theme } = props
+  let slice = props.slice ? props.slice.primary : props
+  let { nameOfProp } = slice
+
+  // -------------------------------------------------------
+
+  let variation = props.slice ? props.slice.variation : props.variation
 
   // -------------------------------------------------------
 
   const classes = classNames(slice_name, {
-    [className]: className,
-    [themeOptions[theme]]: themeOptions[theme],
+    [variationOptions[variation]]: variationOptions[variation],
   })
 
   // -------------------------------------------------------
 
   return (
     <Link className={classes} url="url">
-      <h2>{nameOfProp}</h2>
+      <PrismicRichText field={nameOfProp} />
     </Link>
   )
 }
@@ -42,12 +47,12 @@ SliceName.propTypes = {
   /**
    * Specifies a brief description of the "nameOfProp"
    */
-  nameOfProp: PropTypes.string,
+  nameOfProp: PropTypes.array,
 
   /**
-   * Specifies the theme.
+   * Specifies the theme variation.
    */
-  theme: PropTypes.oneOf(Object.keys(themeOptions)),
+  variation: PropTypes.oneOf(Object.keys(variationOptions)),
 }
 
 SliceName.defaultProps = {}

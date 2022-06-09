@@ -10,6 +10,19 @@ import fixtures from './fixtures'
 
 export default {
   component: SliceName,
+  argTypes: {
+    // remove slice properties from the UI
+    nameOfProp: {
+      table: {
+        disable: true,
+      },
+    },
+    variation: {
+      table: {
+        disable: true,
+      },
+    },
+  },
   parameters: {
     docs: {
       description: {
@@ -34,13 +47,13 @@ _props.parameters = {
   storyshots: { disable: true },
 }
 
-export const themeOption = Template.bind({})
-themeOption.args = fixtures.themeOption
-themeOption.parameters = {
+export const variationOption = Template.bind({})
+variationOption.args = fixtures.variationOption
+variationOption.parameters = {
   chromatic: { disableSnapshot: true },
   docs: {
     description: {
-      story: 'Optional description: this theme changes the text to orange.',
+      story: 'Optional description: this variation changes the text to orange.',
     },
   },
   storyshots: { disable: true },
