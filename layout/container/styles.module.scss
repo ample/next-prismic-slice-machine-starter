@@ -35,6 +35,17 @@ $spacing-classes: (('small', 25px), ('medium', 40px), ('large', 60px));
 
 // ---------------------------------------------------------
 
+.theme_one {
+  background-color: var(--color-blueprint-bright);
+}
+
+.theme_two {
+  background-color: var(--color-blueprint);
+  color: var(--color-white);
+}
+
+// ---------------------------------------------------------
+
 .text_alignment_center {
   text-align: center;
 }
