@@ -24,7 +24,7 @@ exports[`Storyshots Layout/Footer Props 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Dolore irure
+            Irure
           </a>
         </li>
         <li>
@@ -34,7 +34,7 @@ exports[`Storyshots Layout/Footer Props 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Voluptate proident
+            Proident
           </a>
         </li>
         <li>
@@ -44,7 +44,7 @@ exports[`Storyshots Layout/Footer Props 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            Laborum et proident
+            Laborum et
           </a>
         </li>
       </ul>

@@ -5,7 +5,7 @@ export default {
     {
       label: [
         {
-          text: 'Dolore irure',
+          text: 'Irure',
           type: 'paragraph',
         },
       ],
@@ -17,7 +17,7 @@ export default {
     {
       label: [
         {
-          text: 'Voluptate proident',
+          text: 'Proident',
         },
       ],
       link: {
@@ -28,7 +28,7 @@ export default {
     {
       label: [
         {
-          text: 'Laborum et proident',
+          text: 'Laborum et',
         },
       ],
       link: {
