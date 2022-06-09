@@ -19,6 +19,7 @@ module.exports = {
       2560, 3360,
     ],
     domains: ['images.prismic.io', 'images.unsplash.com'],
+    formats: ['image/avif', 'image/webp'],
   },
   publicRuntimeConfig: {
     DEBUG_MEDIA_QUERIES: process.env.DEBUG_MEDIA_QUERIES,
