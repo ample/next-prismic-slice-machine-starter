@@ -8,11 +8,19 @@ import fixtures from './fixtures'
 
 // ---------------------------------------------------------
 
-import '@slices/storybook.scss'
-
-// ---------------------------------------------------------
-
 export default {
+  argTypes: {
+    body: {
+      table: {
+        disable: true,
+      },
+    },
+    image: {
+      table: {
+        disable: true,
+      },
+    },
+  },
   component: Jumbotron,
   title: 'Slices/Jumbotron',
 }

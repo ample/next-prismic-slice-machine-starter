@@ -84,3 +84,23 @@ h2.sbdocs-h2 {
 #docs-root .docs-story > div:first-child > div:first-child {
   height: auto !important;
 }
+
+// --------------------------------------------------------
+// hide "no inputs found for this component" div
+
+.docblock-emptyblock {
+  display: none !important;
+}
+
+// --------------------------------------------------------
+// change "stories" to "variations" to match naming in CMS
+
+.sbdocs-h2 {
+  font-size: 0 !important;
+
+  &::before {
+    color: #333;
+    content: 'Variations';
+    font-size: 24px;
+  }
+}

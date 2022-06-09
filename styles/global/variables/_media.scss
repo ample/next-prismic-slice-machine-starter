@@ -1,5 +1,6 @@
 // --------------------------------------------------------
-// media variables should match @custom-media names below
+// media variables should match
+// @custom-media in /styles/global/mixins/custom-media.scss
 // ---------------------------------------------------
 
 :root {
@@ -35,68 +36,3 @@
   --x-large-highest: 3360px;
   --x-large-highest-down: 3359px;
 }
-
-// ---------------------------------------------------------
-// @custom-media usage
-// ---------------------------------------------------------
-// Input
-// ---------------------------------------------------------
-// .background {
-//   @media (--medium) {
-//     background-color: green;
-//   }
-
-//   @media (--medium-down) {
-//     background-color: red;
-//   }
-// }
-
-// Output
-// ---------------------------------------------------------
-// @media (min-width: 1040px) {
-//   .background {
-//     background-color: green;
-//   }
-// }
-
-// @media (max-width: 1039px) {
-//   .background {
-//     background-color: red;
-//   }
-// }
-
-// ---------------------------------------------------------
-
-@custom-media --smallest (min-width: 0);
-@custom-media --x-small-lowest (min-width: 360px);
-@custom-media --x-small-lowest-down (max-width: 359px);
-@custom-media --x-small (min-width: 400px);
-@custom-media --x-small-down (max-width: 399px);
-@custom-media --x-small-highest (min-width: 480px);
-@custom-media --x-small-highest-down (max-width: 479px);
-@custom-media --small-lowest (min-width: 600px);
-@custom-media --small-lowest-down (max-width: 599px);
-@custom-media --small (min-width: 720px);
-@custom-media --small-down (max-width: 719px);
-@custom-media --small-highest (min-width: 840px);
-@custom-media --small-highest-down (max-width: 839px);
-@custom-media --medium-lowest (min-width: 960px);
-@custom-media --medium-lowest-down (max-width: 959px);
-@custom-media --medium (min-width: 1040px);
-@custom-media --medium-down (max-width: 1039px);
-@custom-media --medium-highest (min-width: 1140px);
-@custom-media --medium-highest-down (max-width: 1139px);
-@custom-media --large-lowest (min-width: 1280px);
-@custom-media --large-lowest-down (max-width: 1279px);
-@custom-media --large (min-width: 1440px);
-@custom-media --large-down (max-width: 1439px);
-@custom-media --large-highest (min-width: 1600px);
-@custom-media --large-highest-down (max-width: 1590px);
-@custom-media --x-large-lowest (min-width: 1920px);
-@custom-media --x-large-lowest-down (max-width: 1919px);
-@custom-media --x-large (min-width: 2560px);
-@custom-media --x-large-down (max-width: 2559px);
-@custom-media --x-large-highest (min-width: 3360px);
-@custom-media --x-large-highest-down (max-width: 3359px);
-
-// ---------------------------------------------------------

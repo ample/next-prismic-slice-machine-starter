@@ -14,10 +14,11 @@
 // ---------------------------------------------------------
 
 .jumbotron_content {
+  @include container;
+
+  min-height: 400px;
   padding: 40px;
   width: 100%;
-
-  @include container;
 
   p {
     @include font-size(16px, 24px);

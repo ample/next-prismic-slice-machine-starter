@@ -2,10 +2,22 @@
 
 export default {
   _props: {
-    nameOfProp: 'name of prop content goes here.',
+    nameOfProp: [
+      {
+        spans: [],
+        text: 'name of prop content goes here.',
+        type: 'heading2',
+      },
+    ],
   },
-  themeOption: {
-    nameOfProp: 'name of prop content goes here.',
-    theme: 'theme-option',
+  variationOption: {
+    nameOfProp: [
+      {
+        spans: [],
+        text: 'name of prop content goes here.',
+        type: 'heading2',
+      },
+    ],
+    variation: 'variation-option',
   },
 }

@@ -13,7 +13,7 @@ export default {
   parameters: {
     docs: {
       description: {
-        component: 'Global Footer Navigation with Social Nav',
+        component: 'Global Footer and Navigation',
       },
     },
   },

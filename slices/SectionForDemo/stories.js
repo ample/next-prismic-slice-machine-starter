@@ -8,11 +8,29 @@ import fixtures from './fixtures'
 
 // ---------------------------------------------------------
 
-import '@slices/storybook.scss'
-
-// ---------------------------------------------------------
-
 export default {
+  argTypes: {
+    description: {
+      table: {
+        disable: true,
+      },
+    },
+    items: {
+      table: {
+        disable: true,
+      },
+    },
+    title: {
+      table: {
+        disable: true,
+      },
+    },
+    variation: {
+      table: {
+        disable: true,
+      },
+    },
+  },
   component: SectionForDemo,
   title: 'Slices/Section For Demo',
 }

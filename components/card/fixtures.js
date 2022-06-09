@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 
-const slice = {
+const card = {
   body: [
     {
       spans: [],
@@ -34,15 +34,15 @@ const buttonLabel = {
 
 export default {
   _props: {
-    ...slice,
+    ...card,
     ...buttonLabel,
   },
   themeDefault: {
-    ...slice,
+    ...card,
     variation: 'default',
   },
   themeWithButton: {
-    ...slice,
+    ...card,
     ...buttonLabel,
   },
 }

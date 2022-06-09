@@ -17,7 +17,7 @@ const slice = {
     alt: 'Placeholder image',
     copyright: null,
     dimensions: { height: 500, width: 900 },
-    url: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e',
+    url: 'https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=compress,format',
   },
 }
 
