@@ -64,7 +64,7 @@ const Image = (props) => {
           layout={layout}
           objectFit={objectFit}
           objectPosition={objectPosition}
-          placeholder={placeholder ? placeholder : 'blur'}
+          placeholder={placeholder ? placeholder : false}
           priority={priority}
           quality={quality}
           src={src}

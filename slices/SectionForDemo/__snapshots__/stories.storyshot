@@ -69,14 +69,10 @@ exports[`Storyshots Slices/Section For Demo Default 1`] = `
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
                 Object {
-                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
-                  "backgroundPosition": "0% 0%",
-                  "backgroundSize": "cover",
                   "border": "none",
                   "bottom": 0,
                   "boxSizing": "border-box",
                   "display": "block",
-                  "filter": "blur(20px)",
                   "height": 0,
                   "left": 0,
                   "margin": "auto",
@@ -196,14 +192,10 @@ exports[`Storyshots Slices/Section For Demo Default 1`] = `
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
                 Object {
-                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
-                  "backgroundPosition": "0% 0%",
-                  "backgroundSize": "cover",
                   "border": "none",
                   "bottom": 0,
                   "boxSizing": "border-box",
                   "display": "block",
-                  "filter": "blur(20px)",
                   "height": 0,
                   "left": 0,
                   "margin": "auto",
@@ -323,14 +315,10 @@ exports[`Storyshots Slices/Section For Demo Default 1`] = `
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
                 Object {
-                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
-                  "backgroundPosition": "0% 0%",
-                  "backgroundSize": "cover",
                   "border": "none",
                   "bottom": 0,
                   "boxSizing": "border-box",
                   "display": "block",
-                  "filter": "blur(20px)",
                   "height": 0,
                   "left": 0,
                   "margin": "auto",
@@ -465,14 +453,10 @@ exports[`Storyshots Slices/Section For Demo Without Header 1`] = `
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
                 Object {
-                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
-                  "backgroundPosition": "0% 0%",
-                  "backgroundSize": "cover",
                   "border": "none",
                   "bottom": 0,
                   "boxSizing": "border-box",
                   "display": "block",
-                  "filter": "blur(20px)",
                   "height": 0,
                   "left": 0,
                   "margin": "auto",
@@ -592,14 +576,10 @@ exports[`Storyshots Slices/Section For Demo Without Header 1`] = `
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
                 Object {
-                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
-                  "backgroundPosition": "0% 0%",
-                  "backgroundSize": "cover",
                   "border": "none",
                   "bottom": 0,
                   "boxSizing": "border-box",
                   "display": "block",
-                  "filter": "blur(20px)",
                   "height": 0,
                   "left": 0,
                   "margin": "auto",
@@ -719,14 +699,10 @@ exports[`Storyshots Slices/Section For Demo Without Header 1`] = `
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
                 Object {
-                  "backgroundImage": "url(\\"https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
-                  "backgroundPosition": "0% 0%",
-                  "backgroundSize": "cover",
                   "border": "none",
                   "bottom": 0,
                   "boxSizing": "border-box",
                   "display": "block",
-                  "filter": "blur(20px)",
                   "height": 0,
                   "left": 0,
                   "margin": "auto",

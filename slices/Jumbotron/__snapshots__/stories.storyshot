@@ -37,14 +37,10 @@ exports[`Storyshots Slices/Jumbotron Default 1`] = `
         srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=3840&q=75 3840w"
         style={
           Object {
-            "backgroundImage": "url(\\"https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=compress,format?fit=fill&w=10&h=10\\")",
-            "backgroundPosition": "0% 0%",
-            "backgroundSize": "cover",
             "border": "none",
             "bottom": 0,
             "boxSizing": "border-box",
             "display": "block",
-            "filter": "blur(20px)",
             "height": 0,
             "left": 0,
             "margin": "auto",
@@ -62,39 +58,6 @@ exports[`Storyshots Slices/Jumbotron Default 1`] = `
           }
         }
       />
-      <noscript>
-        <img
-          alt="Placeholder image"
-          data-nimg="fill"
-          decoding="async"
-          loading="lazy"
-          sizes="100vw"
-          src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=3840&q=75"
-          srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat&w=3840&q=75 3840w"
-          style={
-            Object {
-              "border": "none",
-              "bottom": 0,
-              "boxSizing": "border-box",
-              "display": "block",
-              "height": 0,
-              "left": 0,
-              "margin": "auto",
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minHeight": "100%",
-              "minWidth": "100%",
-              "objectFit": "cover",
-              "objectPosition": undefined,
-              "padding": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-              "width": 0,
-            }
-          }
-        />
-      </noscript>
     </span>
   </div>
   <div
