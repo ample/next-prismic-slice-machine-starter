@@ -14,7 +14,7 @@ export default {
     docs: {
       description: {
         component:
-          'The `<Image />` component optimizes and renders either raster or vector graphics and handles if the image is a link.',
+          'The `<Image />` component optimizes and renders raster or vector graphics and handles if the image is a link.',
       },
     },
   },
@@ -26,14 +26,14 @@ export default {
 const Template = (args) => {
   let layout = args.layout
 
+  const layoutFill = {
+    height: 800,
+    position: 'relative',
+    width: 1000,
+  }
+
   return (
-    <div
-      style={{
-        height: layout === 'fill' ? 800 : undefined,
-        position: layout === 'fill' ? 'relative' : undefined,
-        width: layout === 'fill' ? 1000 : undefined,
-      }}
-    >
+    <div style={layout === 'fill' ? layoutFill : undefined}>
       <Image {...args} />
     </div>
   )
@@ -41,11 +41,14 @@ const Template = (args) => {
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({})
-_props.args = fixtures._props
-_props.parameters = {
+export const Props = Template.bind({})
+Props.args = fixtures._props
+Props.parameters = {
   chromatic: { disableSnapshot: true },
 }
+
+// Variations
+// ---------------------------------------------------------
 
 export const layoutIsFill = Template.bind({})
 layoutIsFill.args = {
@@ -59,6 +62,7 @@ layoutIsFill.parameters = {
     },
   },
 }
+layoutIsFill.storyName = 'NextImage, layout="fill"'
 
 export const layoutIsFixed = Template.bind({})
 layoutIsFixed.args = fixtures.layoutIsFixed
@@ -67,6 +71,7 @@ layoutIsFixed.parameters = {
     description: { story: 'Sized to width and height exactly.' },
   },
 }
+layoutIsFixed.storyName = 'NextImage, layout="fixed"'
 
 export const layoutIsIntrinsic = Template.bind({})
 layoutIsIntrinsic.args = fixtures.layoutIsIntrinsic
@@ -77,6 +82,7 @@ layoutIsIntrinsic.parameters = {
     },
   },
 }
+layoutIsIntrinsic.storyName = 'NextImage, layout="intrinsic"'
 
 export const layoutIsResponsive = Template.bind({})
 layoutIsResponsive.args = fixtures.layoutIsResponsive
@@ -85,17 +91,26 @@ layoutIsResponsive.parameters = {
     description: { story: 'Scale to fit width of container.' },
   },
 }
+layoutIsResponsive.storyName = 'NextImage, layout="responsive"'
 
 export const withLink = Template.bind({})
 withLink.args = fixtures.withLink
-
-export const withSVG = Template.bind({})
-withSVG.args = fixtures.withSVG
-withSVG.parameters = {
+withLink.parameters = {
   docs: {
     description: {
-      story:
-        'If a .svg is passed into the Image component the SVG is injected into the DOM using react-svg.',
+      story: 'If a `url` is passed, the image will be wrapped with a `<a>`.',
     },
   },
 }
+
+export const svg = Template.bind({})
+svg.args = fixtures.withSVG
+svg.parameters = {
+  docs: {
+    description: {
+      story:
+        'If a .svg is passed into the Image component the SVG is injected into the DOM using `react-svg`.',
+    },
+  },
+}
+svg.storyName = 'SVG'

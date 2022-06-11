@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Image Layout Is Fill 1`] = `
+exports[`Storyshots Components/Image NextImage, layout="fill" 1`] = `
 <div
   style={
     Object {
@@ -100,16 +100,8 @@ exports[`Storyshots Components/Image Layout Is Fill 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Image Layout Is Fixed 1`] = `
-<div
-  style={
-    Object {
-      "height": undefined,
-      "position": undefined,
-      "width": undefined,
-    }
-  }
->
+exports[`Storyshots Components/Image NextImage, layout="fixed" 1`] = `
+<div>
   <div>
     <span
       style={
@@ -195,16 +187,8 @@ exports[`Storyshots Components/Image Layout Is Fixed 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Image Layout Is Intrinsic 1`] = `
-<div
-  style={
-    Object {
-      "height": undefined,
-      "position": undefined,
-      "width": undefined,
-    }
-  }
->
+exports[`Storyshots Components/Image NextImage, layout="intrinsic" 1`] = `
+<div>
   <div>
     <span
       style={
@@ -326,16 +310,8 @@ exports[`Storyshots Components/Image Layout Is Intrinsic 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Image Layout Is Responsive 1`] = `
-<div
-  style={
-    Object {
-      "height": undefined,
-      "position": undefined,
-      "width": undefined,
-    }
-  }
->
+exports[`Storyshots Components/Image NextImage, layout="responsive" 1`] = `
+<div>
   <div>
     <span
       style={
@@ -439,15 +415,7 @@ exports[`Storyshots Components/Image Layout Is Responsive 1`] = `
 `;
 
 exports[`Storyshots Components/Image Props 1`] = `
-<div
-  style={
-    Object {
-      "height": undefined,
-      "position": undefined,
-      "width": undefined,
-    }
-  }
->
+<div>
   <div>
     <span
       style={
@@ -569,16 +537,17 @@ exports[`Storyshots Components/Image Props 1`] = `
 </div>
 `;
 
+exports[`Storyshots Components/Image SVG 1`] = `
+<div>
+  <span
+    aria-label="alt text helps screen-reading tools describe images to visually impaired readers"
+    role="img"
+  />
+</div>
+`;
+
 exports[`Storyshots Components/Image With Link 1`] = `
-<div
-  style={
-    Object {
-      "height": undefined,
-      "position": undefined,
-      "width": undefined,
-    }
-  }
->
+<div>
   <a
     className=""
     href="https://www.ample.co"
@@ -704,22 +673,5 @@ exports[`Storyshots Components/Image With Link 1`] = `
       </span>
     </div>
   </a>
-</div>
-`;
-
-exports[`Storyshots Components/Image With SVG 1`] = `
-<div
-  style={
-    Object {
-      "height": undefined,
-      "position": undefined,
-      "width": undefined,
-    }
-  }
->
-  <span
-    aria-label="alt text helps screen-reading tools describe images to visually impaired readers"
-    role="img"
-  />
 </div>
 `;
