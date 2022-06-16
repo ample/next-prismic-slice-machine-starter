@@ -6,6 +6,7 @@ import startCase from 'lodash/startCase'
 
 // ---------------------------------------------------------
 
+import ImgixImage from './imgix'
 import Link from '@components/link'
 import NextImage from './next'
 import SVG from './svg'
@@ -24,7 +25,7 @@ const Image = (props) => {
 
   // -------------------------------------------------------
 
-  let { src, url } = props
+  let { layout, src, url } = props
 
   // -------------------------------------------------------
 
@@ -37,28 +38,33 @@ const Image = (props) => {
 
   // -------------------------------------------------------
 
-  let image
+  let image = <ImgixImage {...props} />
+
+  if (layout) {
+    image = <NextImage {...props} />
+  }
 
   if (isSVG) {
     image = <SVG {...props} />
-  } else {
-    image = <NextImage {...props} />
   }
 
   // ---------------------------------------------------------
 
-  let imageComponent
+  let imageComponent = image
 
   if (url) {
     imageComponent = <Link url={url}>{image}</Link>
-  } else {
-    imageComponent = image
   }
 
   return imageComponent
 }
 
 Image.propTypes = {
+  /**
+   * If the layout is specified, the image component will use NextImage to render the image.
+   */
+  layout: PropTypes.string,
+
   /**
    * Specifies the image src.
    */

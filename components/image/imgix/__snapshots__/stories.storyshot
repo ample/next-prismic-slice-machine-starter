@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Image/ImgixImage Props 1`] = `
+<div
+  className="imgix_image"
+>
+  <img
+    alt="alt text helps screen-reading tools describe images to visually impaired readers"
+    height={170}
+    sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
+    src="https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=format&h=170&w=1004&ixlib=react-9.5.1-beta.1&fit=crop"
+    srcSet="https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1004&h=170&dpr=1&q=75 1x,
+https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1004&h=170&dpr=2&q=50 2x,
+https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1004&h=170&dpr=3&q=35 3x,
+https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1004&h=170&dpr=4&q=23 4x,
+https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1004&h=170&dpr=5&q=20 5x"
+    width={1004}
+  />
+</div>
+`;

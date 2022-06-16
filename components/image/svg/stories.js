@@ -14,7 +14,7 @@ export default {
     docs: {
       description: {
         component:
-          '<p>When a `.svg` is passed into the `<Image />` component its injected into the DOM using `react-svg`.</p><p>This component can also be imported separately with `import SVG from "@components/image/svg"`</p>',
+          '<p>If a `.svg` is passed into the `<Image />` component it is injected into the DOM using `react-svg`.</p><p>It can also be imported separately with `import SVG from "@components/image/svg"`</p>',
       },
     },
   },

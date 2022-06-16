@@ -14,7 +14,7 @@ export default {
     docs: {
       description: {
         component:
-          '<p>When a raster image is passed to the `<Image />` component it is optimized with NextImage for improved Performance, visual stability and faster page loads.</p><p>This component can also be imported separately with `import NextImage from "@components/image/next"`</p>',
+          '<p>If a raster image is passed to the `<Image />` component and the `layout` prop is used, it will be optimized using NextImage. This should be used if an image is considered high priority and needs to preloaded.</p><p>It can also be imported separately with `import NextImage from "@components/image/next"`</p>',
       },
     },
   },

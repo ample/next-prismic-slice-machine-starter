@@ -81,19 +81,7 @@ export default {
 // ---------------------------------------------------------
 
 const Template = (args) => {
-  let layout = args.layout
-
-  const layoutFill = {
-    height: 800,
-    position: 'relative',
-    width: 1000,
-  }
-
-  return (
-    <div style={layout === 'fill' ? layoutFill : undefined}>
-      <Image {...args} />
-    </div>
-  )
+  return <Image {...args} />
 }
 
 // ---------------------------------------------------------

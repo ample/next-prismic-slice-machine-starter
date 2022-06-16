@@ -40,7 +40,7 @@ const Image = (props) => {
         objectFit={objectFit}
         objectPosition={objectPosition}
         placeholder={placeholder ? placeholder : false}
-        priority={priority}
+        priority={priority ? priority : true}
         quality={quality}
         src={src}
         width={width}

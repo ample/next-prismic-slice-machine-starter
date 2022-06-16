@@ -67,7 +67,6 @@ const Card = (props) => {
         <Image
           alt={image.alt}
           className={card_image}
-          layout="responsive"
           src={image.url}
           {...image.dimensions}
         />
