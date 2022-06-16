@@ -5,18 +5,18 @@ import { ReactSVG } from 'react-svg'
 
 // ---------------------------------------------------------
 
-const SVGs = (props) => {
-  let { className, src, title } = props
+const SVG = (props) => {
+  let { alt, className, src } = props
 
   return (
     <ReactSVG
-      aria-label={title}
+      aria-label={alt}
       beforeInjection={(src) => {
         const titleElement = document.createElementNS(
           'http://www.w3.org/2000/svg',
           'title'
         )
-        titleElement.innerHTML = title
+        titleElement.innerHTML = alt
         src.prepend(titleElement)
       }}
       className={className}
@@ -29,18 +29,18 @@ const SVGs = (props) => {
 
 // ---------------------------------------------------------
 
-SVGs.propTypes = {
+SVG.propTypes = {
+  /**
+   * Specifies a arial-label and title for the svg
+   */
+  alt: PropTypes.string,
+
   /**
    * Specifies the SVG src
    */
   src: PropTypes.string,
-
-  /**
-   * Specifies a arial-label and title for the svg
-   */
-  title: PropTypes.string,
 }
 
-SVGs.defaultProps = {}
+SVG.defaultProps = {}
 
-export default SVGs
+export default SVG

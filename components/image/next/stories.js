@@ -1,24 +1,24 @@
 // ---------------------------------------------------------
 
-import Image from '.'
+import NextImage from '.'
 
 // ---------------------------------------------------------
 
-import fixtures from './fixtures'
+import fixtures from '../fixtures'
 
 // ---------------------------------------------------------
 
 export default {
-  component: Image,
+  component: NextImage,
   parameters: {
     docs: {
       description: {
         component:
-          'The `<Image />` component optimizes and renders raster or vector graphics and handles if the image is a link.',
+          '<p>When a raster image is passed to the `<Image />` component it is optimized with NextImage for improved Performance, visual stability and faster page loads.</p><p>This component can also be imported separately with `import NextImage from "@components/image/next"`</p>',
       },
     },
   },
-  title: 'Components/Image',
+  title: 'Components/Image/NextImage',
 }
 
 // ---------------------------------------------------------
@@ -34,7 +34,7 @@ const Template = (args) => {
 
   return (
     <div style={layout === 'fill' ? layoutFill : undefined}>
-      <Image {...args} />
+      <NextImage {...args} />
     </div>
   )
 }
@@ -62,7 +62,7 @@ layoutIsFill.parameters = {
     },
   },
 }
-layoutIsFill.storyName = 'NextImage, layout="fill"'
+layoutIsFill.storyName = 'layout="fill"'
 
 export const layoutIsFixed = Template.bind({})
 layoutIsFixed.args = fixtures.layoutIsFixed
@@ -71,7 +71,7 @@ layoutIsFixed.parameters = {
     description: { story: 'Sized to width and height exactly.' },
   },
 }
-layoutIsFixed.storyName = 'NextImage, layout="fixed"'
+layoutIsFixed.storyName = 'layout="fixed"'
 
 export const layoutIsIntrinsic = Template.bind({})
 layoutIsIntrinsic.args = fixtures.layoutIsIntrinsic
@@ -82,7 +82,7 @@ layoutIsIntrinsic.parameters = {
     },
   },
 }
-layoutIsIntrinsic.storyName = 'NextImage, layout="intrinsic"'
+layoutIsIntrinsic.storyName = 'layout="intrinsic"'
 
 export const layoutIsResponsive = Template.bind({})
 layoutIsResponsive.args = fixtures.layoutIsResponsive
@@ -91,26 +91,4 @@ layoutIsResponsive.parameters = {
     description: { story: 'Scale to fit width of container.' },
   },
 }
-layoutIsResponsive.storyName = 'NextImage, layout="responsive"'
-
-export const withLink = Template.bind({})
-withLink.args = fixtures.withLink
-withLink.parameters = {
-  docs: {
-    description: {
-      story: 'If a `url` is passed, the image will be wrapped with a `<a>`.',
-    },
-  },
-}
-
-export const svg = Template.bind({})
-svg.args = fixtures.withSVG
-svg.parameters = {
-  docs: {
-    description: {
-      story:
-        'If a .svg is passed into the Image component the SVG is injected into the DOM using `react-svg`.',
-    },
-  },
-}
-svg.storyName = 'SVG'
+layoutIsResponsive.storyName = 'layout="responsive"'

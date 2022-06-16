@@ -1,6 +1,5 @@
 // ---------------------------------------------------------
 
-import NextImage from 'next/image'
 import path from 'path'
 import PropTypes from 'prop-types'
 import startCase from 'lodash/startCase'
@@ -8,18 +7,14 @@ import startCase from 'lodash/startCase'
 // ---------------------------------------------------------
 
 import Link from '@components/link'
-import SVG from './svgs'
+import NextImage from './next'
+import SVG from './svg'
 
 // ---------------------------------------------------------
 
 export const defaultAltAttribute = (image) => {
   const filename = path.basename(image, path.extname(image))
   return startCase(filename)
-}
-
-export const imageExtension = (image) => {
-  const extension = path.extname(image)
-  return extension
 }
 
 // ---------------------------------------------------------
@@ -29,22 +24,14 @@ const Image = (props) => {
 
   // -------------------------------------------------------
 
-  let {
-    alt,
-    className,
-    height,
-    layout,
-    objectFit,
-    objectPosition,
-    placeholder,
-    priority,
-    quality,
-    src,
-    url,
-    width,
-  } = props
+  let { src, url } = props
 
   // -------------------------------------------------------
+
+  const imageExtension = (image) => {
+    const extension = path.extname(image)
+    return extension
+  }
 
   const isSVG = imageExtension(src) === '.svg'
 
@@ -53,25 +40,9 @@ const Image = (props) => {
   let image
 
   if (isSVG) {
-    image = <SVG className={className} src={src} title={alt} />
+    image = <SVG {...props} />
   } else {
-    image = (
-      <div className={className}>
-        <NextImage
-          alt={alt || defaultAltAttribute(src) || ' '}
-          blurDataURL={`${src}?fit=fill&w=10&h=10`}
-          height={height}
-          layout={layout}
-          objectFit={objectFit}
-          objectPosition={objectPosition}
-          placeholder={placeholder ? placeholder : false}
-          priority={priority}
-          quality={quality}
-          src={src}
-          width={width}
-        />
-      </div>
-    )
+    image = <NextImage {...props} />
   }
 
   // ---------------------------------------------------------
@@ -84,61 +55,10 @@ const Image = (props) => {
     imageComponent = image
   }
 
-  return <>{imageComponent}</>
+  return imageComponent
 }
 
 Image.propTypes = {
-  /**
-   * Specifies the image alt text.
-   */
-  alt: PropTypes.string,
-
-  /**
-   * Specifies a CSS class on either the image or the wrapping element when an SVG is rendered.
-   */
-  className: PropTypes.string,
-
-  /**
-   * Specifies the height of the image.
-   */
-  height: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-
-  /**
-   * Specifies the behavior of the image as the viewport changes size.
-   */
-  layout: PropTypes.oneOf(['fill', 'fixed', 'intrinsic', 'responsive']),
-
-  /**
-   * Specifies how the image is positioned within its parent element when using layout="fill"
-   */
-  objectFit: PropTypes.oneOf([
-    'contain',
-    'cover',
-    'fill',
-    'none',
-    'scale-down',
-  ]),
-
-  /**
-   * Specifies how the image is positioned within its parent element when using layout="fill".
-   */
-  objectPosition: PropTypes.string,
-
-  /**
-   * Specifies if a placeholder should be enabled while image loads.
-   */
-  placeholder: PropTypes.bool,
-
-  /**
-   * Specifies if the image should be considered high priority and preloaded.
-   */
-  priority: PropTypes.bool,
-
-  /**
-   * Specifies the quality of the optimized image, defaults to 75.
-   */
-  quality: PropTypes.number,
-
   /**
    * Specifies the image src.
    */
@@ -148,11 +68,6 @@ Image.propTypes = {
    * Specifies where to link.
    */
   url: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-
-  /**
-   * Specifies the width of the image.
-   */
-  width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 }
 
 Image.defaultProps = {}
