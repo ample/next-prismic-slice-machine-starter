@@ -14,8 +14,10 @@ import SVG from './svg'
 // ---------------------------------------------------------
 
 export const defaultAltAttribute = (image) => {
-  const filename = path.basename(image, path.extname(image))
-  return startCase(filename)
+  const filename = image.substring(image.lastIndexOf('_') + 1)
+  const alt = path.basename(filename, path.extname(filename))
+
+  return startCase(alt)
 }
 
 // ---------------------------------------------------------
