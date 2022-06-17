@@ -13,7 +13,7 @@ const card = {
     alt: 'Placeholder image',
     copyright: null,
     dimensions: { height: 500, width: 900 },
-    url: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=900&h=500&fit=crop',
+    url: 'https://images.prismic.io/ample-prismic-demo/8d1d6aee-977a-458f-8380-d8bbfa88f00f_wexor-tmg-L-2p8fapOA8-unsplash.jpg?auto=compress,format',
   },
   textAlignment: 'left',
   url: { link_type: 'Web', url: 'http://twitter.com' },

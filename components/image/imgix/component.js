@@ -3,6 +3,7 @@
 import classNames from 'classnames'
 import Imgix, { buildURL } from 'react-imgix'
 import PropTypes from 'prop-types'
+import { useEffect, useState } from 'react'
 
 // ---------------------------------------------------------
 
@@ -15,11 +16,17 @@ import { imgix_image } from './styles.module.scss'
 // ---------------------------------------------------------
 
 const ImgixImage = (props) => {
-  if (!props.src) return null
+  let { alt, className, height, htmlAttributes, lazyLoad, src, width } = props
 
   // -------------------------------------------------------
 
-  let { alt, className, height, htmlAttributes, src, width } = props
+  const [lazyLoadClass, setLazyLoadClass] = useState('')
+
+  useEffect(() => {
+    if (lazyLoad) {
+      setLazyLoadClass('lazyload')
+    }
+  }, [lazyLoad])
 
   // -------------------------------------------------------
 
@@ -29,24 +36,49 @@ const ImgixImage = (props) => {
 
   // -------------------------------------------------------
 
-  let imgixSrc = buildURL(src, { h: height, w: width })
+  let imgixSrc = buildURL(src, {
+    auto: 'compress,enhance,format',
+    h: height,
+    w: width,
+  })
 
   // -------------------------------------------------------
 
-  return (
-    <div className={classes}>
+  const imageParams = {
+    height: height,
+    htmlAttributes: {
+      alt: alt || defaultAltAttribute(src),
+      ...htmlAttributes,
+    },
+    imgixParams: { fit: 'crop' },
+    sizes:
+      '320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360',
+    src: imgixSrc,
+    width: width,
+  }
+
+  // -------------------------------------------------------
+
+  let image = <Imgix {...imageParams} />
+
+  if (lazyLoad) {
+    image = (
       <Imgix
-        alt={alt || defaultAltAttribute(src) || ' '}
-        height={height}
-        htmlAttributes={{ alt: alt, ...htmlAttributes }}
-        imgixParams={{ fit: 'crop' }}
-        sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
-        src={imgixSrc}
-        width={width}
+        attributeConfig={{
+          sizes: 'data-sizes',
+          src: 'data-src',
+          srcSet: 'data-srcset',
+        }}
+        className={`${lazyLoadClass}`}
+        {...imageParams}
       />
-    </div>
-  )
+    )
+  }
+
+  return <div className={classes}>{image}</div>
 }
+
+// -------------------------------------------------------
 
 ImgixImage.propTypes = {
   /**
@@ -73,6 +105,11 @@ ImgixImage.propTypes = {
    * Specifies imgIX params to add to the image src.
    */
   imgixParams: PropTypes.object,
+
+  /**
+   * Specifies if the image should use lazy loading.
+   */
+  lazyLoad: PropTypes.bool,
 
   /**
    * Specifies the image src.

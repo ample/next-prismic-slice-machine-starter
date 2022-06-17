@@ -1,5 +1,6 @@
 // ---------------------------------------------------------
 
+import 'lazysizes'
 import isChromatic from 'chromatic/isChromatic'
 import { setConsoleOptions } from '@storybook/addon-console'
 

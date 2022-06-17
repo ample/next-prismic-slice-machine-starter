@@ -39,6 +39,7 @@ const variationOptions = {
 const Card = (props) => {
   let { body, buttonLabel, heading, image, textAlignment, url, variation } =
     props
+  let { alt, height, url: src, width } = image
 
   // -------------------------------------------------------
 
@@ -65,10 +66,12 @@ const Card = (props) => {
     <>
       {image && (
         <Image
-          alt={image.alt}
+          alt={alt}
           className={card_image}
-          src={image.url}
-          {...image.dimensions}
+          height={height}
+          src={src}
+          width={width}
+          lazyLoad
         />
       )}
 
