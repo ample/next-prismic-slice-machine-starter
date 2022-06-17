@@ -12,7 +12,7 @@ exports[`Storyshots Components/Card Props 1`] = `
   >
     <img
       alt="Placeholder image"
-      className=""
+      className="lazyload"
       data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
       data-src="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop"
       data-srcset="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=100 100w,
@@ -78,7 +78,7 @@ exports[`Storyshots Components/Card Theme Default 1`] = `
   >
     <img
       alt="Placeholder image"
-      className=""
+      className="lazyload"
       data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
       data-src="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop"
       data-srcset="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=100 100w,
@@ -139,7 +139,7 @@ exports[`Storyshots Components/Card Theme With Button 1`] = `
   >
     <img
       alt="Placeholder image"
-      className=""
+      className="lazyload"
       data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
       data-src="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop"
       data-srcset="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=100 100w,

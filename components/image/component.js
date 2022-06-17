@@ -3,13 +3,14 @@
 import path from 'path'
 import PropTypes from 'prop-types'
 import startCase from 'lodash/startCase'
+import { lazy, Suspense } from 'react'
 
 // ---------------------------------------------------------
 
-import ImgixImage from './imgix'
-import Link from '@components/link'
-import NextImage from './next'
-import SVG from './svg'
+const ImgixImage = lazy(() => import('./imgix'))
+const Link = lazy(() => import('@components/link'))
+const NextImage = lazy(() => import('./next'))
+const SVG = lazy(() => import('./svg'))
 
 // ---------------------------------------------------------
 
@@ -36,14 +37,26 @@ const Image = (props) => {
 
   // -------------------------------------------------------
 
-  let image = <ImgixImage {...props} />
+  let image = (
+    <Suspense>
+      <ImgixImage {...props} />
+    </Suspense>
+  )
 
   if (layout) {
-    image = <NextImage {...props} />
+    image = (
+      <Suspense>
+        <NextImage {...props} />
+      </Suspense>
+    )
   }
 
   if (isSVG) {
-    image = <SVG {...props} />
+    image = (
+      <Suspense>
+        <SVG {...props} />
+      </Suspense>
+    )
   }
 
   // ---------------------------------------------------------
@@ -51,7 +64,11 @@ const Image = (props) => {
   let imageComponent = image
 
   if (url) {
-    imageComponent = <Link url={url}>{image}</Link>
+    imageComponent = (
+      <Suspense>
+        <Link url={url}>{image}</Link>
+      </Suspense>
+    )
   }
 
   return imageComponent

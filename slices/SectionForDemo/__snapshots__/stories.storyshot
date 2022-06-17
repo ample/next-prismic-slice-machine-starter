@@ -29,7 +29,7 @@ exports[`Storyshots Slices/Section For Demo Default 1`] = `
         >
           <img
             alt="Placeholder image"
-            className=""
+            className="lazyload"
             data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
             data-src="https://images.unsplash.com/photo-1587840171670-8b850147754e?fit=crop&auto=format&ixlib=react-9.5.1-beta.1"
             data-srcset="https://images.unsplash.com/photo-1587840171670-8b850147754e?fit=crop&auto=format&ixlib=react-9.5.1-beta.1&w=100 100w,
@@ -92,7 +92,7 @@ https://images.unsplash.com/photo-1587840171670-8b850147754e?fit=crop&auto=forma
         >
           <img
             alt="Placeholder image"
-            className=""
+            className="lazyload"
             data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
             data-src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?fit=crop&auto=format&ixlib=react-9.5.1-beta.1"
             data-srcset="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?fit=crop&auto=format&ixlib=react-9.5.1-beta.1&w=100 100w,
@@ -155,7 +155,7 @@ https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?fit=crop&auto=forma
         >
           <img
             alt="Placeholder image"
-            className=""
+            className="lazyload"
             data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
             data-src="https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?fit=crop&auto=format&ixlib=react-9.5.1-beta.1"
             data-srcset="https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?fit=crop&auto=format&ixlib=react-9.5.1-beta.1&w=100 100w,
@@ -233,7 +233,7 @@ exports[`Storyshots Slices/Section For Demo Without Header 1`] = `
         >
           <img
             alt="Placeholder image"
-            className=""
+            className="lazyload"
             data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
             data-src="https://images.unsplash.com/photo-1587840171670-8b850147754e?fit=crop&auto=format&ixlib=react-9.5.1-beta.1"
             data-srcset="https://images.unsplash.com/photo-1587840171670-8b850147754e?fit=crop&auto=format&ixlib=react-9.5.1-beta.1&w=100 100w,
@@ -296,7 +296,7 @@ https://images.unsplash.com/photo-1587840171670-8b850147754e?fit=crop&auto=forma
         >
           <img
             alt="Placeholder image"
-            className=""
+            className="lazyload"
             data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
             data-src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?fit=crop&auto=format&ixlib=react-9.5.1-beta.1"
             data-srcset="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?fit=crop&auto=format&ixlib=react-9.5.1-beta.1&w=100 100w,
@@ -359,7 +359,7 @@ https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?fit=crop&auto=forma
         >
           <img
             alt="Placeholder image"
-            className=""
+            className="lazyload"
             data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
             data-src="https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?fit=crop&auto=format&ixlib=react-9.5.1-beta.1"
             data-srcset="https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?fit=crop&auto=format&ixlib=react-9.5.1-beta.1&w=100 100w,
