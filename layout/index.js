@@ -1,6 +1,7 @@
 // ---------------------------------------------------------
 
 import dynamic from 'next/dynamic'
+import getConfig from 'next/config'
 import Head from 'next/head'
 import PropTypes from 'prop-types'
 
@@ -18,6 +19,11 @@ const DebugMediaQueries = dynamic(
 import Footer from './footer'
 import Header from './header'
 import SEO from './seo'
+
+// ---------------------------------------------------------
+
+const { publicRuntimeConfig } = getConfig()
+const { DEBUG_MEDIA_QUERIES } = publicRuntimeConfig
 
 // ---------------------------------------------------------
 
@@ -43,7 +49,7 @@ const Layout = (props) => {
       <main>{children}</main>
       <Footer {...footer} />
 
-      <DebugMediaQueries />
+      {DEBUG_MEDIA_QUERIES === 'true' && <DebugMediaQueries />}
     </>
   )
 }
