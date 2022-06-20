@@ -24,7 +24,7 @@ const Jumbotron = (props) => {
           alt={image.alt}
           layout="fill"
           objectFit="cover"
-          src={image.url}
+          src={`${image.url}&auto=compress,enhance,format&w=1400&h=500&fit=crop&lossless=true`}
           priority
         />
       )}
