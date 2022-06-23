@@ -1,6 +1,7 @@
 // ---------------------------------------------------------
 
 import classNames from 'classnames'
+import LazyLoad from 'react-lazyload'
 import PropTypes from 'prop-types'
 import { PrismicRichText } from '@prismicio/react'
 
@@ -48,19 +49,21 @@ const SectionForDemo = (props) => {
   // -------------------------------------------------------
 
   return (
-    <Container className={classes} spacing="large" width="fluid">
-      {title && (
-        <header>
-          <PrismicRichText field={title} />
-          <PrismicRichText field={description} />
-        </header>
-      )}
-      <Grid>
-        {cards.map((card, key) => {
-          return <Card key={key} variation={cardVariation} {...card} />
-        })}
-      </Grid>
-    </Container>
+    <LazyLoad offset={200} once>
+      <Container className={classes} spacing="large" width="fluid">
+        {title && (
+          <header>
+            <PrismicRichText field={title} />
+            <PrismicRichText field={description} />
+          </header>
+        )}
+        <Grid>
+          {cards.map((card, key) => {
+            return <Card key={key} variation={cardVariation} {...card} />
+          })}
+        </Grid>
+      </Container>
+    </LazyLoad>
   )
 }
 

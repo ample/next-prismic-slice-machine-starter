@@ -16,6 +16,7 @@ const Image = (props) => {
 
   let {
     alt,
+    blurDataURL,
     className,
     height,
     layout,
@@ -28,19 +29,21 @@ const Image = (props) => {
     width,
   } = props
 
+  // ---------------------------------------------------------
+
   // -------------------------------------------------------
 
   return (
     <div className={className}>
       <NextImage
         alt={alt || defaultAltAttribute(src) || ' '}
-        blurDataURL={`${src}?fit=fill&w=10&h=10`}
+        blurDataURL={blurDataURL}
         height={height}
         layout={layout}
         objectFit={objectFit}
         objectPosition={objectPosition}
-        placeholder={placeholder ? placeholder : false}
-        priority={priority ? priority : true}
+        placeholder={placeholder}
+        priority={priority}
         quality={quality}
         src={src}
         width={width}
@@ -54,6 +57,11 @@ Image.propTypes = {
    * Specifies the image alt text.
    */
   alt: PropTypes.string,
+
+  /**
+   * Specifies a placeholder image before the src image successfully loads when the placeholder prop is set to "blur".
+   */
+  blurDataURL: PropTypes.string,
 
   /**
    * Specifies a CSS class on either the image or the wrapping element when an SVG is rendered.
@@ -89,7 +97,7 @@ Image.propTypes = {
   /**
    * Specifies if a placeholder should be enabled while image loads.
    */
-  placeholder: PropTypes.bool,
+  placeholder: PropTypes.oneOf(['blur', 'empty']),
 
   /**
    * Specifies if the image should be considered high priority and preloaded.

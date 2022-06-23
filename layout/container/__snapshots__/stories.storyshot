@@ -77,6 +77,39 @@ exports[`Storyshots Layout/Container With Background Image 1`] = `
           }
         }
       />
+      <noscript>
+        <img
+          alt="Placeholder image"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75"
+          srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": "cover",
+              "objectPosition": "top",
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
     </span>
   </div>
   <div

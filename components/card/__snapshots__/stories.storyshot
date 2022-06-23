@@ -8,45 +8,111 @@ exports[`Storyshots Components/Card Props 1`] = `
   target="_blank"
 >
   <div
-    className="imgix_image card_image"
+    className="card_image"
   >
-    <img
-      alt="Placeholder image"
-      className="lazyload"
-      data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
-      data-src="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop"
-      data-srcset="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=100 100w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=116 116w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=135 135w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=156 156w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=181 181w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=210 210w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=244 244w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=283 283w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=328 328w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=380 380w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=441 441w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=512 512w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=594 594w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=689 689w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=799 799w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=927 927w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1075 1075w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1247 1247w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1446 1446w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1678 1678w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1946 1946w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=2257 2257w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=2619 2619w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=3038 3038w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=3524 3524w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=4087 4087w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=4741 4741w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=5500 5500w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=6380 6380w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=7401 7401w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=8192 8192w"
-    />
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": "initial",
+          "margin": 0,
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "opacity": 1,
+            "padding": 0,
+            "paddingTop": "55.55555555555556%",
+            "width": "initial",
+          }
+        }
+      />
+      <img
+        alt="Placeholder image"
+        data-nimg="responsive"
+        decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75 3840w"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=compress%2Cformat&fit=crop&h=10&w=10\\")",
+            "backgroundPosition": "0% 0%",
+            "backgroundSize": "cover",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "filter": "blur(20px)",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          alt="Placeholder image"
+          data-nimg="responsive"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75"
+          srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
   </div>
   <div
     className="card_content"
@@ -74,45 +140,111 @@ exports[`Storyshots Components/Card Theme Default 1`] = `
   target="_blank"
 >
   <div
-    className="imgix_image card_image"
+    className="card_image"
   >
-    <img
-      alt="Placeholder image"
-      className="lazyload"
-      data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
-      data-src="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop"
-      data-srcset="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=100 100w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=116 116w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=135 135w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=156 156w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=181 181w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=210 210w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=244 244w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=283 283w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=328 328w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=380 380w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=441 441w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=512 512w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=594 594w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=689 689w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=799 799w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=927 927w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1075 1075w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1247 1247w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1446 1446w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1678 1678w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1946 1946w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=2257 2257w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=2619 2619w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=3038 3038w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=3524 3524w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=4087 4087w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=4741 4741w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=5500 5500w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=6380 6380w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=7401 7401w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=8192 8192w"
-    />
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": "initial",
+          "margin": 0,
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "opacity": 1,
+            "padding": 0,
+            "paddingTop": "55.55555555555556%",
+            "width": "initial",
+          }
+        }
+      />
+      <img
+        alt="Placeholder image"
+        data-nimg="responsive"
+        decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75 3840w"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=compress%2Cformat&fit=crop&h=10&w=10\\")",
+            "backgroundPosition": "0% 0%",
+            "backgroundSize": "cover",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "filter": "blur(20px)",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          alt="Placeholder image"
+          data-nimg="responsive"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75"
+          srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
   </div>
   <div
     className="card_content"
@@ -135,45 +267,111 @@ exports[`Storyshots Components/Card Theme With Button 1`] = `
   target="_blank"
 >
   <div
-    className="imgix_image card_image"
+    className="card_image"
   >
-    <img
-      alt="Placeholder image"
-      className="lazyload"
-      data-sizes="320, 400, 480, 600, 720, 840, 960, 1040, 1140, 1280, 1440, 1600, 1920, 2560, 3360"
-      data-src="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop"
-      data-srcset="https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=100 100w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=116 116w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=135 135w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=156 156w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=181 181w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=210 210w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=244 244w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=283 283w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=328 328w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=380 380w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=441 441w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=512 512w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=594 594w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=689 689w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=799 799w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=927 927w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1075 1075w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1247 1247w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1446 1446w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1678 1678w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=1946 1946w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=2257 2257w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=2619 2619w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=3038 3038w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=3524 3524w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=4087 4087w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=4741 4741w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=5500 5500w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=6380 6380w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=7401 7401w,
-https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=format&ixlib=react-9.5.1-beta.1&fit=crop&w=8192 8192w"
-    />
+    <span
+      style={
+        Object {
+          "background": "none",
+          "border": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "height": "initial",
+          "margin": 0,
+          "opacity": 1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "relative",
+          "width": "initial",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "initial",
+            "margin": 0,
+            "opacity": 1,
+            "padding": 0,
+            "paddingTop": "55.55555555555556%",
+            "width": "initial",
+          }
+        }
+      />
+      <img
+        alt="Placeholder image"
+        data-nimg="responsive"
+        decoding="async"
+        onError={[Function]}
+        onLoad={[Function]}
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75 3840w"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=compress%2Cformat&fit=crop&h=10&w=10\\")",
+            "backgroundPosition": "0% 0%",
+            "backgroundSize": "cover",
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "filter": "blur(20px)",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+      <noscript>
+        <img
+          alt="Placeholder image"
+          data-nimg="responsive"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75"
+          srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2F129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26w%3D900&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+    </span>
   </div>
   <div
     className="card_content"

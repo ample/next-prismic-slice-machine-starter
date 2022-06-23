@@ -1,5 +1,6 @@
 // ---------------------------------------------------------
 
+import LazyLoad from 'react-lazyload'
 import PropTypes from 'prop-types'
 
 // ---------------------------------------------------------
@@ -16,25 +17,27 @@ const Footer = (props) => {
   let { navigationLinks } = props
 
   return (
-    <footer className={footer}>
-      <div className={footer_content}>
-        <Link url="/">Logo</Link>
+    <LazyLoad offset={200} once>
+      <footer className={footer}>
+        <div className={footer_content}>
+          <Link url="/">Logo</Link>
 
-        <nav aria-label="Footer">
-          <ul>
-            {navigationLinks.map((nav) => {
-              let label = nav.label[0].text
+          <nav aria-label="Footer">
+            <ul>
+              {navigationLinks.map((nav) => {
+                let label = nav.label[0].text
 
-              return (
-                <li key={label}>
-                  <Link url={nav.link}>{label}</Link>
-                </li>
-              )
-            })}
-          </ul>
-        </nav>
-      </div>
-    </footer>
+                return (
+                  <li key={label}>
+                    <Link url={nav.link}>{label}</Link>
+                  </li>
+                )
+              })}
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </LazyLoad>
   )
 }
 

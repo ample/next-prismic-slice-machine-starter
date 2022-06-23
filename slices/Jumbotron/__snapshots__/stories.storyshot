@@ -33,14 +33,18 @@ exports[`Storyshots Slices/Jumbotron Default 1`] = `
         onError={[Function]}
         onLoad={[Function]}
         sizes="100vw"
-        src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat%26auto%3Dcompress%2Cenhance%2Cformat%26w%3D1400%26h%3D500%26fit%3Dcrop%26lossless%3Dtrue&w=3840&q=75"
-        srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat%26auto%3Dcompress%2Cenhance%2Cformat%26w%3D1400%26h%3D500%26fit%3Dcrop%26lossless%3Dtrue&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat%26auto%3Dcompress%2Cenhance%2Cformat%26w%3D1400%26h%3D500%26fit%3Dcrop%26lossless%3Dtrue&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat%26auto%3Dcompress%2Cenhance%2Cformat%26w%3D1400%26h%3D500%26fit%3Dcrop%26lossless%3Dtrue&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat%26auto%3Dcompress%2Cenhance%2Cformat%26w%3D1400%26h%3D500%26fit%3Dcrop%26lossless%3Dtrue&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat%26auto%3Dcompress%2Cenhance%2Cformat%26w%3D1400%26h%3D500%26fit%3Dcrop%26lossless%3Dtrue&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat%26auto%3Dcompress%2Cenhance%2Cformat%26w%3D1400%26h%3D500%26fit%3Dcrop%26lossless%3Dtrue&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat%26auto%3Dcompress%2Cenhance%2Cformat%26w%3D1400%26h%3D500%26fit%3Dcrop%26lossless%3Dtrue&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%2Cformat%26auto%3Dcompress%2Cenhance%2Cformat%26w%3D1400%26h%3D500%26fit%3Dcrop%26lossless%3Dtrue&w=3840&q=75 3840w"
+        src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=3840&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=3840&q=75 3840w"
         style={
           Object {
+            "backgroundImage": "url(\\"https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=compress%2Cformat&fit=crop&h=10&w=10\\")",
+            "backgroundPosition": "0% 0%",
+            "backgroundSize": "cover",
             "border": "none",
             "bottom": 0,
             "boxSizing": "border-box",
             "display": "block",
+            "filter": "blur(20px)",
             "height": 0,
             "left": 0,
             "margin": "auto",
@@ -58,6 +62,38 @@ exports[`Storyshots Slices/Jumbotron Default 1`] = `
           }
         }
       />
+      <noscript>
+        <img
+          alt="Placeholder image"
+          data-nimg="fill"
+          decoding="async"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=3840&q=75"
+          srcSet="/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fample-prismic-demo%2Feeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg%3Fauto%3Dcompress%252Cenhance%252Cformat%26fit%3Dcrop%26h%3D500%26lossless%3Dtrue%26sat%3D-100%26w%3D900&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": "cover",
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
     </span>
   </div>
   <div
