@@ -5,18 +5,28 @@ import { ReactSVG } from 'react-svg'
 
 // ---------------------------------------------------------
 
+import { defaultAltAttribute } from '../component'
+
+// ---------------------------------------------------------
+
 const SVG = (props) => {
   let { alt, className, src } = props
 
+  // -------------------------------------------------------
+
+  const title = alt || defaultAltAttribute(src)
+
+  // -------------------------------------------------------
+
   return (
     <ReactSVG
-      aria-label={alt}
+      aria-label={title}
       beforeInjection={(src) => {
         const titleElement = document.createElementNS(
           'http://www.w3.org/2000/svg',
           'title'
         )
-        titleElement.innerHTML = alt
+        titleElement.innerHTML = title
         src.prepend(titleElement)
       }}
       className={className}

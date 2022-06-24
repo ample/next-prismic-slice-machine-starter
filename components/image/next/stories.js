@@ -14,7 +14,7 @@ export default {
     docs: {
       description: {
         component:
-          '<p>If a raster image is passed to the `<Image />` component and the `layout` prop is used, it will be optimized using NextImage. This should be used if an image is considered high priority and needs to preloaded.</p><p>It can also be imported separately with `import NextImage from "@components/image/next"`</p>',
+          '<p>If a raster image is passed to the `<Image />` component, it will be optimized using NextImage. Use the `asImageSrc` Prismic helper along with the rendering API to customize image URLs. See the `<Card />` component as a reference.</p><p>API references:<ul><li><a href="https://nextjs.org/docs/api-reference/next/image">next/image</a></li><li><a href="https://docs.imgix.com/apis/rendering">imgIX Rendering API</a></li></ul></p>',
       },
     },
   },

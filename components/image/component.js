@@ -6,7 +6,6 @@ import startCase from 'lodash/startCase'
 
 // ---------------------------------------------------------
 
-import ImgixImage from './imgix'
 import Link from '@components/link'
 import NextImage from './next'
 import SVG from './svg'
@@ -23,7 +22,7 @@ export const defaultAltAttribute = (image) => {
 // ---------------------------------------------------------
 
 const Image = (props) => {
-  let { layout, src, url } = props
+  let { src, url } = props
 
   // -------------------------------------------------------
 
@@ -36,11 +35,7 @@ const Image = (props) => {
 
   // -------------------------------------------------------
 
-  let image = <ImgixImage {...props} />
-
-  if (layout) {
-    image = <NextImage {...props} />
-  }
+  let image = <NextImage {...props} />
 
   if (isSVG) {
     image = <SVG {...props} />
@@ -58,11 +53,6 @@ const Image = (props) => {
 }
 
 Image.propTypes = {
-  /**
-   * If the layout is specified, the image component will use NextImage to render the image.
-   */
-  layout: PropTypes.string,
-
   /**
    * Specifies the image src.
    */

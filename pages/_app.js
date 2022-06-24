@@ -1,6 +1,5 @@
 // ---------------------------------------------------------
 
-import 'lazysizes'
 import Link from 'next/link'
 import { linkResolver, repositoryName } from '@root/prismicio'
 import { PrismicPreview } from '@prismicio/next'

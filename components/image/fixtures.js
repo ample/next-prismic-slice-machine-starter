@@ -7,7 +7,7 @@ const src =
 
 // ---------------------------------------------------------
 
-const defaultNextImageProps = {
+const defaultImageProps = {
   alt: alt,
   height: 670,
   layout: 'intrinsic',
@@ -18,14 +18,8 @@ const defaultNextImageProps = {
 // ---------------------------------------------------------
 
 export default {
-  _imgixProps: {
-    alt: alt,
-    height: 170,
-    src: 'https://images.prismic.io/ample-prismic-demo/eeea263a-1fa1-43a6-b4c7-c1a35ec9a7fc_fpo-background-image.jpg?auto=compress,format',
-    width: 1004,
-  },
   _props: {
-    ...defaultNextImageProps,
+    ...defaultImageProps,
   },
   layoutIsFill: {
     alt: alt,
@@ -34,18 +28,18 @@ export default {
     src: src,
   },
   layoutIsFixed: {
-    ...defaultNextImageProps,
+    ...defaultImageProps,
     layout: 'fixed',
   },
   layoutIsIntrinsic: {
-    ...defaultNextImageProps,
+    ...defaultImageProps,
   },
   layoutIsResponsive: {
-    ...defaultNextImageProps,
+    ...defaultImageProps,
     layout: 'responsive',
   },
   withLink: {
-    ...defaultNextImageProps,
+    ...defaultImageProps,
     url: 'https://www.ample.co',
   },
   withSVG: {
