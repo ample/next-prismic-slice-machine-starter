@@ -19,3 +19,19 @@ jest.mock('next/dist/client/router', () => ({
   __esModule: true,
   useRouter: () => mockedUseRouter,
 }))
+
+// ---------------------------------------------------------
+
+Object.defineProperty(window, 'matchMedia', {
+  writable: true,
+  value: jest.fn().mockImplementation((query) => ({
+    matches: false,
+    media: query,
+  })),
+})
+
+// ---------------------------------------------------------
+
+jest.mock('react-lazyload', () => ({ children }) => (
+  <div id="LazyLoad" children={children} />
+))

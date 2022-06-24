@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Image/SVG SVG 1`] = `
+<span
+  aria-label="alt text helps screen-reading tools describe images to visually impaired readers"
+  role="img"
+/>
+`;

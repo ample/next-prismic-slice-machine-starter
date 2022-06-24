@@ -9,18 +9,8 @@ import { debug, debug_media_queries, is_showing } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
-import getConfig from 'next/config'
-const { publicRuntimeConfig } = getConfig()
-const { DEBUG_MEDIA_QUERIES } = publicRuntimeConfig
-
-// ---------------------------------------------------------
-
 const DebugMediaQueries = () => {
   const [isOpen, setOpen] = useState(false)
-
-  // -------------------------------------------------------
-
-  if (DEBUG_MEDIA_QUERIES !== 'true') return null
 
   // -------------------------------------------------------
 

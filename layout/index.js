@@ -1,6 +1,7 @@
 // ---------------------------------------------------------
 
 import dynamic from 'next/dynamic'
+import getConfig from 'next/config'
 import Head from 'next/head'
 import PropTypes from 'prop-types'
 
@@ -21,6 +22,11 @@ import SEO from './seo'
 
 // ---------------------------------------------------------
 
+const { publicRuntimeConfig } = getConfig()
+const { DEBUG_MEDIA_QUERIES } = publicRuntimeConfig
+
+// ---------------------------------------------------------
+
 const Layout = (props) => {
   let { children, footer, header, seo, seoPageSpecific, themeColor } = props
 
@@ -31,6 +37,10 @@ const Layout = (props) => {
       <Head>
         <meta content={themeColor} name="theme-color" />
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+        <link href="https://ample-prismic-demo.prismic.io" rel="preconnect" />
+        <link href="https://static.cdn.prismic.io" rel="preconnect" />
+
         <link href="/favicons/favicon-48.png" rel="icon" type="image/png" />
         <link href="/favicons/favicon.svg" rel="icon" type="image/svg+xml" />
         <link href="/favicons/favicon-apple-touch.png" rel="apple-touch-icon" />
@@ -43,7 +53,7 @@ const Layout = (props) => {
       <main>{children}</main>
       <Footer {...footer} />
 
-      <DebugMediaQueries />
+      {DEBUG_MEDIA_QUERIES === 'true' && <DebugMediaQueries />}
     </>
   )
 }

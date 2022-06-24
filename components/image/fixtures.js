@@ -7,9 +7,10 @@ const src =
 
 // ---------------------------------------------------------
 
-const layoutIsNotFill = {
+const defaultImageProps = {
   alt: alt,
   height: 670,
+  layout: 'intrinsic',
   src: src,
   width: 1004,
 }
@@ -18,7 +19,7 @@ const layoutIsNotFill = {
 
 export default {
   _props: {
-    ...layoutIsNotFill,
+    ...defaultImageProps,
   },
   layoutIsFill: {
     alt: alt,
@@ -27,18 +28,18 @@ export default {
     src: src,
   },
   layoutIsFixed: {
+    ...defaultImageProps,
     layout: 'fixed',
-    ...layoutIsNotFill,
   },
   layoutIsIntrinsic: {
-    ...layoutIsNotFill,
+    ...defaultImageProps,
   },
   layoutIsResponsive: {
+    ...defaultImageProps,
     layout: 'responsive',
-    ...layoutIsNotFill,
   },
   withLink: {
-    ...layoutIsNotFill,
+    ...defaultImageProps,
     url: 'https://www.ample.co',
   },
   withSVG: {

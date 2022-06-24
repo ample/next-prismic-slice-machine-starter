@@ -2,6 +2,7 @@
 
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
+import { asImageSrc } from '@prismicio/helpers'
 import { PrismicRichText } from '@prismicio/react'
 
 // ---------------------------------------------------------
@@ -39,6 +40,10 @@ const variationOptions = {
 const Card = (props) => {
   let { body, buttonLabel, heading, image, textAlignment, url, variation } =
     props
+  let {
+    alt,
+    dimensions: { height, width },
+  } = image
 
   // -------------------------------------------------------
 
@@ -61,15 +66,35 @@ const Card = (props) => {
 
   // -------------------------------------------------------
 
+  const imgixSrc = asImageSrc(image, {
+    auto: 'compress,enhance,format',
+    fit: 'crop',
+    h: height,
+    lossless: true,
+    w: width,
+  })
+
+  const blurDataUrl = asImageSrc(image, {
+    auto: 'compress,format',
+    fit: 'crop',
+    h: 10,
+    w: 10,
+  })
+
+  // -------------------------------------------------------
+
   let cardContents = (
     <>
       {image && (
         <Image
-          alt={image.alt}
+          alt={alt}
+          blurDataURL={blurDataUrl}
           className={card_image}
+          height={height}
           layout="responsive"
-          src={image.url}
-          {...image.dimensions}
+          placeholder="blur"
+          src={imgixSrc}
+          width={width}
         />
       )}
 
