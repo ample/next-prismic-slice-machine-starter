@@ -1,0 +1,35 @@
+name: 'main'
+
+on: push
+
+jobs:
+  chromatic-and-percy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --prefer-offline --frozen-lockfile
+
+      - name: Publish Stories to Chromatic
+        uses: chromaui/action@v1
+
+        with:
+          buildScriptName: storybook:build
+          onlyChanged: true
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+
+      - name: Publish Percy Snapshots
+        uses: percy/exec-action@v0.3.1
+        with:
+          custom-command: 'yarn cypress:percy-snapshots'
+
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
