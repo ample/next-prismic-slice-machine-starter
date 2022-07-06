@@ -12,7 +12,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 16
           cache: 'yarn'
 
       - name: Install dependencies
@@ -27,9 +27,7 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 
       - name: Publish Percy Snapshots
-        uses: percy/exec-action@v0.3.1
-        with:
-          custom-command: 'yarn cypress:percy-snapshots'
+        run: yarn cypress:percy-snapshots
 
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
