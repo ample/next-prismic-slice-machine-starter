@@ -1,7 +1,7 @@
 # Ample's NEXT.js starter configured with Prismic Slice Machine
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/31b3a6ce-906f-4cb9-9fc4-5d08f4658b30/deploy-status)](https://app.netlify.com/sites/ample-next-slicemachine-stater/deploys)
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://main--62746dd9a57ceb004a509ac4.chromatic.com)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://main--62746dd9a57ceb004a509ac4.chromatic.com) ![Percy](https://percy.io/static/images/percy-badge.svg)
 
 This starter serves as the starting point for Ample [NEXT.js](https://nextjs.org/) development projects that use [Prismic's Slice Machine](https://prismic.io/docs/core-concepts/slice-machine). It has pre-configured preferences to make getting started less cumbersome. To create a new project from this template, click the green "Use this Template" button above.
 
