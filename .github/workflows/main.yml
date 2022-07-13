@@ -1,9 +1,13 @@
 name: 'main'
 
-on: push
+on:
+  push
+  # pull_request:
+  #   types: [opened, synchronize, reopened, ready_for_review]
 
 jobs:
   chromatic-and-percy:
+    # if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -15,19 +19,38 @@ jobs:
           node-version: 16
           cache: 'yarn'
 
+      # ----------------------------------------------------------
+
       - name: Install dependencies
         run: yarn install --prefer-offline --frozen-lockfile
 
-      - name: Publish Stories to Chromatic
-        uses: chromaui/action@v1
+      # ----------------------------------------------------------
 
+      # - name: Publish Stories to Chromatic
+      #   uses: chromaui/action@v1
+
+      #   with:
+      #     buildScriptName: storybook:build
+      #     onlyChanged: true
+      #     projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+
+      # ----------------------------------------------------------
+
+      - name: Wait for Netlify Deploy
+        uses: probablyup/wait-for-netlify-action@3.2.0
+        id: waitForNetlifyDeployment
         with:
-          buildScriptName: storybook:build
-          onlyChanged: true
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          max_timeout: 360
+          site_id: ${{ secrets.NETLIFY_SITE_ID }}
+
+        env:
+          NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+
+      # ----------------------------------------------------------
 
       - name: Publish Percy Snapshots
         run: yarn cypress:percy-snapshots
 
         env:
+          PERCY_DEPLOY_URL: ${{ steps.waitForNetlifyDeployment.outputs.url }}
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
