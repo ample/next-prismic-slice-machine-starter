@@ -179,7 +179,7 @@
     "url": "https://github.com/ample/next-prismic-slice-machine-starter-ample/issues"
   },
   "volta": {
-    "node": "16.15.1",
+    "node": "16.16.0",
     "yarn": "1.22.19"
   }
 }
