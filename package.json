@@ -70,7 +70,6 @@
     "prismic-cli": "^4.2.3",
     "react-test-renderer": "^18.2.0",
     "sass-export": "^2.1.2",
-    "scroll-to-bottomjs": "^1.1.0",
     "slice-machine-ui": "^0.4.2",
     "start-server-and-test": "^1.14.0",
     "storybook-addon-next": "^1.6.7",

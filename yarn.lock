@@ -16852,11 +16852,6 @@ scoped-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/scoped-regex/-/scoped-regex-2.1.0.tgz#7b9be845d81fd9d21d1ec97c61a0b7cf86d2015f"
   integrity sha512-g3WxHrqSWCZHGHlSrF51VXFdjImhwvH8ZO/pryFH56Qi0cDsZfylQa/t0jCzVQFNbNvM00HfHjkDPEuarKDSWQ==
 
-scroll-to-bottomjs@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/scroll-to-bottomjs/-/scroll-to-bottomjs-1.1.0.tgz#06589ea5c398742cae4bb56664fa132c8f095123"
-  integrity sha512-+e7MRrUwY7M1V93ebqxIyPwIC8rPkvcmmmdSrOnNnCpbDP2Fpva3B6RadoRQ+ubZoYdYxye3Cculgbzb/CZiGw==
-
 seek-bzip@^1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/seek-bzip/-/seek-bzip-1.0.6.tgz#35c4171f55a680916b52a07859ecf3b5857f21c4"
