@@ -96,6 +96,7 @@
     "cypress:headless": "cypress run --browser chrome --config-file ./.config/.cypress/cypress.config.js",
     "cypress:open": "cypress open --config-file ./.config/.cypress/cypress.config.js",
     "cypress:percy-snapshots": "percy exec -t 750 -- yarn cypress:headless",
+    "cypress:push:percy-snapshots": "start-server-and-test start 3000 cypress:percy-snapshots",
     "develop": "DEBUG_MEDIA_QUERIES=true next dev",
     "favicons": "yarn generate-favicons --source ./public/favicons/favicon.svg --destination ./public/favicons/",
     "lint": "yarn lint-js . && yarn lint-scss './**/*.scss'",
