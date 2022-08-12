@@ -51,17 +51,15 @@ exports[`Storyshots Layout/Container With Background Image 1`] = `
         decoding="async"
         onError={[Function]}
         onLoad={[Function]}
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75"
+        srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1437622368342-7a3d73a34c8f%3Fw%3D900%26h%3D500%26fit%3Dcrop&w=3840&q=75 3840w"
         style={
           Object {
-            "backgroundImage": "url(\\"https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=900&h=500&fit=crop?fit=fill&w=10&h=10\\")",
-            "backgroundPosition": "top",
-            "backgroundSize": "cover",
             "border": "none",
             "bottom": 0,
             "boxSizing": "border-box",
             "display": "block",
-            "filter": "blur(20px)",
             "height": 0,
             "left": 0,
             "margin": "auto",

@@ -1,24 +1,24 @@
 // ---------------------------------------------------------
 
-import Image from '.'
+import NextImage from '.'
 
 // ---------------------------------------------------------
 
-import fixtures from './fixtures'
+import fixtures from '../fixtures'
 
 // ---------------------------------------------------------
 
 export default {
-  component: Image,
+  component: NextImage,
   parameters: {
     docs: {
       description: {
         component:
-          'The `<Image />` component optimizes and renders either raster or vector graphics and handles if the image is a link.',
+          '<p>If a raster image is passed to the `<Image />` component, it will be optimized using NextImage. Use the `asImageSrc` Prismic helper along with the rendering API to customize image URLs. See the `<Card />` component as a reference.</p><p>API references:<ul><li><a href="https://nextjs.org/docs/api-reference/next/image">next/image</a></li><li><a href="https://docs.imgix.com/apis/rendering">imgIX Rendering API</a></li></ul></p>',
       },
     },
   },
-  title: 'Components/Image',
+  title: 'Components/Image/NextImage',
 }
 
 // ---------------------------------------------------------
@@ -26,26 +26,29 @@ export default {
 const Template = (args) => {
   let layout = args.layout
 
+  const layoutFill = {
+    height: 800,
+    position: 'relative',
+    width: 1000,
+  }
+
   return (
-    <div
-      style={{
-        height: layout === 'fill' ? 800 : undefined,
-        position: layout === 'fill' ? 'relative' : undefined,
-        width: layout === 'fill' ? 1000 : undefined,
-      }}
-    >
-      <Image {...args} />
+    <div style={layout === 'fill' ? layoutFill : undefined}>
+      <NextImage {...args} />
     </div>
   )
 }
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({})
-_props.args = fixtures._props
-_props.parameters = {
+export const Props = Template.bind({})
+Props.args = fixtures._props
+Props.parameters = {
   chromatic: { disableSnapshot: true },
 }
+
+// Variations
+// ---------------------------------------------------------
 
 export const layoutIsFill = Template.bind({})
 layoutIsFill.args = {
@@ -59,6 +62,7 @@ layoutIsFill.parameters = {
     },
   },
 }
+layoutIsFill.storyName = 'layout="fill"'
 
 export const layoutIsFixed = Template.bind({})
 layoutIsFixed.args = fixtures.layoutIsFixed
@@ -67,6 +71,7 @@ layoutIsFixed.parameters = {
     description: { story: 'Sized to width and height exactly.' },
   },
 }
+layoutIsFixed.storyName = 'layout="fixed"'
 
 export const layoutIsIntrinsic = Template.bind({})
 layoutIsIntrinsic.args = fixtures.layoutIsIntrinsic
@@ -77,6 +82,7 @@ layoutIsIntrinsic.parameters = {
     },
   },
 }
+layoutIsIntrinsic.storyName = 'layout="intrinsic"'
 
 export const layoutIsResponsive = Template.bind({})
 layoutIsResponsive.args = fixtures.layoutIsResponsive
@@ -85,17 +91,4 @@ layoutIsResponsive.parameters = {
     description: { story: 'Scale to fit width of container.' },
   },
 }
-
-export const withLink = Template.bind({})
-withLink.args = fixtures.withLink
-
-export const withSVG = Template.bind({})
-withSVG.args = fixtures.withSVG
-withSVG.parameters = {
-  docs: {
-    description: {
-      story:
-        'If a .svg is passed into the Image component the SVG is injected into the DOM using react-svg.',
-    },
-  },
-}
+layoutIsResponsive.storyName = 'layout="responsive"'

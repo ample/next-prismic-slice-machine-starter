@@ -32,8 +32,17 @@
                   "type": "Image",
                   "config": {
                     "label": "Image",
-                    "constraint": {},
-                    "thumbnails": []
+                    "constraint": {
+                      "width": 1400,
+                      "height": 700
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "small",
+                        "width": 600,
+                        "height": 1000
+                      }
+                    ]
                   }
                 }
               },
@@ -52,18 +61,27 @@
               "body": [
                 {
                   "type": "paragraph",
-                  "text": "Culpa consectetur commodo sint do aliqua voluptate magna non nulla aliqua proident exercitation magna amet. Officia qui sit sint labore mollit voluptate ipsum magna proident mollit. Elit ex aliqua veniam duis do exercitation sit nostrud ea veniam mollit labore adipisicing do nostrud.",
+                  "text": "Commodo irure et consequat adipisicing dolore irure eiusmod exercitation reprehenderit mollit elit adipisicing.",
                   "spans": []
                 }
               ],
               "image": {
                 "dimensions": {
-                  "width": 900,
-                  "height": 500
+                  "width": 1400,
+                  "height": 700
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=1400&h=700&fit=crop",
+                "small": {
+                  "dimensions": {
+                    "width": 600,
+                    "height": 1000
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=600&h=1000&fit=crop"
+                }
               }
             }
           }
@@ -72,13 +90,7 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {
-          "default": {
-            "path": "/Users/jeff/Projects/ample/next-prismic-slice-machine-starter/.slicemachine/assets/slices/Jumbotron/default/preview.png",
-            "width": 800,
-            "height": 467
-          }
-        }
+        "screenshotPaths": {}
       },
       "section_for_demo": {
         "library": "slices",
@@ -229,25 +241,97 @@
                 "heading": [
                   {
                     "type": "paragraph",
-                    "text": "Ullamco consectetur elit veniam reprehenderit aliqua et anim culpa mollit quis eiusmod velit labore duis. Laboris nulla proident duis nisi. Anim elit esse Lorem ut laboris commodo commodo aliqua nostrud cupidatat dolore aute occaecat.",
+                    "text": "Quis labore tempor magna commodo consectetur voluptate. Enim deserunt deserunt enim cillum labore ea et aute aliquip nostrud nisi commodo excepteur laboris. Do Lorem ea commodo ex qui.",
                     "spans": []
                   }
                 ],
                 "body": [
                   {
                     "type": "paragraph",
-                    "text": "Tempor voluptate ad cupidatat reprehenderit ea anim qui laboris sint adipisicing duis fugiat.",
+                    "text": "Irure est est veniam sit nostrud aliquip sunt aliquip. In aliqua aute non est eu ut aliqua est elit mollit. Magna elit sint eiusmod cupidatat aliquip et.",
                     "spans": []
                   }
                 ],
                 "image": {
                   "dimensions": {
-                    "width": 900,
-                    "height": 500
+                    "width": 610,
+                    "height": 458
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=610&h=458&fit=crop"
+                },
+                "url": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                },
+                "buttonLabel": [
+                  {
+                    "type": "paragraph",
+                    "text": "Deserunt commodo anim dolore sit nostrud incididunt excepteur mollit occaecat nulla nulla occaecat laborum. Exercitation mollit occaecat aute deserunt magna veniam tempor adipisicing fugiat enim sint consequat tempor Lorem. Anim dolor est dolor occaecat dolore fugiat non ullamco fugiat eiusmod labore ullamco proident adipisicing.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "heading": [
+                  {
+                    "type": "paragraph",
+                    "text": "Occaecat tempor laborum culpa ea dolor ut aliqua aute sunt et.",
+                    "spans": []
+                  }
+                ],
+                "body": [
+                  {
+                    "type": "paragraph",
+                    "text": "Duis exercitation nostrud in qui Lorem enim tempor ea ut dolor.",
+                    "spans": []
+                  }
+                ],
+                "image": {
+                  "dimensions": {
+                    "width": 610,
+                    "height": 458
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=610&h=458&fit=crop"
+                },
+                "url": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                },
+                "buttonLabel": [
+                  {
+                    "type": "paragraph",
+                    "text": "Tempor reprehenderit exercitation reprehenderit nisi aliqua. Cillum dolor do nisi consectetur nulla quis qui laboris sint nulla irure ullamco et velit. Labore eu Lorem velit adipisicing enim consequat occaecat qui consequat duis ad amet tempor ullamco labore.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "heading": [
+                  {
+                    "type": "paragraph",
+                    "text": "Reprehenderit exercitation dolor id consequat duis qui. Ipsum aute est do ut exercitation ullamco veniam do officia sunt ullamco ex culpa culpa. Ea et qui aliqua esse velit tempor nostrud et minim ipsum sunt culpa commodo reprehenderit.",
+                    "spans": []
+                  }
+                ],
+                "body": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cupidatat ea in ex commodo officia veniam nulla elit reprehenderit. Ullamco ipsum minim eiusmod eiusmod voluptate tempor commodo est nisi. Incididunt eu nulla labore magna incididunt cupidatat qui exercitation nulla cillum ea eiusmod nostrud aliqua.",
+                    "spans": []
+                  }
+                ],
+                "image": {
+                  "dimensions": {
+                    "width": 610,
+                    "height": 458
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=610&h=458&fit=crop"
                 },
                 "url": {
                   "link_type": "Web",
@@ -256,7 +340,7 @@
                 "buttonLabel": [
                   {
                     "type": "paragraph",
-                    "text": "Quis ex consequat sunt tempor consectetur nisi non mollit cupidatat commodo ipsum cupidatat.",
+                    "text": "Elit sit pariatur nulla ullamco eu minim mollit exercitation irure aliquip eiusmod voluptate. Ut aute consequat eiusmod voluptate mollit reprehenderit consequat deserunt anim velit consequat aliqua voluptate mollit ut.",
                     "spans": []
                   }
                 ]
@@ -265,34 +349,34 @@
                 "heading": [
                   {
                     "type": "paragraph",
-                    "text": "Excepteur dolore ullamco sunt occaecat officia sit nulla aute voluptate tempor minim mollit esse ex nulla.",
+                    "text": "Ut aute cupidatat ea nostrud eiusmod. Anim id sint veniam ipsum esse voluptate dolor.",
                     "spans": []
                   }
                 ],
                 "body": [
                   {
                     "type": "paragraph",
-                    "text": "Tempor esse quis eiusmod est officia nisi incididunt. Officia officia dolore exercitation culpa cupidatat deserunt ex qui consequat qui Lorem do dolor incididunt ex. Consectetur velit sit amet veniam minim incididunt consectetur eu non mollit eiusmod ad in amet eu.",
+                    "text": "Deserunt eu do nisi nostrud nulla enim non.",
                     "spans": []
                   }
                 ],
                 "image": {
                   "dimensions": {
-                    "width": 900,
-                    "height": 500
+                    "width": 610,
+                    "height": 458
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=610&h=458&fit=crop"
                 },
                 "url": {
                   "link_type": "Web",
-                  "url": "http://google.com"
+                  "url": "https://prismic.io"
                 },
                 "buttonLabel": [
                   {
                     "type": "paragraph",
-                    "text": "Voluptate exercitation proident minim magna velit.",
+                    "text": "Reprehenderit qui esse ullamco fugiat duis ut laborum quis ullamco nisi est elit aute voluptate non. Aliqua esse adipisicing magna velit elit eiusmod ipsum occaecat do sit cupidatat aliqua. Deserunt minim proident sint eiusmod culpa excepteur cillum commodo deserunt laborum officia.",
                     "spans": []
                   }
                 ]
@@ -301,34 +385,34 @@
                 "heading": [
                   {
                     "type": "paragraph",
-                    "text": "Minim in dolore est ea aute et in mollit amet occaecat labore excepteur.",
+                    "text": "Eiusmod aliquip minim dolore aliqua non veniam magna.",
                     "spans": []
                   }
                 ],
                 "body": [
                   {
                     "type": "paragraph",
-                    "text": "Est occaecat ea ut id Lorem fugiat consectetur enim quis excepteur laborum. Fugiat duis elit velit. Adipisicing ex aliqua dolor Lorem voluptate occaecat nostrud ut laboris pariatur ex.",
+                    "text": "Lorem est velit id Lorem magna adipisicing laboris mollit culpa commodo aliqua elit quis labore.",
                     "spans": []
                   }
                 ],
                 "image": {
                   "dimensions": {
-                    "width": 900,
-                    "height": 500
+                    "width": 610,
+                    "height": 458
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=610&h=458&fit=crop"
                 },
                 "url": {
                   "link_type": "Web",
-                  "url": "http://google.com"
+                  "url": "https://prismic.io"
                 },
                 "buttonLabel": [
                   {
                     "type": "paragraph",
-                    "text": "Excepteur id consectetur velit sunt adipisicing anim exercitation Lorem est labore. Minim aute sit voluptate veniam elit nulla in irure enim culpa.",
+                    "text": "Adipisicing et duis aliquip voluptate ullamco nostrud eu nisi cillum consequat deserunt minim minim aute culpa. Cillum sit labore ad amet aute eiusmod dolor laborum Lorem duis aliquip nulla exercitation eiusmod.",
                     "spans": []
                   }
                 ]
@@ -338,14 +422,14 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Target magnetic systems",
+                  "text": "Integrate global e-services",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Veniam nulla cillum laboris minim amet duis fugiat. Adipisicing incididunt labore non excepteur est sunt non voluptate ex labore excepteur et anim.",
+                  "text": "Incididunt magna qui ipsum voluptate veniam quis proident sit voluptate reprehenderit irure et ex sit exercitation.",
                   "spans": []
                 }
               ]
@@ -360,97 +444,25 @@
                 "heading": [
                   {
                     "type": "paragraph",
-                    "text": "Nisi id proident excepteur. Reprehenderit amet ad eu nulla duis in amet voluptate sunt id amet esse laboris.",
+                    "text": "Occaecat cupidatat sit tempor magna quis id. Ullamco reprehenderit consectetur mollit nulla reprehenderit irure anim. Dolore cillum eiusmod pariatur deserunt ullamco occaecat proident officia elit quis minim et.",
                     "spans": []
                   }
                 ],
                 "body": [
                   {
                     "type": "paragraph",
-                    "text": "Aute voluptate laboris veniam. Nostrud cillum dolore minim ad qui incididunt cillum duis aute aliquip. Labore dolor Lorem velit incididunt in Lorem ipsum eiusmod occaecat ad fugiat sint id quis in.",
+                    "text": "Qui do nostrud Lorem nisi ipsum sint cupidatat qui velit in sunt qui eiusmod sit. Aliquip sunt aliqua reprehenderit commodo in exercitation in cillum nisi mollit ea velit est aliquip deserunt.",
                     "spans": []
                   }
                 ],
                 "image": {
                   "dimensions": {
-                    "width": 900,
-                    "height": 500
+                    "width": 610,
+                    "height": 458
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"
-                },
-                "url": {
-                  "link_type": "Web",
-                  "url": "http://twitter.com"
-                },
-                "buttonLabel": [
-                  {
-                    "type": "paragraph",
-                    "text": "Ipsum do ea ullamco aliqua dolor laborum consequat officia. Elit nulla minim ut excepteur sunt officia aliqua irure laborum proident et aute labore. Aute quis esse magna.",
-                    "spans": []
-                  }
-                ]
-              },
-              {
-                "heading": [
-                  {
-                    "type": "paragraph",
-                    "text": "Exercitation commodo exercitation fugiat in cillum occaecat non mollit nisi. Exercitation excepteur amet ad aliquip nisi elit voluptate Lorem. Ea fugiat esse officia ullamco mollit nostrud duis reprehenderit eiusmod aute ex tempor Lorem dolor.",
-                    "spans": []
-                  }
-                ],
-                "body": [
-                  {
-                    "type": "paragraph",
-                    "text": "Sunt aliquip esse anim.",
-                    "spans": []
-                  }
-                ],
-                "image": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&h=500&fit=crop"
-                },
-                "url": {
-                  "link_type": "Web",
-                  "url": "http://twitter.com"
-                },
-                "buttonLabel": [
-                  {
-                    "type": "paragraph",
-                    "text": "Ullamco esse dolor sunt non cupidatat do ut ipsum. Aute id mollit sint adipisicing ullamco ut ex aliqua ex velit dolore. Eiusmod occaecat do aute do fugiat officia esse nisi Lorem anim pariatur sit.",
-                    "spans": []
-                  }
-                ]
-              },
-              {
-                "heading": [
-                  {
-                    "type": "paragraph",
-                    "text": "Quis duis ullamco aliquip anim nulla ex velit aliquip tempor minim elit Lorem eiusmod est. In sunt esse pariatur deserunt sint consectetur do ullamco ut minim irure.",
-                    "spans": []
-                  }
-                ],
-                "body": [
-                  {
-                    "type": "paragraph",
-                    "text": "Quis consectetur aute deserunt pariatur esse amet eiusmod eiusmod elit consectetur velit.",
-                    "spans": []
-                  }
-                ],
-                "image": {
-                  "dimensions": {
-                    "width": 900,
-                    "height": 500
-                  },
-                  "alt": "Placeholder image",
-                  "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=610&h=458&fit=crop"
                 },
                 "url": {
                   "link_type": "Web",
@@ -459,7 +471,7 @@
                 "buttonLabel": [
                   {
                     "type": "paragraph",
-                    "text": "Tempor anim esse enim id nisi laboris mollit reprehenderit aliquip cillum et consequat laborum. Reprehenderit irure ea ullamco dolore aliquip.",
+                    "text": "Deserunt ad reprehenderit laborum esse excepteur sunt laboris ut. Nostrud velit exercitation commodo aliquip et tempor.",
                     "spans": []
                   }
                 ]
@@ -468,25 +480,25 @@
                 "heading": [
                   {
                     "type": "paragraph",
-                    "text": "Adipisicing non ullamco deserunt. Nostrud cillum laboris non in dolore.",
+                    "text": "Est magna dolore occaecat qui anim enim occaecat. Adipisicing do fugiat magna elit. Ullamco laboris cillum qui adipisicing.",
                     "spans": []
                   }
                 ],
                 "body": [
                   {
                     "type": "paragraph",
-                    "text": "Officia fugiat in non qui fugiat nulla officia consequat.",
+                    "text": "Laborum eu fugiat amet.",
                     "spans": []
                   }
                 ],
                 "image": {
                   "dimensions": {
-                    "width": 900,
-                    "height": 500
+                    "width": 610,
+                    "height": 458
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=610&h=458&fit=crop"
                 },
                 "url": {
                   "link_type": "Web",
@@ -495,7 +507,7 @@
                 "buttonLabel": [
                   {
                     "type": "paragraph",
-                    "text": "Laboris in dolore sunt qui deserunt cillum ullamco voluptate Lorem proident laboris quis exercitation.",
+                    "text": "Cillum magna duis eiusmod voluptate minim magna anim esse fugiat esse ipsum anim ullamco magna consequat.",
                     "spans": []
                   }
                 ]
@@ -504,25 +516,25 @@
                 "heading": [
                   {
                     "type": "paragraph",
-                    "text": "Exercitation reprehenderit nulla sunt irure cillum tempor adipisicing culpa mollit consequat ad dolore. Nisi do qui mollit cupidatat labore aute nisi excepteur do deserunt excepteur.",
+                    "text": "Voluptate ex commodo esse aliqua ad exercitation aliqua tempor mollit est magna. Aliquip pariatur elit cillum do ut excepteur enim nostrud aliqua duis exercitation.",
                     "spans": []
                   }
                 ],
                 "body": [
                   {
                     "type": "paragraph",
-                    "text": "Aliqua excepteur dolore excepteur commodo duis reprehenderit reprehenderit sint.",
+                    "text": "Consectetur enim esse adipisicing cupidatat eiusmod. Elit fugiat adipisicing consequat elit nisi aliquip veniam aliqua sunt officia aute. Labore esse amet ad adipisicing dolore sit eu irure quis et elit ad officia anim.",
                     "spans": []
                   }
                 ],
                 "image": {
                   "dimensions": {
-                    "width": 900,
-                    "height": 500
+                    "width": 610,
+                    "height": 458
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=610&h=458&fit=crop"
                 },
                 "url": {
                   "link_type": "Web",
@@ -531,7 +543,7 @@
                 "buttonLabel": [
                   {
                     "type": "paragraph",
-                    "text": "Anim laboris laboris proident laborum laboris.",
+                    "text": "Labore fugiat sint consequat sit occaecat quis sit eiusmod commodo ad minim. Consectetur aute nulla minim cillum non aute non id pariatur.",
                     "spans": []
                   }
                 ]
@@ -544,18 +556,7 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {
-          "default": {
-            "path": "/Users/jeff/Projects/ample/next-prismic-slice-machine-starter/.slicemachine/assets/slices/SectionForDemo/default/preview.png",
-            "width": 800,
-            "height": 1329
-          },
-          "withoutHeader": {
-            "path": "/Users/jeff/Projects/ample/next-prismic-slice-machine-starter/.slicemachine/assets/slices/SectionForDemo/withoutHeader/preview.png",
-            "width": 800,
-            "height": 800
-          }
-        }
+        "screenshotPaths": {}
       }
     }
   }

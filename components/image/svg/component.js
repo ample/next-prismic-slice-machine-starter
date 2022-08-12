@@ -5,8 +5,18 @@ import { ReactSVG } from 'react-svg'
 
 // ---------------------------------------------------------
 
-const SVGs = (props) => {
-  let { className, src, title } = props
+import { defaultAltAttribute } from '../component'
+
+// ---------------------------------------------------------
+
+const SVG = (props) => {
+  let { alt, className, src } = props
+
+  // -------------------------------------------------------
+
+  const title = alt || defaultAltAttribute(src)
+
+  // -------------------------------------------------------
 
   return (
     <ReactSVG
@@ -29,18 +39,18 @@ const SVGs = (props) => {
 
 // ---------------------------------------------------------
 
-SVGs.propTypes = {
+SVG.propTypes = {
+  /**
+   * Specifies a arial-label and title for the svg
+   */
+  alt: PropTypes.string,
+
   /**
    * Specifies the SVG src
    */
   src: PropTypes.string,
-
-  /**
-   * Specifies a arial-label and title for the svg
-   */
-  title: PropTypes.string,
 }
 
-SVGs.defaultProps = {}
+SVG.defaultProps = {}
 
-export default SVGs
+export default SVG

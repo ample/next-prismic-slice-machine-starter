@@ -35,7 +35,8 @@
           "patternType": "PARAGRAPH",
           "blocks": 1
         }
-      }
+      },
+      "jumbotron": {}
     },
     "flexible-page": {},
     "header": {
