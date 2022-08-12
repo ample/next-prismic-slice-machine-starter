@@ -4,6 +4,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:cypress/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:storybook/recommended',
@@ -91,4 +92,4 @@ module.exports = {
     ],
     'sort-keys-fix/sort-keys-fix': 1,
   },
-};
+}
