@@ -11,7 +11,7 @@ const card = {
   heading: [{ spans: [], text: 'Utilize B2B networks', type: 'heading3' }],
   image: {
     alt: 'Placeholder image',
-    copyright: null,
+    copyright: undefined,
     dimensions: { height: 500, width: 900 },
     url: 'https://images.prismic.io/ample-prismic-demo/129d12d8-ae8b-4ef8-87d9-397d1018bf94_turtle-unsplash.jpg?auto=compress,format',
   },

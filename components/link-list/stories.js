@@ -18,9 +18,9 @@ export default {
 
 // ---------------------------------------------------------
 
-const Template = (args) => <LinkList {...args} />
+const Template = (arguments_) => <LinkList {...arguments_} />
 
 // ---------------------------------------------------------
 
-export const _Props = Template.bind({})
-_Props.args = { ...fixtures._props }
+export const _properties = Template.bind({})
+_properties.args = { ...fixtures._props }

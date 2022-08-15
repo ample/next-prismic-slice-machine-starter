@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import Next from './component'
-
-// ---------------------------------------------------------
-
-export default Next
+export { default } from './component'

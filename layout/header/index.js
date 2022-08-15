@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import Header from './component'
-
-// ---------------------------------------------------------
-
-export default Header
+export { default } from './component'

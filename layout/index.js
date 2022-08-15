@@ -27,8 +27,8 @@ const { DEBUG_MEDIA_QUERIES } = publicRuntimeConfig
 
 // ---------------------------------------------------------
 
-const Layout = (props) => {
-  let { children, footer, header, seo, seoPageSpecific, themeColor } = props
+const Layout = (properties) => {
+  let { children, footer, header, seo, seoPageSpecific, themeColor } = properties
 
   // -------------------------------------------------------
 

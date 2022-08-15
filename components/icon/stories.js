@@ -18,17 +18,17 @@ export default {
   title: 'Components/Icon',
 }
 
-const Template = (args) => (
+const Template = (arguments_) => (
   <div style={{ width: '30px' }}>
-    <Icon {...args} />
+    <Icon {...arguments_} />
   </div>
 )
 
 // --------------------------------------------------------
 
-export const _props = Template.bind({})
-_props.args = fixtures._props
-_props.parameters = {
+export const _properties = Template.bind({})
+_properties.args = fixtures._props
+_properties.parameters = {
   chromatic: { disableSnapshot: true },
 }
 

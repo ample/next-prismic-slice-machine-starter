@@ -5,8 +5,8 @@ import { ReactSVG } from 'react-svg'
 
 // ---------------------------------------------------------
 
-const Icon = (props) => {
-  let { className, name } = props
+const Icon = (properties) => {
+  let { className, name } = properties
 
   return (
     <ReactSVG

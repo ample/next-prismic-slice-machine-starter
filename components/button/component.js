@@ -25,9 +25,9 @@ const themeOptions = {
 
 // ---------------------------------------------------------
 
-const Button = (props) => {
+const Button = (properties) => {
   let { children, className, disabled, onClick, theme, title, type, url } =
-    props
+    properties
 
   // -------------------------------------------------------
 

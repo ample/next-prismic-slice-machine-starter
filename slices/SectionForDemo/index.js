@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import SectionForDemo from './component'
-
-// ---------------------------------------------------------
-
-export default SectionForDemo
+export { default } from './component'

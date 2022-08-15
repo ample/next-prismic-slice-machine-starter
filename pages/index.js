@@ -39,8 +39,8 @@ export const getStaticProps = async ({ previewData }) => {
 
 // ---------------------------------------------------------
 
-const Home = (props) => {
-  const { footer, header, page, seo, seoPageSpecific } = props
+const Home = (properties) => {
+  const { footer, header, page, seo, seoPageSpecific } = properties
 
   return (
     <Layout

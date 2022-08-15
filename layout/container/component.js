@@ -54,7 +54,7 @@ const widthOptions = {
 
 // ---------------------------------------------------------
 
-const Container = (props) => {
+const Container = (properties) => {
   let {
     backgroundImage,
     children,
@@ -64,7 +64,7 @@ const Container = (props) => {
     textAlignment,
     theme,
     width,
-  } = props
+  } = properties
 
   // -------------------------------------------------------
 

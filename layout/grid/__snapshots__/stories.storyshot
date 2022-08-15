@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Layout/Grid Props 1`] = `
+exports[`Storyshots Layout/Grid Properties 1`] = `
 <div
   className="grid gap_20 layout_is_one_half"
 >

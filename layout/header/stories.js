@@ -22,9 +22,9 @@ export default {
 
 // ---------------------------------------------------------
 
-const Template = (args) => <Header {...args} />
+const Template = (arguments_) => <Header {...arguments_} />
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({})
-_props.args = { ...fixtures }
+export const _properties = Template.bind({})
+_properties.args = { ...fixtures }

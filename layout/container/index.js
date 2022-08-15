@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import Container from './component'
-
-// ---------------------------------------------------------
-
-export default Container
+export { default } from './component'

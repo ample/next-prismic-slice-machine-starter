@@ -23,8 +23,8 @@ export default {
 
 // ---------------------------------------------------------
 
-const Template = (args) => {
-  let layout = args.layout
+const Template = (arguments_) => {
+  let layout = arguments_.layout
 
   const layoutFill = {
     height: 800,
@@ -34,16 +34,16 @@ const Template = (args) => {
 
   return (
     <div style={layout === 'fill' ? layoutFill : undefined}>
-      <NextImage {...args} />
+      <NextImage {...arguments_} />
     </div>
   )
 }
 
 // ---------------------------------------------------------
 
-export const Props = Template.bind({})
-Props.args = fixtures._props
-Props.parameters = {
+export const _properties = Template.bind({})
+_properties.args = fixtures._props
+_properties.parameters = {
   chromatic: { disableSnapshot: true },
 }
 

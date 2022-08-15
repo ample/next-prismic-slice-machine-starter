@@ -13,8 +13,8 @@ import { footer, footer_content } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
-const Footer = (props) => {
-  let { navigationLinks } = props
+const Footer = (properties) => {
+  let { navigationLinks } = properties
 
   return (
     <LazyLoad offset={200} once>

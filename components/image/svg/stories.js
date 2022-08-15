@@ -23,8 +23,8 @@ export default {
 
 // ---------------------------------------------------------
 
-const Template = (args) => {
-  return <SVG {...args} />
+const Template = (arguments_) => {
+  return <SVG {...arguments_} />
 }
 
 // ---------------------------------------------------------

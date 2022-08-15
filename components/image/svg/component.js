@@ -9,8 +9,8 @@ import { defaultAltAttribute } from '../component'
 
 // ---------------------------------------------------------
 
-const SVG = (props) => {
-  let { alt, className, src } = props
+const SVG = (properties) => {
+  let { alt, className, src } = properties
 
   // -------------------------------------------------------
 
@@ -21,13 +21,13 @@ const SVG = (props) => {
   return (
     <ReactSVG
       aria-label={title}
-      beforeInjection={(src) => {
+      beforeInjection={(source) => {
         const titleElement = document.createElementNS(
           'http://www.w3.org/2000/svg',
           'title'
         )
         titleElement.innerHTML = title
-        src.prepend(titleElement)
+        source.prepend(titleElement)
       }}
       className={className}
       role="img"

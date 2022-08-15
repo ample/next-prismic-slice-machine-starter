@@ -9,8 +9,8 @@ import { components } from '@slices/index'
 
 // ---------------------------------------------------------
 
-const FlexibleTemplate = (props) => {
-  let { footer, header, seo, seoPageSpecific, slices } = props
+const FlexibleTemplate = (properties) => {
+  let { footer, header, seo, seoPageSpecific, slices } = properties
 
   // ---------------------------------------------------------
 
