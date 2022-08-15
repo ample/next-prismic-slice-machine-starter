@@ -19,6 +19,7 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "javascript.format.enable": false,
   "scss.format.enable": false,
   "scss.validate": false,
   "stylelint.configFile": ".config/stylelint.config.js",

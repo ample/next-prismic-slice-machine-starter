@@ -37,7 +37,7 @@ export default {
 
 // ---------------------------------------------------------
 
-const Template = (args) => <SectionForDemo {...args} />
+const Template = (arguments_) => <SectionForDemo {...arguments_} />
 
 // ---------------------------------------------------------
 

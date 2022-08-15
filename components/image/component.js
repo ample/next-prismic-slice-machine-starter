@@ -1,5 +1,6 @@
 // ---------------------------------------------------------
 
+// eslint-disable-next-line unicorn/prefer-node-protocol
 import path from 'path'
 import PropTypes from 'prop-types'
 import startCase from 'lodash/startCase'
@@ -13,7 +14,7 @@ import SVG from './svg'
 // ---------------------------------------------------------
 
 export const defaultAltAttribute = (image) => {
-  const filename = image.substring(image.lastIndexOf('_') + 1)
+  const filename = image.slice(Math.max(0, image.lastIndexOf('_') + 1))
   const alt = path.basename(filename, path.extname(filename))
 
   return startCase(alt)
@@ -21,24 +22,26 @@ export const defaultAltAttribute = (image) => {
 
 // ---------------------------------------------------------
 
-const Image = (props) => {
-  let { src, url } = props
+const imageExtension = (image) => {
+  const extension = path.extname(image)
+  return extension
+}
+
+// ---------------------------------------------------------
+
+const Image = (properties) => {
+  let { src, url } = properties
 
   // -------------------------------------------------------
-
-  const imageExtension = (image) => {
-    const extension = path.extname(image)
-    return extension
-  }
 
   const isSVG = imageExtension(src) === '.svg'
 
   // -------------------------------------------------------
 
-  let image = <NextImage {...props} />
+  let image = <NextImage {...properties} />
 
   if (isSVG) {
-    image = <SVG {...props} />
+    image = <SVG {...properties} />
   }
 
   // ---------------------------------------------------------

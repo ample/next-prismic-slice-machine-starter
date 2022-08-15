@@ -22,12 +22,12 @@ export default {
   title: 'Components/Link',
 }
 
-const Template = (args) => <Link {...args} />
+const Template = (arguments_) => <Link {...arguments_} />
 
 // ---------------------------------------------------------
 
-export const _Props = Template.bind({})
-_Props.args = { ...fixtures._props }
+export const _properties = Template.bind({})
+_properties.args = { ...fixtures._props }
 
 export const external = Template.bind({})
 external.args = { ...fixtures.external }

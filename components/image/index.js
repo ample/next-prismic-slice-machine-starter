@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import Image from './component'
-
-// ---------------------------------------------------------
-
-export default Image
+export { default } from './component'

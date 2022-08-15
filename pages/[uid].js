@@ -37,14 +37,14 @@ export const getStaticPaths = async () => {
   const documents = await client.getAllByType('flexible-page')
   return {
     fallback: false,
-    paths: documents.map((doc) => asLink(doc, linkResolver)),
+    paths: documents.map((document_) => asLink(document_, linkResolver)),
   }
 }
 
 // ---------------------------------------------------------
 
-const FlexiblePage = (props) => {
-  let { footer, header, page, seo, seoPageSpecific } = props
+const FlexiblePage = (properties) => {
+  let { footer, header, page, seo, seoPageSpecific } = properties
 
   return (
     <FlexibleTemplate

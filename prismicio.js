@@ -12,14 +12,14 @@ export const repositoryName = prismic.getRepositoryName(endpoint)
 // ---------------------------------------------------------
 
 // Update to match route structure
-export const linkResolver = (doc) => {
-  switch (doc.type) {
+export const linkResolver = (document_) => {
+  switch (document_.type) {
     case 'homepage':
       return '/'
     case 'flexible-page':
-      return `/${doc.uid}`
+      return `/${document_.uid}`
     default:
-      return null
+      return
   }
 }
 

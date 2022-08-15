@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import Grid from './component'
-
-// ---------------------------------------------------------
-
-export default Grid
+export { default } from './component'

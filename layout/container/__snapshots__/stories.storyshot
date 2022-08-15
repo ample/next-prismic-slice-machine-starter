@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Layout/Container Props 1`] = `
+exports[`Storyshots Layout/Container Properties 1`] = `
 <section
   className="container "
 >

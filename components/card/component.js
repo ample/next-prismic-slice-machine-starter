@@ -37,9 +37,9 @@ const variationOptions = {
 
 // ---------------------------------------------------------
 
-const Card = (props) => {
+const Card = (properties) => {
   let { body, buttonLabel, heading, image, textAlignment, url, variation } =
-    props
+    properties
   let {
     alt,
     dimensions: { height, width },
@@ -66,7 +66,7 @@ const Card = (props) => {
 
   // -------------------------------------------------------
 
-  const imgixSrc = asImageSrc(image, {
+  const imgixSource = asImageSrc(image, {
     auto: 'compress,enhance,format',
     fit: 'crop',
     h: height,
@@ -93,7 +93,7 @@ const Card = (props) => {
           height={height}
           layout="responsive"
           placeholder="blur"
-          src={imgixSrc}
+          src={imgixSource}
           width={width}
         />
       )}
@@ -162,7 +162,7 @@ Card.propTypes = {
 
 Card.defaultProps = {
   textAlignment: 'left',
-  url: null,
+  url: undefined,
 }
 
 export default Card

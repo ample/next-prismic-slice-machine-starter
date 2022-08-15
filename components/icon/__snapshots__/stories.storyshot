@@ -386,7 +386,7 @@ Array [
 ]
 `;
 
-exports[`Storyshots Components/Icon Props 1`] = `
+exports[`Storyshots Components/Icon Properties 1`] = `
 <div
   style={
     Object {

@@ -8,9 +8,10 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:storybook/recommended',
+    'plugin:unicorn/recommended',
     'next/core-web-vitals',
   ],
-  ignorePatterns: ['**/storybook-static/*.js'],
+  ignorePatterns: ['**/slices/index.js', '**/storybook-static/*.js'],
   overrides: [
     {
       files: ['./pages/**/*.js', './templates/**/*.js'],
@@ -49,7 +50,7 @@ module.exports = {
       },
     ],
     'react/jsx-sort-props': [
-      2,
+      'warn',
       {
         shorthandLast: true,
         multiline: 'ignore',
@@ -59,7 +60,7 @@ module.exports = {
     ],
     'react/no-unescaped-entities': [2, { forbid: ['<', '>', '{', '}'] }],
     'react/prop-types': [
-      2,
+      'error',
       {
         ignore: [
           'activeClassName',
@@ -73,16 +74,16 @@ module.exports = {
       },
     ],
     'sort-imports-es6-autofix/sort-imports-es6': [
-      2,
+      'warn',
       {
         ignoreCase: true,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['all', 'none', 'single', 'multiple'],
       },
     ],
-    'sort-destructure-keys/sort-destructure-keys': 2,
+    'sort-destructure-keys/sort-destructure-keys': 'warn',
     'sort-keys': [
-      'error',
+      'warn',
       'asc',
       {
         caseSensitive: true,
@@ -90,6 +91,7 @@ module.exports = {
         natural: true,
       },
     ],
-    'sort-keys-fix/sort-keys-fix': 1,
+    'sort-keys-fix/sort-keys-fix': 'warn',
+    'unicorn/prefer-module': 'off',
   },
 }

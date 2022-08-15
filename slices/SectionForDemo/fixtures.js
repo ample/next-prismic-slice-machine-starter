@@ -2,7 +2,7 @@
 
 const image = {
   alt: 'Placeholder image',
-  copyright: null,
+  copyright: undefined,
   dimensions: {
     height: 500,
     width: 900,

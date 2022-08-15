@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Card Props 1`] = `
+exports[`Storyshots Components/Card Properties 1`] = `
 <a
   className="card text_alignment_left theme_with_button"
   href="http://twitter.com"

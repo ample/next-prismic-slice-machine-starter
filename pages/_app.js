@@ -15,9 +15,9 @@ import '../styles/global-styles.scss'
 
 const App = ({ Component, pageProps }) => (
   <PrismicProvider
-    internalLinkComponent={({ children, href, ...props }) => (
+    internalLinkComponent={({ children, href, ...properties }) => (
       <Link href={href}>
-        <a {...props}>{children}</a>
+        <a {...properties}>{children}</a>
       </Link>
     )}
     linkResolver={linkResolver}

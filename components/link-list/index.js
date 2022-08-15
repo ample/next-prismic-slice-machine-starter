@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import LinkList from './component'
-
-// ---------------------------------------------------------
-
-export default LinkList
+export { default } from './component'

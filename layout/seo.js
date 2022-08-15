@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 
 // ---------------------------------------------------------
 
-const SEO = (props) => {
+const SEO = (properties) => {
   let {
     description,
     keywords,
@@ -17,7 +17,7 @@ const SEO = (props) => {
     pageSpecific,
     title,
     twitterHandle,
-  } = props
+  } = properties
 
   // -------------------------------------------------------
 
@@ -68,7 +68,7 @@ const SEO = (props) => {
       <NextSeo
         canonical={canonicalUrl}
         description={pageDescription}
-        nofollow={nofollow ? nofollow : undefined}
+        nofollow={nofollow ?? nofollow}
         openGraph={{
           images: [
             {

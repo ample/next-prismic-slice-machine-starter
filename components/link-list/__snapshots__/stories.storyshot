@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/LinkList Props 1`] = `
+exports[`Storyshots Components/LinkList Properties 1`] = `
 <ul
   className="link_list"
 >

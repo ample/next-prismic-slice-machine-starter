@@ -15,8 +15,8 @@ import { jumbotron, jumbotron_content } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
-const Jumbotron = (props) => {
-  let slice = props.slice ? props.slice.primary : props
+const Jumbotron = (properties) => {
+  let slice = properties.slice ? properties.slice.primary : properties
   let { body, heading, image } = slice
   let {
     alt,
@@ -28,7 +28,7 @@ const Jumbotron = (props) => {
 
   // -------------------------------------------------------
 
-  const imgixSrc = asImageSrc(image, {
+  const imgixSource = asImageSrc(image, {
     auto: 'compress,enhance,format',
     fit: 'crop',
     h: height,
@@ -36,7 +36,7 @@ const Jumbotron = (props) => {
     w: width,
   })
 
-  const imgixSrcOnMobile = asImageSrc(image, {
+  const imgixSourceOnMobile = asImageSrc(image, {
     auto: 'compress,enhance,format',
     fit: 'crop',
     h: mobileHeight,
@@ -67,11 +67,12 @@ const Jumbotron = (props) => {
         objectFit="cover"
         placeholder="blur"
         src={
+          // prettier-ignore
           !mediaIsMedium
-            ? imgixSrcOnMobile
-            : mediaIsMedium
-            ? imgixSrc
-            : undefined
+            ? imgixSourceOnMobile
+            : (mediaIsMedium
+              ? imgixSource
+              : undefined)
         }
         priority
       />

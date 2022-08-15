@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import Jumbotron from './component'
-
-// ---------------------------------------------------------
-
-export default Jumbotron
+export { default } from './component'

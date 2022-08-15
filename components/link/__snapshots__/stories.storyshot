@@ -22,7 +22,7 @@ exports[`Storyshots Components/Link Internal 1`] = `
 </a>
 `;
 
-exports[`Storyshots Components/Link Props 1`] = `
+exports[`Storyshots Components/Link Properties 1`] = `
 <a
   className=""
   href="/"

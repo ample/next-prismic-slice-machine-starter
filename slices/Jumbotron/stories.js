@@ -27,7 +27,7 @@ export default {
 
 // ---------------------------------------------------------
 
-const Template = (args) => <Jumbotron {...args} />
+const Template = (arguments_) => <Jumbotron {...arguments_} />
 
 // ---------------------------------------------------------
 
