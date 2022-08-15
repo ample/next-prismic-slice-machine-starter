@@ -31,8 +31,8 @@ const layoutOptions = {
 
 // ---------------------------------------------------------
 
-const Grid = (props) => {
-  let { children, className, gap, layout } = props
+const Grid = (properties) => {
+  let { children, className, gap, layout } = properties
 
   // -------------------------------------------------------
 

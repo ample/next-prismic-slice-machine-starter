@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import Card from './component'
-
-// ---------------------------------------------------------
-
-export default Card
+export { default } from './component'

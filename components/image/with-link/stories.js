@@ -80,8 +80,8 @@ export default {
 
 // ---------------------------------------------------------
 
-const Template = (args) => {
-  return <Image {...args} />
+const Template = (arguments_) => {
+  return <Image {...arguments_} />
 }
 
 // ---------------------------------------------------------

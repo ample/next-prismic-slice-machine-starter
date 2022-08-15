@@ -9,8 +9,8 @@ import { defaultAltAttribute } from '../component'
 
 // ---------------------------------------------------------
 
-const Image = (props) => {
-  if (!props.src) return null
+const Image = (properties) => {
+  if (!properties.src) return
 
   // -------------------------------------------------------
 
@@ -27,7 +27,7 @@ const Image = (props) => {
     quality,
     src,
     width,
-  } = props
+  } = properties
 
   // ---------------------------------------------------------
 

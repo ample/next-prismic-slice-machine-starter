@@ -28,13 +28,13 @@ export default {
 
 // ---------------------------------------------------------
 
-const Template = (args) => <Button {...args} />
+const Template = (arguments_) => <Button {...arguments_} />
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({})
-_props.args = fixtures._props
-_props.parameters = {
+export const _properties = Template.bind({})
+_properties.args = fixtures._props
+_properties.parameters = {
   chromatic: { disableSnapshot: true },
 }
 

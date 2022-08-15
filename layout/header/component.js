@@ -12,8 +12,8 @@ import { header, header_content } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
-const Header = (props) => {
-  let { navigationLinks } = props
+const Header = (properties) => {
+  let { navigationLinks } = properties
 
   return (
     <header className={header}>

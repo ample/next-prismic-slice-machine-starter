@@ -26,14 +26,16 @@ const variationOptions = {
 
 // ---------------------------------------------------------
 
-const SectionForDemo = (props) => {
-  let slice = props.slice ? props.slice.primary : props
+const SectionForDemo = (properties) => {
+  let slice = properties.slice ? properties.slice.primary : properties
   let { description, title } = slice
 
   // -------------------------------------------------------
 
-  let cards = props.slice ? props.slice.items : props.items
-  let variation = props.slice ? props.slice.variation : props.variation
+  let cards = properties.slice ? properties.slice.items : properties.items
+  let variation = properties.slice
+    ? properties.slice.variation
+    : properties.variation
 
   // -------------------------------------------------------
 

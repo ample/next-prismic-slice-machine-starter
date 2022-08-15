@@ -28,8 +28,8 @@ export const getStaticProps = async ({ previewData }) => {
 
 // ---------------------------------------------------------
 
-const PageNotFound = (props) => {
-  let { footer, header, seo } = props
+const PageNotFound = (properties) => {
+  let { footer, header, seo } = properties
 
   return (
     <Layout footer={footer} header={header} seo={seo}>

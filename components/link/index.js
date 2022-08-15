@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import Link from './component'
-
-// ---------------------------------------------------------
-
-export default Link
+export { default } from './component'

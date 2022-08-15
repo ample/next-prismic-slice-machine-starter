@@ -15,13 +15,13 @@ export default {
 
 // ---------------------------------------------------------
 
-const Template = (args) => <Card {...args} />
+const Template = (arguments_) => <Card {...arguments_} />
 
 // ---------------------------------------------------------
 
-export const _props = Template.bind({})
-_props.args = fixtures._props
-_props.parameters = {
+export const _properties = Template.bind({})
+_properties.args = fixtures._props
+_properties.parameters = {
   chromatic: { disableSnapshot: true },
 }
 

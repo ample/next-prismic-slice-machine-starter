@@ -7,12 +7,22 @@ import { useRouter } from 'next/router'
 
 // ---------------------------------------------------------
 
-const Link = (props) => {
-  let { activeClassName, ariaLabel, children, className, url } = props
+const Link = (properties) => {
+  let { activeClassName, ariaLabel, children, className, url } = properties
 
   // -------------------------------------------------------
 
-  let currentURL = url.slug ? url.slug : url.url ? url.url : url
+  let currentURL
+
+  if (url.slug) {
+    currentURL = url.slug
+  } else if (url.url) {
+    currentURL = url.url
+  } else {
+    currentURL = url
+  }
+
+  // -------------------------------------------------------
 
   const linkFromPrismic = typeof url === 'object'
 

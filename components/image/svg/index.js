@@ -1,7 +1,3 @@
 // ---------------------------------------------------------
 
-import SVG from './component'
-
-// ---------------------------------------------------------
-
-export default SVG
+export { default } from './component'

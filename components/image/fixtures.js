@@ -2,16 +2,16 @@
 
 const alt =
   'alt text helps screen-reading tools describe images to visually impaired readers'
-const src =
+const source =
   'https://images.unsplash.com/photo-1522878129833-838a904a0e9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80'
 
 // ---------------------------------------------------------
 
-const defaultImageProps = {
+const defaultImageProperties = {
   alt: alt,
   height: 670,
   layout: 'intrinsic',
-  src: src,
+  src: source,
   width: 1004,
 }
 
@@ -19,27 +19,27 @@ const defaultImageProps = {
 
 export default {
   _props: {
-    ...defaultImageProps,
+    ...defaultImageProperties,
   },
   layoutIsFill: {
     alt: alt,
     layout: 'fill',
     objectFit: 'contain',
-    src: src,
+    src: source,
   },
   layoutIsFixed: {
-    ...defaultImageProps,
+    ...defaultImageProperties,
     layout: 'fixed',
   },
   layoutIsIntrinsic: {
-    ...defaultImageProps,
+    ...defaultImageProperties,
   },
   layoutIsResponsive: {
-    ...defaultImageProps,
+    ...defaultImageProperties,
     layout: 'responsive',
   },
   withLink: {
-    ...defaultImageProps,
+    ...defaultImageProperties,
     url: 'https://www.ample.co',
   },
   withSVG: {

@@ -13,8 +13,8 @@ import { link_list } from './styles.module.scss'
 
 // ---------------------------------------------------------
 
-const LinkList = (props) => {
-  let { activeClassName, className, links = [] } = props
+const LinkList = (properties) => {
+  let { activeClassName, className, links = [] } = properties
 
   // -------------------------------------------------------
 

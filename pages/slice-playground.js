@@ -32,8 +32,8 @@ export const getStaticProps = async ({ previewData }) => {
 
 // ---------------------------------------------------------
 
-const SlicePlayground = (props) => {
-  let { footer, header } = props
+const SlicePlayground = (properties) => {
+  let { footer, header } = properties
 
   // -------------------------------------------------------
 

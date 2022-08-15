@@ -1,6 +1,6 @@
 // ---------------------------------------------------------
 
-const buttonProps = {
+const buttonProperties = {
   children: 'Call to action',
   theme: 'arrow',
   url: '#',
@@ -10,30 +10,30 @@ const buttonProps = {
 
 export default {
   _props: {
-    ...buttonProps,
+    ...buttonProperties,
   },
   themeArrow: {
-    ...buttonProps,
+    ...buttonProperties,
   },
   themeDefault: {
-    ...buttonProps,
+    ...buttonProperties,
     theme: 'default',
   },
   themeOutline: {
-    ...buttonProps,
+    ...buttonProperties,
     theme: 'outline',
   },
   withButtonElement: {
-    ...buttonProps,
+    ...buttonProperties,
     theme: 'default',
     type: 'button',
-    url: null,
+    url: undefined,
   },
   withButtonElementDisabled: {
-    ...buttonProps,
+    ...buttonProperties,
     disabled: true,
     theme: 'default',
     type: 'button',
-    url: null,
+    url: undefined,
   },
 }
