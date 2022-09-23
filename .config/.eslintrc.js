@@ -5,7 +5,9 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:cypress/recommended',
+    'plugin:jest/recommended',
     'plugin:jsx-a11y/recommended',
+    'plugin:react-hooks/recommended',
     'plugin:react/recommended',
     'plugin:storybook/recommended',
     'plugin:unicorn/recommended',
@@ -20,7 +22,13 @@ module.exports = {
       },
     },
     {
-      files: ['./**/fixtures.js', './**/stories.js'],
+      files: ['./pages/api/exit-preview.js', './pages/api/preview.js'],
+      rules: {
+        'unicorn/prevent-abbreviations': 0,
+      },
+    },
+    {
+      files: ['./**/fixtures.js', './**/stories.js', './pages/api/preview.js'],
       rules: {
         'import/no-anonymous-default-export': 0,
         'jsx-a11y/alt-text': [0, { img: ['Image'] }],
